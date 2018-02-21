@@ -19,6 +19,12 @@ char	*ft_scnv(va_list ap)
 	res = va_arg(ap, char*);
 	if (res == NULL)
 		res = ft_strdup("(null)");
+	if (ft_strlen(res) == 0)
+	{
+		res = (char*)malloc(sizeof(char) * 1);
+		res[0] = '\0';
+		return (res);
+	}
 	return (ft_strdup(res));
 }
 
