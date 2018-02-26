@@ -14,7 +14,7 @@
 # define HEADER_H
 
 # include <stdarg.h>
-# include "libft.h"
+# include "libft/libft.h"
 
 int			N_OF_F;
 static char	*convs[] = { "schar*", "Swchar_t*", "pvoid*", "dint",
@@ -106,5 +106,4 @@ char		*ft_space(char	*res, int wp[2], char x);
 char		*ft_plus(char	*res, int wp[2], char x);
 static char	*(*ft_flags[])(char	*res, int wp[2], char x) = {&ft_zero,				&ft_hash,			&ft_space,		&ft_plus,
 															&ft_leftadj,		NULL};
-
 #endif
