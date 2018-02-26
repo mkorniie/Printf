@@ -4,9 +4,12 @@ int		ft_printf(const char * restrict format, ...);
 
 int main(void)
 {
+	int i;
 
-	ft_printf("%010s is a string\n", "this");
-	printf("%010s is a string\n", "this");
+	printf("%p\n", &i);
+	ft_printf("%p\n", &i);
+	// ft_printf("%010s is a string\n", "this");
+	// printf("%010s is a string\n", "this");
 	// ft_printf("% \n");
 	// ft_printf("% h\n");
 	// ft_printf("% hZ\n");

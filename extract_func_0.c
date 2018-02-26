@@ -53,8 +53,10 @@ char	*ft_pcnv(va_list ap)
 	size_t	temp;
 
 	temp = va_arg(ap, size_t);
+	// printf("temp is [%zu]\n", temp);
 	res = ft_ubase(temp, 16, "0123456789abcdef");
-	res = ft_strcat("0x", res);
+	// printf("res is [%s]\n", res);
+	res = ft_strjoin("0x", res);
 	return (res);
 }
 
