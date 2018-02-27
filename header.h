@@ -23,6 +23,7 @@ static char	*convs[] = { "schar*", "Swchar_t*", "pvoid*", "dint",
 						"cchar", "Cwint_t", "edouble", "Edouble",
 						"fdouble", "Fdouble", "gdouble", "Gdouble",
 						"adouble", "Adouble", "nint*", NULL};
+int			ERROR;
 int			ft_printf(const char * restrict format, ...);
 int			ft_parce(const char * restrict s, char *c, char ***flags);
 int			ft_isspecifier(char x);

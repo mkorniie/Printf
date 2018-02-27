@@ -53,6 +53,8 @@ char	*ft_cccnv(va_list ap)
 	wchar_t	temp;
 
 	temp = va_arg(ap, wchar_t);
+	if (temp == 0)
+		return (ft_strdup(""));
 	res = ft_unicode(temp);
 	return (res);
 }

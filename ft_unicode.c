@@ -36,8 +36,13 @@ char	*ft_unicode(unsigned int src)
 	char *res;
 
 	active = (8 * 4) - ft_inactive(src);
-
-	if (active <= 11 && MB_CUR_MAX >= 2)
+	if (active <= 7)
+	{
+		res = (char*)malloc(sizeof(char) * 2);
+		res[1] = '\0';
+		res[0] = (char)src;
+	}
+	else if (active <= 11 && MB_CUR_MAX >= 2)
 	{
 		res = (char*)malloc(sizeof(char) * 3);
 		res[2] = '\0';
@@ -62,9 +67,11 @@ char	*ft_unicode(unsigned int src)
 		res[3] = (2 << 6) + ((src << 26) >> 26);
 	}
 	else{
-		res = (char*)malloc(sizeof(char) * 2);
-		res[1] = '\0';
-		res[0] = (char)src;
+		ERROR = 1;
+		return (NULL);
+		// res = (char*)malloc(sizeof(char) * 2);
+		// res[1] = '\0';
+		// res[0] = (char)src;
 	}
 	return(res);
 }

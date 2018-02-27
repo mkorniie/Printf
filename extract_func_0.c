@@ -35,8 +35,10 @@ char	*ft_sccnv(va_list ap)
 	int		i;
 
 	if ((temp = va_arg(ap, wchar_t*)) == NULL)
-		return (NULL);
+		return (ft_strdup("(null)"));
 	res[0] = ft_unicode(temp[0]);
+	if (ERROR == 1)
+		return(NULL);
 	i = 0;
 	while (temp[++i] != '\0')
 	{

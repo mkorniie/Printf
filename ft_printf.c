@@ -124,6 +124,8 @@ int		ft_printf(const char * restrict format, ...)
 		return (ft_strlen(format));
 	}
 	print = ft_convert(ap, flags);
+	if (ERROR == 1)
+		return (-1);
 	printlen = ft_out(format, flags, print);
 	va_end(ap);
 	ft_freearr(flags);

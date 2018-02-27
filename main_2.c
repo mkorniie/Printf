@@ -1,13 +1,27 @@
 #include <stdio.h>
 #include "header.h"
 int		ft_printf(const char * restrict format, ...);
+#include <locale.h>
 
 int main(void)
 {
 	int i;
 
-	printf("%p\n", &i);
-	ft_printf("%p\n", &i);
+	setlocale(LC_ALL, "");
+
+	printf("1%C\n", 0);
+	ft_printf("2%C\n", 0);
+	// printf("%S\n", NULL);
+	// ft_printf("%S\n", NULL);
+
+	// printf("%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S\n",
+	// L"Α α", L"Β β", L"Γ γ", L"Δ δ", L"Ε ε", L"Ζ ζ", L"Η η", L"Θ θ", L"Ι ι", L"Κ κ", L"Λ λ", L"Μ μ",
+	// L"Ν ν", L"Ξ ξ", L"Ο ο", L"Π π", L"Ρ ρ", L"Σ σ", L"Τ τ", L"Υ υ", L"Φ φ", L"Χ χ", L"Ψ ψ", L"Ω ω", L"");
+	// ft_printf("%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S\n",
+	// L"Α α", L"Β β", L"Γ γ", L"Δ δ", L"Ε ε", L"Ζ ζ", L"Η η", L"Θ θ", L"Ι ι", L"Κ κ", L"Λ λ", L"Μ μ",
+	// L"Ν ν", L"Ξ ξ", L"Ο ο", L"Π π", L"Ρ ρ", L"Σ σ", L"Τ τ", L"Υ υ", L"Φ φ", L"Χ χ", L"Ψ ψ", L"Ω ω", L"");
+	// printf("%p\n", &i);
+	// ft_printf("%p\n", &i);
 	// ft_printf("%010s is a string\n", "this");
 	// printf("%010s is a string\n", "this");
 	// ft_printf("% \n");
