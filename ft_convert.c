@@ -93,7 +93,7 @@ char	**ft_get(va_list ap, char **flags, char **arr)
 					{
 						// printf("ft_get: conversion found! the conv is %s\n", convs[z]);
 						arr[i] = ft_extractor(ap, z, flags[i]);
-						if (flags[i][strlen - 1] == 'c' && (ft_strcmp(arr[i], "zero") == 0))
+						if ((ft_strchr("Cc", flags[i][strlen - 1]) != NULL) && (ft_strcmp(arr[i], "zero") == 0))
 						{
 							arr[i] = ft_strdup("z");
 							flags[i] = ft_strjoin(flags[i], "!");

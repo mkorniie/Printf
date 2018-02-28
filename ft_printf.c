@@ -79,7 +79,7 @@ int	ft_out(const char * restrict format, char	**flags, char **print)
 					return (-1);
 				else
 				{
-					if (ft_strstr(flags[count], "c!") != NULL)
+					if ((ft_strstr(flags[count], "c!") != NULL) || (ft_strstr(flags[count], "C!") != NULL))
 					{
 						ft_putzero(print[count]);
 						i--;

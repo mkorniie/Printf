@@ -28,6 +28,9 @@ re: fclean all
 do: all
 	gcc main_2.c $(NAME)
 	./a.out
+doc: all
+	gcc main_2.c $(NAME)
+	./a.out | cat -e
 
 $(LIB_OFILES): %.o: %.c
 	gcc -c $(GCC_FLAGS) $(IFLAGS) $< -o $@
