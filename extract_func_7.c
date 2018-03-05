@@ -34,11 +34,11 @@ char	*ft_lxccnv(va_list ap)
 	unsigned long	temp;
 
 	temp = va_arg(ap, long);
-	if (temp == NULL)
-	{
-		ERROR = 2;
-		return(ft_strdup("(null)"));
-	}
+	// if (temp == NULL)
+	// {
+	// 	ERROR = 2;
+	// 	return(ft_strdup("(null)"));
+	// }
 	res = ft_ubase(temp, 16, "0123456789ABCDEF");
 	return (res);
 }

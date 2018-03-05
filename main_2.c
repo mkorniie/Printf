@@ -2,6 +2,7 @@
 #include "header.h"
 int		ft_printf(const char * restrict format, ...);
 #include <locale.h>
+#include <limits.h>
 
 int main(void)
 {
@@ -11,19 +12,35 @@ int main(void)
 
 	setlocale(LC_ALL, "");
 
+
+	size1 = printf("1%lD, %lD\n", 0, USHRT_MAX);
+	size2 = ft_printf("2%lD, %lD\n", 0, USHRT_MAX);
+	printf("PRINTF resturns [%d] MY PRINTF resturns [%d]\n", size1, size2);
+
+
+	// size1 = printf("1%lc, %lc\n", L'暖', L'ح');
+	// size2 = ft_printf("2%lc, %lc\n", L'暖', L'ح');
+	// printf("PRINTF resturns [%d] MY PRINTF resturns [%d]\n", size1, size2);
+
+
+	// size1 = printf("1%lX, %lX\n", 0, ULONG_MAX);
+	// size2 = ft_printf("2%lX, %lX\n", 0, ULONG_MAX);
+	// printf("PRINTF resturns [%d] MY PRINTF resturns [%d]\n", size1, size2);
+
+
 	// size1 = printf("1%C\n", 0);
 	// size2 = ft_printf("2%C\n", 0);
 	// printf("PRINTF resturns [%d] MY PRINTF resturns [%d]\n", size1, size2);
 	// printf("%S\n", NULL);
 	// ft_printf("%S\n", NULL);
 
-	size1 = printf("1%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S\n",
-	L"Α α", L"Β β", L"Γ γ", L"Δ δ", L"Ε ε", L"Ζ ζ", L"Η η", L"Θ θ", L"Ι ι", L"Κ κ", L"Λ λ", L"Μ μ",
-	L"Ν ν", L"Ξ ξ", L"Ο ο", L"Π π", L"Ρ ρ", L"Σ σ", L"Τ τ", L"Υ υ", L"Φ φ", L"Χ χ", L"Ψ ψ", L"Ω ω", L"");
-	size2 = ft_printf("2%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S\n",
-	L"Α α", L"Β β", L"Γ γ", L"Δ δ", L"Ε ε", L"Ζ ζ", L"Η η", L"Θ θ", L"Ι ι", L"Κ κ", L"Λ λ", L"Μ μ",
-	L"Ν ν", L"Ξ ξ", L"Ο ο", L"Π π", L"Ρ ρ", L"Σ σ", L"Τ τ", L"Υ υ", L"Φ φ", L"Χ χ", L"Ψ ψ", L"Ω ω", L"");
-	printf("PRINTF resturns [%d] MY PRINTF resturns [%d]\n", size1, size2);
+	// size1 = printf("1%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S\n",
+	// L"Α α", L"Β β", L"Γ γ", L"Δ δ", L"Ε ε", L"Ζ ζ", L"Η η", L"Θ θ", L"Ι ι", L"Κ κ", L"Λ λ", L"Μ μ",
+	// L"Ν ν", L"Ξ ξ", L"Ο ο", L"Π π", L"Ρ ρ", L"Σ σ", L"Τ τ", L"Υ υ", L"Φ φ", L"Χ χ", L"Ψ ψ", L"Ω ω", L"");
+	// size2 = ft_printf("2%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S%S\n",
+	// L"Α α", L"Β β", L"Γ γ", L"Δ δ", L"Ε ε", L"Ζ ζ", L"Η η", L"Θ θ", L"Ι ι", L"Κ κ", L"Λ λ", L"Μ μ",
+	// L"Ν ν", L"Ξ ξ", L"Ο ο", L"Π π", L"Ρ ρ", L"Σ σ", L"Τ τ", L"Υ υ", L"Φ φ", L"Χ χ", L"Ψ ψ", L"Ω ω", L"");
+	// printf("PRINTF resturns [%d] MY PRINTF resturns [%d]\n", size1, size2);
 	// printf("%p\n", &i);
 	// ft_printf("%p\n", &i);
 	// ft_printf("%010s is a string\n", "this");

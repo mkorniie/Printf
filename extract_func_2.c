@@ -52,6 +52,7 @@ char	*ft_cccnv(va_list ap)
 	char	*res;
 	wchar_t	temp;
 
+	// ft_putstr("RIGHt!");
 	temp = va_arg(ap, wchar_t);
 	if (temp == 0)
 		return (res = ft_strdup("zero"));

@@ -36,16 +36,21 @@ char	*ft_sccnv(va_list ap)
 
 	if ((temp = va_arg(ap, wchar_t*)) == NULL)
 		return (ft_strdup("(null)"));
+	if (ft_strlen(temp) == 0)
+		return (ft_strdup(""));
 	res[0] = ft_unicode(temp[0]);
 	if (ERROR == 1)
 		return(NULL);
 	i = 0;
+	// printf("ft_sccnv!!!!!\n");
 	while (temp[++i] != '\0')
 	{
 		res[1] = res[0];
+		// printf("%c", res[1]);
 		res[0] = ft_strjoin(res[0], ft_unicode(temp[i]));
 		free(res[1]);
 	}
+	// printf("\n DONE [%d] times!\n ", i);
 	return (res[0]);
 }
 

@@ -10,6 +10,8 @@ int	ft_modifpart1(int mod, int cvs)
 			return (cvs == 6 ? 23 : 24);
 		if (cvs == 10 || cvs == 11)
 			return (cvs == 10 ? 25 : 26);
+		if (cvs == 1 || cvs == 13)
+			return (cvs);
 		return (-1);
 	}
 	if (mod == 1)
@@ -27,14 +29,24 @@ int	ft_modifpart1(int mod, int cvs)
 
 int	ft_modifpart2(int mod, int cvs)
 {
+	// ft_putstr("returns\n");
+	// if (cvs == 4)
+	// 		return (3);
 	if (mod == 2)
 	{
+		// ft_putstr("returns\n");
+		// printf("CVS is [%d]\n", cvs);
 		if (cvs == 3 || cvs == 5)
 			return (4);
 		if (cvs == 6 || cvs == 8 )
 			return (cvs == 6 ? 7 : 9);
 		if (cvs == 10 || cvs == 11)
 			return (cvs == 10 ? 32 : 33);
+		if (cvs == 0 || ((cvs >= 12) && (cvs <= 20)))
+		{
+			// ft_putstr("Here!\n");
+			return(cvs % 2 == 0 ? cvs + 1 : cvs - 1);
+		}
 		return (-1);
 	}
 	if (mod == 3 || mod == 4)

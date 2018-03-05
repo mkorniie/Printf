@@ -42,11 +42,14 @@ char *ft_validflag(char *temp)
 	// ft_putstr(temp);
 	// ft_putstr("\n");
 
+// ft_putstr("19\n");
 	i = 0;
 	if (temp == NULL || ft_strlen(temp) == 1)
 		return (NULL);
+	// ft_putstr("20\n");
 	while (temp[++i] != '\0')
 	{
+		// ft_putstr("21\n");
 		if ((val_index = ft_isvalid(temp[i])) == -1)
 		{
 			// ft_putstr("Valid flag: WE RETURN NULL");
@@ -54,6 +57,16 @@ char *ft_validflag(char *temp)
 		}
 		if (val_index < 24)
 		{
+			// ft_putstr("22\n");
+			// ft_putchar(temp[i - 1]);
+			// ft_putchar(temp[i]);
+			// if ((temp[i] == 'c') && (temp[i - 1] == 'l'))
+			// {
+			// 	// printf("ft_strndup([%s], [%d])\n", temp, i - 1);
+			// 	res = ft_strndup(temp, i - 1);
+			// 	res = ft_strjoin(res, "C");
+			// }
+			// else
 			res = ft_strndup(temp, i + 1);
 			// ft_putstr("Valid flag: WE RETURN ");
 			// ft_putstr(res);

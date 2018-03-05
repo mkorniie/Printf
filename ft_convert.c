@@ -25,6 +25,8 @@ int		ft_getcvsindex(int mod, char *flag)
 	// ft_putstr(ft_itoa(cvs));
 	if (cvs == 7 || cvs == 9)
 		return ((cvs == 7 ? 7 : 9));
+	if (cvs == 4)
+			return (3);
 	if (mod == 0 || mod == 1)
 	{
 		// ft_putstr("ft_getcvsindex: mod == 1 || mod == 2\n");
@@ -41,18 +43,18 @@ int		ft_getcvsindex(int mod, char *flag)
 
 char	*ft_extractor(va_list ap, int z, char *flag)
 {
-	int x;
+	int hasmod;
 
 // ft_putstr("ft_extractor\n");
-	if ((x = ft_isMod(flag)) == -1)
+	if ((hasmod = ft_isMod(flag)) == -1)
 	{
-		// ft_putstr("ft_extractor: (x = ft_isMod(flag)) == -1!!! \n");
+		// ft_putstr("ft_extractor: (hasmod = ft_isMod(flag)) == -1!!! \n");
 		return (ft_cvs[z](ap));
 	}
 	else
 	{
 		// ft_putstr("ft_extractor: go to ft_getcvsindex\n");
-		z = ft_getcvsindex(x, flag);
+		z = ft_getcvsindex(hasmod, flag);
 		// ft_putstr("ft_extractor: the ft_getcvsindex is ");
 		// ft_putstr(ft_itoa(z));
 		// ft_putstr("\n");
@@ -87,11 +89,15 @@ char	**ft_get(va_list ap, char **flags, char **arr)
 			}
 			else
 			{
-				// ft_putstr("ft_get: 3 else!\n");
+				// if (flags[i][strlen - 1] == 'c' && flags[i][strlen - 2] == 'l')
+				// {
+				// 	ft_putstr("It's here!\n");
+				// 	arr[i] = ft_extractor(ap, 13, flags[i]);
+				// }
 				while (convs[++z])
 					if (convs[z][0] == flags[i][strlen - 1])
 					{
-						// printf("ft_get: conversion found! the conv is %s\n", convs[z]);
+						// printf("ft_get: conversion found! the conv [%d] is [%s]\n",z, convs[z]);
 						arr[i] = ft_extractor(ap, z, flags[i]);
 						if ((ft_strchr("Cc", flags[i][strlen - 1]) != NULL) && (ft_strcmp(arr[i], "zero") == 0))
 						{

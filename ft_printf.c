@@ -87,6 +87,7 @@ int	ft_out(const char * restrict format, char	**flags, char **print)
 					else
 						ft_putstr(print[count] == NULL ? "" : print[count]);
 					printlen += ft_strlen(print[count]);
+					// printf("WE ADD [%d] TO OUTPUT! The flag is [%s]\n", ft_strlen(print[count]), print[count]);
 					if (flags[count][ft_strlen(flags[count]) - 1] == '%')
 						++count;
 					++count;
@@ -116,14 +117,18 @@ int		ft_printf(const char * restrict format, ...)
 	if (format == NULL)
 		return (0);
 	va_start(ap, format);
+	// ft_putstr("1\n");
 	if ((err = ft_parce(format, "%", &flags)) == -1)
 		return (-1);
+	// ft_putstr("2\n");
 	if (err == -3)
 	{
 		ft_putstr(format);
 		return (ft_strlen(format));
 	}
+	// ft_putstr("3\n");
 	print = ft_convert(ap, flags);
+	// ft_putstr("4\n");
 	if (ERROR == 1)
 		return (-1);
 	printlen = ft_out(format, flags, print);
