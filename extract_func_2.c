@@ -56,7 +56,7 @@ char	*ft_cccnv(va_list ap)
 	temp = va_arg(ap, wchar_t);
 	if (temp == 0)
 		return (res = ft_strdup("zero"));
-	res = ft_unicode(temp);
+	res = ft_unicode(temp, 0);
 	return (res);
 }
 

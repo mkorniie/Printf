@@ -30,10 +30,39 @@ int ft_inactive(wchar_t src)
 	return(i);
 }
 
-char	*ft_unicode(unsigned int src)
+void	ft_addunicode(int active)
 {
-	int active;
-	char *res;
+	int* temp;
+	int len;
+	int i;
+
+	len = 0;
+	i = 0;
+	temp = UNISTRINGS[CURR];
+	if (UNISTRINGS[CURR] != NULL)
+		while (UNISTRINGS[CURR][i])
+			i++;
+	len += i;
+	UNISTRINGS[CURR] = (int*)malloc(sizeof(int*) * (len + 1));
+	i = -1;
+	if (temp != NULL)
+		while (temp[++i])
+			UNISTRINGS[CURR][i] = temp[i];
+	if (active <= 7)
+		UNISTRINGS[CURR][i] = 1;
+	else if (active <= 11 && MB_CUR_MAX >= 2)
+		UNISTRINGS[CURR][i] = 2;
+	else if (active <= 16 && MB_CUR_MAX >= 3)
+		UNISTRINGS[CURR][i] = 3;
+	else if (active > 16 && MB_CUR_MAX >= 4)
+		UNISTRINGS[CURR][i] = 4;
+}
+
+char	*ft_unicode(unsigned int src, int flag)
+{
+	int		active;
+	char	*res;
+	int		curr;
 
 	active = (8 * 4) - ft_inactive(src);
 	if (active <= 7)
@@ -69,9 +98,8 @@ char	*ft_unicode(unsigned int src)
 	else{
 		ERROR = 1;
 		return (NULL);
-		// res = (char*)malloc(sizeof(char) * 2);
-		// res[1] = '\0';
-		// res[0] = (char)src;
 	}
+	if (flag == 1)
+		ft_addunicode(active);
 	return(res);
 }

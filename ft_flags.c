@@ -31,6 +31,8 @@ char *ft_zero(char	*res, int wp[3], char x)
 		len = wp[0] - wp[2] - len + 1;
 	else
 		return (res);
+	if (x == 'p')
+		res = ft_strdup(res + 2);
 	f = (res[0] == '-' ? 1 : 0);
 	wp[2] = (len - 1) * (-1);
 	if (f == 1)
@@ -45,6 +47,8 @@ char *ft_zero(char	*res, int wp[3], char x)
 	}
 	if (f == 1)
 		res =  ft_strjoin("-", res);
+	if (x == 'p')
+		res = ft_strjoin("0x", res);
 	return(res);
 }
 
@@ -55,8 +59,9 @@ char *ft_hash(char	*res, int wp[3], char x)
 
 	adj = (wp[2] < 0 ? wp[2] * (-1) : 0);
 	temp = res;
-	if (x == 'o')
+	if (x == 'o' || x == 'O')
 	{
+		// printf("At least we went here\n");
 		if (ft_strlen(res) == 0 || res[adj] != '0')
 		{
 			temp = ft_strjoin("0", res);

@@ -53,6 +53,7 @@ char *ft_validflag(char *temp)
 		if ((val_index = ft_isvalid(temp[i])) == -1)
 		{
 			// ft_putstr("Valid flag: WE RETURN NULL");
+			// if ((i > 1) && )
 			return (NULL);
 		}
 		if (val_index < 24)

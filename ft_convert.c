@@ -120,6 +120,7 @@ char	**ft_convert(va_list ap, char **flags)
 	if (!(res = (char**)malloc(sizeof(char*) * (N_OF_F + 1))))
 		return (NULL);
 	res[N_OF_F] = NULL;
+	CURR = 0;
 	res = ft_get(ap, flags, res);
 	res = ft_fieldflags(res, flags);
 	return (res);

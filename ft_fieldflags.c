@@ -43,8 +43,10 @@ int	*ft_widthPres(char *flag, int zeroflag)
 	int *wp;
 	char *temp;
 	int	i;
+	int last_char;
 
 	i = -1;
+	last_char = ft_strlen(flag) - 1;
 	wp = (int *)malloc(sizeof(int) * 3);
 	wp[0] = -1;
 	wp[1] = -1;
@@ -64,6 +66,8 @@ int	*ft_widthPres(char *flag, int zeroflag)
 			else
 				wp[0] = (ft_atoi(flag + i) > wp[0] ? ft_atoi(flag + i) : wp[0]);
 		}
+	if (flag[last_char] == 'p')
+		wp[1] += 2;
 	return (wp);
 }
 
@@ -105,7 +109,7 @@ int *ft_findflag(char *flag)
 	int x;
 	
 	flgs = "0# +-"; /*now 02 is 04*/
-	works[1] = "oxXaAeEfFgG";		/* for hash */
+	works[1] = "oOxXaAeEfFgG";		/* for hash */
 	works[0] = "%diouxXaAeEfFgGsc!Sp";	/* for zero */
 	flgI = (int *)malloc(sizeof(int) * 5);
 	i = -1;
@@ -141,21 +145,24 @@ char	*ft_presicion(char *res, int pres, char x)
 	int len;
 	char *temp;
 	int	 sign;
+	int ulen;
 
 	// printf("RES is %s\n", res);
 	if (res == NULL || pres == -1)
 		return (res);
 	sign = (res[0] == '-' ? 1 : 0);
 	len = ft_strlen(res) - sign;
-	// ft_putstr("ft_presicion: if 1 successful\n");
-	if (ft_strchr("diouxX", x) != NULL)
+	if (ft_strchr("dioOuxXp", x) != NULL)
 	{
+		if (x == 'p')
+			res = ft_strdup(res + 2);
 		// ft_putstr("ft_presicion: enters if 2 if\n");
+		// if (x == 'O' && pres == 0)
+		// 	return (ft_strjoin(res[0] == '0'? "" : "0", res));
+		if (x == 'p' && pres == 2)
+			return (ft_strdup("0x"));
 		if (pres == 0 && res[0] == '0')
-		{
-			// ft_putstr("ft_presicion: pres is 0, res is 0!!!\n");
 			return(ft_strdup(""));
-		}
 		if (pres > len)
 		{
 			temp = (sign == 1? res + 1 : res);
@@ -179,6 +186,26 @@ char	*ft_presicion(char *res, int pres, char x)
 			res = ft_strndup(res, pres);
 		}
 	}
+	if (x == 'S')
+	{
+		if (pres < len)
+		{
+			int i;
+			int sum;
+			i = 0;
+			sum = 0;
+			while (sum <= pres)
+			{
+				sum += UNISTRINGS[CURR][i];
+				i++;
+			}
+			sum -= UNISTRINGS[CURR][i - 1];
+			res = ft_strndup(res, sum);
+		}
+		CURR++;
+	}
+	if (x == 'p')
+		res = ft_strjoin("0x", res);
 	return (res);
 }
 

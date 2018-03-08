@@ -28,6 +28,33 @@ char	*ft_scnv(va_list ap)
 	return (ft_strdup(res));
 }
 
+void	ft_addustring(void)
+{
+	int** temp;
+	int len;
+	int i;
+
+	// ft_putstr("HERE! ENTERS ft_addustring\n");
+	len = 0;
+	i = 0;
+	temp = UNISTRINGS;
+	if (UNISTRINGS != NULL)
+	{
+		// ft_putstr("HERE! UNISTRINGS != NULL\n");
+		while (UNISTRINGS[i])
+			i++;
+	}
+	len += i;
+	// ft_putstr("HERE! Before malloc\n");
+	UNISTRINGS = (int**)malloc(sizeof(int*) * (len + 1));
+	len = i;
+	i = -1;
+	if (temp != NULL)
+		while (temp[++i])
+			UNISTRINGS[i] = temp[i];
+	UNISTRINGS[i] = NULL;
+}
+
 char	*ft_sccnv(va_list ap)
 {
 	char	*res[2];
@@ -36,9 +63,13 @@ char	*ft_sccnv(va_list ap)
 
 	if ((temp = va_arg(ap, wchar_t*)) == NULL)
 		return (ft_strdup("(null)"));
+	ft_addustring();
+	if (CURR != 0)
+		CURR++;
+	// ft_putstr("HERE! ft_sccnv after ft_addustring\n");
 	if (ft_strlen(temp) == 0)
 		return (ft_strdup(""));
-	res[0] = ft_unicode(temp[0]);
+	res[0] = ft_unicode(temp[0], 1);
 	if (ERROR == 1)
 		return(NULL);
 	i = 0;
@@ -47,10 +78,17 @@ char	*ft_sccnv(va_list ap)
 	{
 		res[1] = res[0];
 		// printf("%c", res[1]);
-		res[0] = ft_strjoin(res[0], ft_unicode(temp[i]));
+		res[0] = ft_strjoin(res[0], ft_unicode(temp[i], 1));
 		free(res[1]);
 	}
-	// printf("\n DONE [%d] times!\n ", i);
+	i = 0;
+	// ft_putstr("HERE! ft_sccnv after UNICODING\n");
+	// while (UNISTRINGS[CURR][i])
+	// {
+	// 	printf("%d", UNISTRINGS[CURR][i]);
+	// 	i++;
+	// }
+	// printf("\n");
 	return (res[0]);
 }
 

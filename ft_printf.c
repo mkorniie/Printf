@@ -117,6 +117,8 @@ int		ft_printf(const char * restrict format, ...)
 	if (format == NULL)
 		return (0);
 	va_start(ap, format);
+	// UNISTRINGS = 0;
+	// CURR = 0;
 	// ft_putstr("1\n");
 	if ((err = ft_parce(format, "%", &flags)) == -1)
 		return (-1);
