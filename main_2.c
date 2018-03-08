@@ -12,10 +12,29 @@ int main(void)
 
 	setlocale(LC_ALL, "");
 
+	// size1 = printf("1{%10R}\n");
+	// size2 = ft_printf("2{%10R}\n");
+	// printf("PRINTF resturns [%d] MY PRINTF resturns [%d]\n", size1, size2);
 
-	size1 = printf("1%lD, %lD\n", 0, USHRT_MAX);
-	size2 = ft_printf("2%lD, %lD\n", 0, USHRT_MAX);
+	size1 = printf("1{%05p}\n", 0);
+	size2 = ft_printf("2{%05p}\n", 0);
 	printf("PRINTF resturns [%d] MY PRINTF resturns [%d]\n", size1, size2);
+
+	// size1 = printf("1{%030S}\n", L"我是一只猫。");
+	// size2 = ft_printf("2{%030S}\n", L"我是一只猫。");
+	// printf("PRINTF resturns [%d] MY PRINTF resturns [%d]\n", size1, size2);
+
+	// size1 = printf("1{%03c}\n", 0);
+	// size2 = ft_printf("2{%03c}\n", 0);
+	// printf("PRINTF resturns [%d] MY PRINTF resturns [%d]\n", size1, size2);
+
+	// size1 = printf("1%lp\n", 42);
+	// size2 = ft_printf("2%lp\n", 42);
+	// printf("PRINTF resturns [%d] MY PRINTF resturns [%d]\n", size1, size2);
+
+	// size1 = printf("1%lD, %lD\n", 0, USHRT_MAX);
+	// size2 = ft_printf("2%lD, %lD\n", 0, USHRT_MAX);
+	// printf("PRINTF resturns [%d] MY PRINTF resturns [%d]\n", size1, size2);
 
 
 	// size1 = printf("1%lc, %lc\n", L'暖', L'ح');

@@ -18,11 +18,12 @@ int		ft_getcvsindex(int mod, char *flag)
 	int		cvs;
 	size_t	len;
 
-// ft_putstr("ft_getcvsindex\n");
 	len = ft_strlen(flag);
 	cvs = ft_isspecifier(flag[len - 1]);
 	// ft_putstr("ft_getcvsindex: CVS is ");
 	// ft_putstr(ft_itoa(cvs));
+	if (cvs == 2)
+		return (2);
 	if (cvs == 7 || cvs == 9)
 		return ((cvs == 7 ? 7 : 9));
 	if (cvs == 4)
