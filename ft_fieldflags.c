@@ -279,7 +279,9 @@ char	**ft_fieldflags(char **res, char **flags)
 			// ft_putstr("ft_fieldflags: 3\n");
 			x = -1;
 			// printf("ft_fieldflags: RES[%d] is %s\n", i, res[i]);
+			// printf("Before ft_presicion: Now res is %s\n", res[i]);
 			res[i] = ft_presicion(res[i], wp[1], flags[i][len - 1]);
+			// printf("After ft_presicion: Now res is %s\n", res[i]);
 			// ft_putstr("ft_fieldflags: 4\n");
 			// printf("ft_fieldflags: Width is [%d], precision is [%d]\n", wp[0], wp[1]);
 			while (++x < 5)

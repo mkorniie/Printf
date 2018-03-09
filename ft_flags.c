@@ -57,6 +57,7 @@ char *ft_hash(char	*res, int wp[3], char x)
 	char	*temp;
 	int		adj;
 
+// printf("ft_hash: we get %s\n", res);
 	adj = (wp[2] < 0 ? wp[2] * (-1) : 0);
 	temp = res;
 	if (x == 'o' || x == 'O')
@@ -72,12 +73,13 @@ char *ft_hash(char	*res, int wp[3], char x)
 	{
 		if (ft_strlen(res) == 0)
 			return (res);
-		if (res[adj] != '0')
+		if (ft_atoi(res) != 0)
 		{
 			temp = ft_strjoin((x == 'x' ? "0x" : "0X"), res);
 			// free(res);
 		}
 	}
+	// printf("ft_hash: we return %s\n", temp);
 	return(temp);
 }
 

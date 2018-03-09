@@ -16,11 +16,24 @@ int main(void)
 	// size2 = ft_printf("2{%10R}\n");
 	// printf("PRINTF resturns [%d] MY PRINTF resturns [%d]\n", size1, size2);
 
-while(1)
-{
-	size1 = printf("1%4.1S\n", L"Jambon");
-	size2 = ft_printf("2%4.1S\n", L"Jambon");
+	// size1 = printf("1{%10R}\n");
+	// size2 = ft_printf("2{%10R}\n");
+	// printf("PRINTF resturns [%d] MY PRINTF resturns [%d]\n", size1, size2);
+	// size1 = printf("1{%-15Z}\n", 123);
+	// size2 = ft_printf("2{%-15Z}\n", 123);
+	// printf("PRINTF resturns [%d] MY PRINTF resturns [%d]\n", size1, size2);
+	// size1 = printf("1{%05.Z}\n", 0);
+	// size2 = ft_printf("2{%05.Z}\n", 0);
+	// printf("PRINTF resturns [%d] MY PRINTF resturns [%d]\n", size1, size2);
+	size1 = printf("1{%#.5x}\n", 1);
+	size2 = ft_printf("2{%#.5x}\n", 1);
 	printf("PRINTF resturns [%d] MY PRINTF resturns [%d]\n", size1, size2);
+
+
+
+	// size1 = printf("1%4.1S\n", L"Jambon");
+	// size2 = ft_printf("2%4.1S\n", L"Jambon");
+	// printf("PRINTF resturns [%d] MY PRINTF resturns [%d]\n", size1, size2);
 
 
 	// size1 = printf("1%.6S\n", L"我是一只猫。");
@@ -60,7 +73,6 @@ while(1)
 	// size1 = printf("1%lX, %lX\n", 0, ULONG_MAX);
 	// size2 = ft_printf("2%lX, %lX\n", 0, ULONG_MAX);
 	// printf("PRINTF resturns [%d] MY PRINTF resturns [%d]\n", size1, size2);
-}
 
 	// size1 = printf("1%C\n", 0);
 	// size2 = ft_printf("2%C\n", 0);
