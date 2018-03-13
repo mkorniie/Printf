@@ -24,6 +24,7 @@ clean:
 	rm -f $(OFILES)
 fclean: clean
 	rm -f $(NAME)
+	rm -f libft/libft.a
 re: fclean all
 do: all
 	gcc main_2.c $(NAME)
