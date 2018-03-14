@@ -52,6 +52,22 @@ char *ft_validflag(char *temp)
 		// ft_putstr("21\n");
 		if ((val_index = ft_isvalid(temp[i])) == -1)
 		{
+			int *wp;
+			int zeroflag;
+
+			wp = (int*)malloc(sizeof(int) * 2);
+			if (i > 1)
+			{
+				res = ft_strndup(temp, i + 1);
+				zeroflag = ft_isflag(res, '0');
+				printf("We have res = [%s]\n", res);
+				wp = ft_widthPres(res, zeroflag);
+				if (wp[0] > 1)
+				{
+					res = ft_strjoin(res, "^");
+					return(res);
+				}
+			}
 			// ft_putstr("Valid flag: WE RETURN NULL");
 			// if ((i > 1) && )
 			return (NULL);
