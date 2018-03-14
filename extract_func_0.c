@@ -47,12 +47,12 @@ void	ft_addustring(void)
 	len += i;
 	// ft_putstr("HERE! Before malloc\n");
 	UNISTRINGS = (int**)malloc(sizeof(int*) * (len + 1));
-	len = i;
+//	len = i;
 	i = -1;
 	if (temp != NULL)
 		while (temp[++i])
 			UNISTRINGS[i] = temp[i];
-	UNISTRINGS[i] = NULL;
+	UNISTRINGS[CURR] = NULL;
 }
 
 char	*ft_sccnv(va_list ap)
@@ -63,9 +63,9 @@ char	*ft_sccnv(va_list ap)
 
 	if ((temp = va_arg(ap, wchar_t*)) == NULL)
 		return (ft_strdup("(null)"));
-	ft_addustring();
 	if (CURR != 0)
 		CURR++;
+	ft_addustring();
 	// ft_putstr("HERE! ft_sccnv after ft_addustring\n");
 	if (ft_strlen(temp) == 0)
 		return (ft_strdup(""));

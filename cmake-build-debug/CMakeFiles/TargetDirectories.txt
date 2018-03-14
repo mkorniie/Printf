@@ -1,0 +1,3 @@
+/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles/UNIT1303.dir

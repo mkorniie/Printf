@@ -43,13 +43,23 @@ void	ft_addunicode(int active)
 		while (UNISTRINGS[CURR][i])
 			i++;
 	len += i;
-	UNISTRINGS[CURR] = (int*)malloc(sizeof(int*) * (len + 1));
-	i = -1;
+	UNISTRINGS[CURR] = (int*)malloc(sizeof(int) * (len + 2));
+	UNISTRINGS[CURR][len + 1] = 0;
+	i = 0;
+//	printf("Now unistring is: ");
 	if (temp != NULL)
-		while (temp[++i])
+		while (temp[i])
+		{
 			UNISTRINGS[CURR][i] = temp[i];
+//			printf("%d", UNISTRINGS[CURR][i]);
+			i++;
+		}
+
 	if (active <= 7)
+	{
 		UNISTRINGS[CURR][i] = 1;
+//		printf("%d\n", UNISTRINGS[CURR][i]);
+	}
 	else if (active <= 11 && MB_CUR_MAX >= 2)
 		UNISTRINGS[CURR][i] = 2;
 	else if (active <= 16 && MB_CUR_MAX >= 3)
