@@ -1,4 +1,5 @@
 #include "header.h"
+#include "stdio.h"
 
 int	ft_isvalid(char x)
 {
@@ -55,21 +56,21 @@ char *ft_validflag(char *temp)
 			int *wp;
 			int zeroflag;
 
-			// wp = (int*)malloc(sizeof(int) * 2);
-			// if (i > 1)
-			// {
-			// 	res = ft_strndup(temp, i + 1);
-			// 	zeroflag = ft_isflag(res, '0');
-			// 	printf("We have res = [%s]\n", res);
-			// 	printf("Zeroflag is [%d]\n", zeroflag);
-			// 	wp = ft_widthPres(res, zeroflag);
-			// 	printf("wp is: width is [%d], pres is [%d]\n", wp[0], wp[1]);
-			// 	if (wp[0] > 1)
-			// 	{
-			// 		res = ft_strjoin(res, "^");
-			// 		return(res);
-			// 	}
-			// }
+			 wp = (int*)malloc(sizeof(int) * 2);
+			 if (i > 1)
+			 {
+			 	res = ft_strndup(temp, i + 1);
+			 	zeroflag = ft_isflag(res, '0');
+//			 	printf("We have res = [%s]\n", res);
+//			 	printf("Zeroflag is [%d]\n", zeroflag);
+			 	wp = ft_widthPres(res, zeroflag);
+//			 	printf("wp is: width is [%d], pres is [%d]\n", wp[0], wp[1]);
+			 	if (wp[0] > 1)
+			 	{
+			 		res = ft_strjoin(res, "^");
+			 		return(res);
+			 	}
+			 }
 			// ft_putstr("Valid flag: WE RETURN NULL");
 			// if ((i > 1) && )
 			return (NULL);

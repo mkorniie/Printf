@@ -88,6 +88,12 @@ char	**ft_get(va_list ap, char **flags, char **arr)
 				// ft_putstr("ft_get: arr[i] is %!\n");
 				arr[i] = ft_strdup("%");
 			}
+			else if (flags[i][strlen - 1] == '^')
+			{
+				arr[i] = (char*)malloc(sizeof(char) * 2);
+				arr[i][0] = flags[i][strlen - 2];
+				arr[i][1] = '\0';
+			}
 			else
 			{
 				// if (flags[i][strlen - 1] == 'c' && flags[i][strlen - 2] == 'l')
