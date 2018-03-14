@@ -27,6 +27,7 @@ static char	*convs[] = { "schar*", "Swchar_t*", "pvoid*", "dint",
 int			ERROR;
 int**		UNISTRINGS;
 int			CURR;
+void		ft_addustring(void);
 int			ft_printf(const char * restrict format, ...);
 int			ft_parce(const char * restrict s, char *c, char ***flags);
 int			ft_isspecifier(char x);
@@ -45,6 +46,7 @@ char		*ft_ubase(uintmax_t src, uintmax_t len, const char *pattern);
 char		*ft_unicode(unsigned int src, int flag);
 char		*ft_litoa(long n);
 char		*ft_ulitoa(unsigned long n);
+char		*ft_strjoinfree(char const *s1, char const *s2, int s_to_delete);
 char		**ft_convert(va_list	ap, char	**flags);
 char		**ft_fieldflags(char **res, char **flags);
 char 		*ft_scnv(va_list	ap);

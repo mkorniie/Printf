@@ -14,58 +14,45 @@
 
 char	*ft_xcnv(va_list ap)
 {
-	// ft_putstr("ft_xcnv\n");
-	char			*res;
 	unsigned int	temp;
 
 	temp = va_arg(ap, unsigned int);
-	res = ft_ubase(temp, 16, "0123456789abcdef");
-	return (res);
+	return (ft_ubase(temp, 16, "0123456789abcdef"));
 }
 
 char	*ft_xccnv(va_list ap)
 {
-	// ft_putstr("ft_xccnv\n");
-	char			*res;
 	unsigned int	temp;
 
 	temp = va_arg(ap, unsigned int);
-	res = ft_ubase(temp, 16, "0123456789ABCDEF");
-	return (res);
+	return (ft_ubase(temp, 16, "0123456789ABCDEF"));
 }
 
 char	*ft_ccnv(va_list ap)
 {
-	char *res;
 	char temp;
 
 	temp = va_arg(ap, int);
 	if (temp == 0)
-		return (res = ft_strdup("zero"));
+		return (ft_strdup("zero"));
 	else
-		res = ft_chartostr(temp);
-	return (res);
+		return (ft_chartostr(temp));
 }
 
 char	*ft_cccnv(va_list ap)
 {
-	char	*res;
 	wchar_t	temp;
 
-	// ft_putstr("RIGHt!");
 	temp = va_arg(ap, wchar_t);
 	if (temp == 0)
-		return (res = ft_strdup("zero"));
-	res = ft_unicode(temp, 0);
-	return (res);
+		return (ft_strdup("zero"));
+	return (ft_unicode(temp, 0));
 }
 
 char	*ft_ecnv(va_list ap)
 {
-	char	*res;
 	double	temp;
 
 	temp = va_arg(ap, double);
-	res = ft_strdup("[double]");
-	return (res);
+	return (ft_strdup("[double]"));
 }

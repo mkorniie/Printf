@@ -14,50 +14,40 @@
 
 char	*ft_dintmax_tcnv(va_list ap)
 {
-	char		*res;
 	intmax_t	temp;
 
 	temp = va_arg(ap, intmax_t);
-	res = ft_litoa(temp);
-	return (res);
+	return (ft_litoa(temp));
 }
 
 char	*ft_ouintmax_tcnv(va_list ap)
 {
-	char		*res;
 	uintmax_t	temp;
 
 	temp = va_arg(ap, intmax_t);
-	res = ft_ubase(temp, 8, "01234567");
-	return (res);
+	return (ft_ubase(temp, 8, "01234567"));
 }
 
 char	*ft_uuintmax_tcnv(va_list ap)
 {
-	char		*res;
 	uintmax_t	temp;
 
 	temp = va_arg(ap, intmax_t);
-	res = ft_ulitoa(temp);
-	return (res);
+	return(ft_ulitoa(temp));
 }
 
 char	*ft_xuintmax_tcnv(va_list ap)
 {
-	char		*res;
 	uintmax_t	temp;
 
 	temp = va_arg(ap, intmax_t);
-	res = ft_ubase(temp, 16, "0123456789abcdef");
-	return (res);
+	return(ft_ubase(temp, 16, "0123456789abcdef"));
 }
 
 char	*ft_xcuintmax_tcnv(va_list ap)
 {
-	char		*res;
 	uintmax_t	temp;
 
 	temp = va_arg(ap, intmax_t);
-	res = ft_ubase(temp, 16, "0123456789ABCDEF");
-	return (res);
+	return(ft_ubase(temp, 16, "0123456789ABCDEF"));
 }

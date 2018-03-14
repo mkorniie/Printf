@@ -2193,6 +2193,78 @@ CMakeFiles/UNIT1303.dir/main_2.c.o.provides: CMakeFiles/UNIT1303.dir/main_2.c.o.
 CMakeFiles/UNIT1303.dir/main_2.c.o.provides.build: CMakeFiles/UNIT1303.dir/main_2.c.o
 
 
+CMakeFiles/UNIT1303.dir/ft_chartostr.c.o: CMakeFiles/UNIT1303.dir/flags.make
+CMakeFiles/UNIT1303.dir/ft_chartostr.c.o: ../ft_chartostr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/UNIT1303.dir/ft_chartostr.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/ft_chartostr.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_chartostr.c
+
+CMakeFiles/UNIT1303.dir/ft_chartostr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/ft_chartostr.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_chartostr.c > CMakeFiles/UNIT1303.dir/ft_chartostr.c.i
+
+CMakeFiles/UNIT1303.dir/ft_chartostr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/ft_chartostr.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_chartostr.c -o CMakeFiles/UNIT1303.dir/ft_chartostr.c.s
+
+CMakeFiles/UNIT1303.dir/ft_chartostr.c.o.requires:
+
+.PHONY : CMakeFiles/UNIT1303.dir/ft_chartostr.c.o.requires
+
+CMakeFiles/UNIT1303.dir/ft_chartostr.c.o.provides: CMakeFiles/UNIT1303.dir/ft_chartostr.c.o.requires
+	$(MAKE) -f CMakeFiles/UNIT1303.dir/build.make CMakeFiles/UNIT1303.dir/ft_chartostr.c.o.provides.build
+.PHONY : CMakeFiles/UNIT1303.dir/ft_chartostr.c.o.provides
+
+CMakeFiles/UNIT1303.dir/ft_chartostr.c.o.provides.build: CMakeFiles/UNIT1303.dir/ft_chartostr.c.o
+
+
+CMakeFiles/UNIT1303.dir/ft_strjoinfree.c.o: CMakeFiles/UNIT1303.dir/flags.make
+CMakeFiles/UNIT1303.dir/ft_strjoinfree.c.o: ../ft_strjoinfree.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/UNIT1303.dir/ft_strjoinfree.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/ft_strjoinfree.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_strjoinfree.c
+
+CMakeFiles/UNIT1303.dir/ft_strjoinfree.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/ft_strjoinfree.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_strjoinfree.c > CMakeFiles/UNIT1303.dir/ft_strjoinfree.c.i
+
+CMakeFiles/UNIT1303.dir/ft_strjoinfree.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/ft_strjoinfree.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_strjoinfree.c -o CMakeFiles/UNIT1303.dir/ft_strjoinfree.c.s
+
+CMakeFiles/UNIT1303.dir/ft_strjoinfree.c.o.requires:
+
+.PHONY : CMakeFiles/UNIT1303.dir/ft_strjoinfree.c.o.requires
+
+CMakeFiles/UNIT1303.dir/ft_strjoinfree.c.o.provides: CMakeFiles/UNIT1303.dir/ft_strjoinfree.c.o.requires
+	$(MAKE) -f CMakeFiles/UNIT1303.dir/build.make CMakeFiles/UNIT1303.dir/ft_strjoinfree.c.o.provides.build
+.PHONY : CMakeFiles/UNIT1303.dir/ft_strjoinfree.c.o.provides
+
+CMakeFiles/UNIT1303.dir/ft_strjoinfree.c.o.provides.build: CMakeFiles/UNIT1303.dir/ft_strjoinfree.c.o
+
+
+CMakeFiles/UNIT1303.dir/ft_addustring.c.o: CMakeFiles/UNIT1303.dir/flags.make
+CMakeFiles/UNIT1303.dir/ft_addustring.c.o: ../ft_addustring.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/UNIT1303.dir/ft_addustring.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/ft_addustring.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_addustring.c
+
+CMakeFiles/UNIT1303.dir/ft_addustring.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/ft_addustring.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_addustring.c > CMakeFiles/UNIT1303.dir/ft_addustring.c.i
+
+CMakeFiles/UNIT1303.dir/ft_addustring.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/ft_addustring.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_addustring.c -o CMakeFiles/UNIT1303.dir/ft_addustring.c.s
+
+CMakeFiles/UNIT1303.dir/ft_addustring.c.o.requires:
+
+.PHONY : CMakeFiles/UNIT1303.dir/ft_addustring.c.o.requires
+
+CMakeFiles/UNIT1303.dir/ft_addustring.c.o.provides: CMakeFiles/UNIT1303.dir/ft_addustring.c.o.requires
+	$(MAKE) -f CMakeFiles/UNIT1303.dir/build.make CMakeFiles/UNIT1303.dir/ft_addustring.c.o.provides.build
+.PHONY : CMakeFiles/UNIT1303.dir/ft_addustring.c.o.provides
+
+CMakeFiles/UNIT1303.dir/ft_addustring.c.o.provides.build: CMakeFiles/UNIT1303.dir/ft_addustring.c.o
+
+
 # Object files for target UNIT1303
 UNIT1303_OBJECTS = \
 "CMakeFiles/UNIT1303.dir/libft/ft_abs.c.o" \
@@ -2283,7 +2355,10 @@ UNIT1303_OBJECTS = \
 "CMakeFiles/UNIT1303.dir/ft_ulitoa.c.o" \
 "CMakeFiles/UNIT1303.dir/ft_unicode.c.o" \
 "CMakeFiles/UNIT1303.dir/ft_validflag.c.o" \
-"CMakeFiles/UNIT1303.dir/main_2.c.o"
+"CMakeFiles/UNIT1303.dir/main_2.c.o" \
+"CMakeFiles/UNIT1303.dir/ft_chartostr.c.o" \
+"CMakeFiles/UNIT1303.dir/ft_strjoinfree.c.o" \
+"CMakeFiles/UNIT1303.dir/ft_addustring.c.o"
 
 # External object files for target UNIT1303
 UNIT1303_EXTERNAL_OBJECTS =
@@ -2377,9 +2452,12 @@ UNIT1303: CMakeFiles/UNIT1303.dir/ft_ulitoa.c.o
 UNIT1303: CMakeFiles/UNIT1303.dir/ft_unicode.c.o
 UNIT1303: CMakeFiles/UNIT1303.dir/ft_validflag.c.o
 UNIT1303: CMakeFiles/UNIT1303.dir/main_2.c.o
+UNIT1303: CMakeFiles/UNIT1303.dir/ft_chartostr.c.o
+UNIT1303: CMakeFiles/UNIT1303.dir/ft_strjoinfree.c.o
+UNIT1303: CMakeFiles/UNIT1303.dir/ft_addustring.c.o
 UNIT1303: CMakeFiles/UNIT1303.dir/build.make
 UNIT1303: CMakeFiles/UNIT1303.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Linking C executable UNIT1303"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Linking C executable UNIT1303"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/UNIT1303.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -2476,6 +2554,9 @@ CMakeFiles/UNIT1303.dir/requires: CMakeFiles/UNIT1303.dir/ft_ulitoa.c.o.requires
 CMakeFiles/UNIT1303.dir/requires: CMakeFiles/UNIT1303.dir/ft_unicode.c.o.requires
 CMakeFiles/UNIT1303.dir/requires: CMakeFiles/UNIT1303.dir/ft_validflag.c.o.requires
 CMakeFiles/UNIT1303.dir/requires: CMakeFiles/UNIT1303.dir/main_2.c.o.requires
+CMakeFiles/UNIT1303.dir/requires: CMakeFiles/UNIT1303.dir/ft_chartostr.c.o.requires
+CMakeFiles/UNIT1303.dir/requires: CMakeFiles/UNIT1303.dir/ft_strjoinfree.c.o.requires
+CMakeFiles/UNIT1303.dir/requires: CMakeFiles/UNIT1303.dir/ft_addustring.c.o.requires
 
 .PHONY : CMakeFiles/UNIT1303.dir/requires
 

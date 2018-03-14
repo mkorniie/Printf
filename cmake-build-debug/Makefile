@@ -393,6 +393,60 @@ extract_func_9.c.s:
 	$(MAKE) -f CMakeFiles/UNIT1303.dir/build.make CMakeFiles/UNIT1303.dir/extract_func_9.c.s
 .PHONY : extract_func_9.c.s
 
+ft_addustring.o: ft_addustring.c.o
+
+.PHONY : ft_addustring.o
+
+# target to build an object file
+ft_addustring.c.o:
+	$(MAKE) -f CMakeFiles/UNIT1303.dir/build.make CMakeFiles/UNIT1303.dir/ft_addustring.c.o
+.PHONY : ft_addustring.c.o
+
+ft_addustring.i: ft_addustring.c.i
+
+.PHONY : ft_addustring.i
+
+# target to preprocess a source file
+ft_addustring.c.i:
+	$(MAKE) -f CMakeFiles/UNIT1303.dir/build.make CMakeFiles/UNIT1303.dir/ft_addustring.c.i
+.PHONY : ft_addustring.c.i
+
+ft_addustring.s: ft_addustring.c.s
+
+.PHONY : ft_addustring.s
+
+# target to generate assembly for a file
+ft_addustring.c.s:
+	$(MAKE) -f CMakeFiles/UNIT1303.dir/build.make CMakeFiles/UNIT1303.dir/ft_addustring.c.s
+.PHONY : ft_addustring.c.s
+
+ft_chartostr.o: ft_chartostr.c.o
+
+.PHONY : ft_chartostr.o
+
+# target to build an object file
+ft_chartostr.c.o:
+	$(MAKE) -f CMakeFiles/UNIT1303.dir/build.make CMakeFiles/UNIT1303.dir/ft_chartostr.c.o
+.PHONY : ft_chartostr.c.o
+
+ft_chartostr.i: ft_chartostr.c.i
+
+.PHONY : ft_chartostr.i
+
+# target to preprocess a source file
+ft_chartostr.c.i:
+	$(MAKE) -f CMakeFiles/UNIT1303.dir/build.make CMakeFiles/UNIT1303.dir/ft_chartostr.c.i
+.PHONY : ft_chartostr.c.i
+
+ft_chartostr.s: ft_chartostr.c.s
+
+.PHONY : ft_chartostr.s
+
+# target to generate assembly for a file
+ft_chartostr.c.s:
+	$(MAKE) -f CMakeFiles/UNIT1303.dir/build.make CMakeFiles/UNIT1303.dir/ft_chartostr.c.s
+.PHONY : ft_chartostr.c.s
+
 ft_convert.o: ft_convert.c.o
 
 .PHONY : ft_convert.o
@@ -662,6 +716,33 @@ ft_printf.s: ft_printf.c.s
 ft_printf.c.s:
 	$(MAKE) -f CMakeFiles/UNIT1303.dir/build.make CMakeFiles/UNIT1303.dir/ft_printf.c.s
 .PHONY : ft_printf.c.s
+
+ft_strjoinfree.o: ft_strjoinfree.c.o
+
+.PHONY : ft_strjoinfree.o
+
+# target to build an object file
+ft_strjoinfree.c.o:
+	$(MAKE) -f CMakeFiles/UNIT1303.dir/build.make CMakeFiles/UNIT1303.dir/ft_strjoinfree.c.o
+.PHONY : ft_strjoinfree.c.o
+
+ft_strjoinfree.i: ft_strjoinfree.c.i
+
+.PHONY : ft_strjoinfree.i
+
+# target to preprocess a source file
+ft_strjoinfree.c.i:
+	$(MAKE) -f CMakeFiles/UNIT1303.dir/build.make CMakeFiles/UNIT1303.dir/ft_strjoinfree.c.i
+.PHONY : ft_strjoinfree.c.i
+
+ft_strjoinfree.s: ft_strjoinfree.c.s
+
+.PHONY : ft_strjoinfree.s
+
+# target to generate assembly for a file
+ft_strjoinfree.c.s:
+	$(MAKE) -f CMakeFiles/UNIT1303.dir/build.make CMakeFiles/UNIT1303.dir/ft_strjoinfree.c.s
+.PHONY : ft_strjoinfree.c.s
 
 ft_ubase.o: ft_ubase.c.o
 
@@ -2565,6 +2646,12 @@ help:
 	@echo "... extract_func_9.o"
 	@echo "... extract_func_9.i"
 	@echo "... extract_func_9.s"
+	@echo "... ft_addustring.o"
+	@echo "... ft_addustring.i"
+	@echo "... ft_addustring.s"
+	@echo "... ft_chartostr.o"
+	@echo "... ft_chartostr.i"
+	@echo "... ft_chartostr.s"
 	@echo "... ft_convert.o"
 	@echo "... ft_convert.i"
 	@echo "... ft_convert.s"
@@ -2595,6 +2682,9 @@ help:
 	@echo "... ft_printf.o"
 	@echo "... ft_printf.i"
 	@echo "... ft_printf.s"
+	@echo "... ft_strjoinfree.o"
+	@echo "... ft_strjoinfree.i"
+	@echo "... ft_strjoinfree.s"
 	@echo "... ft_ubase.o"
 	@echo "... ft_ubase.i"
 	@echo "... ft_ubase.s"

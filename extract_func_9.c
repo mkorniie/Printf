@@ -14,50 +14,40 @@
 
 char	*ft_dssize_tcnv(va_list ap)
 {
-	char	*res;
 	ssize_t	temp;
 
 	temp = va_arg(ap, size_t);
-	res = ft_litoa(temp);
-	return (res);
+	return(ft_litoa(temp));
 }
 
 char	*ft_osize_tcnv(va_list ap)
 {
-	char	*res;
 	size_t	temp;
 
 	temp = va_arg(ap, size_t);
-	res = ft_ubase(temp, 8, "01234567");
-	return (res);
+	return(ft_ubase(temp, 8, "01234567"));
 }
 
 char	*ft_usize_tcnv(va_list ap)
 {
-	char	*res;
 	size_t	temp;
 
 	temp = va_arg(ap, size_t);
-	res = ft_ulitoa(temp);
-	return (res);
+	return(ft_ulitoa(temp));
 }
 
 char	*ft_xsize_tcnv(va_list ap)
 {
-	char	*res;
 	size_t	temp;
 
 	temp = va_arg(ap, size_t);
-	res = ft_ubase(temp, 16, "0123456789abcdef");
-	return (res);
+	return(ft_ubase(temp, 16, "0123456789abcdef"));
 }
 
 char	*ft_xcsize_tcnv(va_list ap)
 {
-	char	*res;
 	size_t	temp;
 
 	temp = va_arg(ap, size_t);
-	res = ft_ubase(temp, 16, "0123456789ABCDEF");
-	return (res);
+	return(ft_ubase(temp, 16, "0123456789ABCDEF"));
 }

@@ -110,6 +110,12 @@
 		<Unit filename="/Users/Maria/Desktop/GoHome08]/UNIT1303/extract_func_9.c">
 			<Option target="UNIT1303"/>
 		</Unit>
+		<Unit filename="/Users/Maria/Desktop/GoHome08]/UNIT1303/ft_addustring.c">
+			<Option target="UNIT1303"/>
+		</Unit>
+		<Unit filename="/Users/Maria/Desktop/GoHome08]/UNIT1303/ft_chartostr.c">
+			<Option target="UNIT1303"/>
+		</Unit>
 		<Unit filename="/Users/Maria/Desktop/GoHome08]/UNIT1303/ft_convert.c">
 			<Option target="UNIT1303"/>
 		</Unit>
@@ -138,6 +144,9 @@
 			<Option target="UNIT1303"/>
 		</Unit>
 		<Unit filename="/Users/Maria/Desktop/GoHome08]/UNIT1303/ft_printf.c">
+			<Option target="UNIT1303"/>
+		</Unit>
+		<Unit filename="/Users/Maria/Desktop/GoHome08]/UNIT1303/ft_strjoinfree.c">
 			<Option target="UNIT1303"/>
 		</Unit>
 		<Unit filename="/Users/Maria/Desktop/GoHome08]/UNIT1303/ft_ubase.c">
