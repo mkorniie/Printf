@@ -102,35 +102,22 @@ char *ft_plus(char	*res, int wp[3], char x)
 	return(res);
 }
 
-char *ft_leftadj(char	*res, int wp[3], char x)
+char *ft_leftadj(char *res, int wp[3], char x)
 {
-	char *temp;
 	size_t len;
 
-	// printf("LEFTADJ CONV: res is [%s], wp is : [%d] [%d], x is %c\n", res, wp[0], wp[1], x);
 	if (res == NULL || x == 'n' || wp[0] == -1)
 	{
-			// printf("LEFT ADJ: RES is returned!\n");
-			return (res);
+        return (res);
 	}
 	len = ft_strlen(res);
-	// printf("LEFT ADJ: LEN is %lu\n", len);
-	// printf("LEFT ADJ: wp[0] is %d\n", wp[0]);
 	if ((unsigned long)wp[0] > len)
 		len = wp[0] - len + 1;
 	else
 		return (res);
 	while (--len > 0)
 	{
-		// printf("STUCK HERE!\n");
-		temp = res;
-		temp = ft_strjoin(temp, " ");
-		// free(res);
-		res = temp;
+		res = ft_strjoinfree(res, " ", 1);
 	}
-	// wp[0]++;
-	// x++;
-	// temp = ft_strjoin("[- conv]", res);
-	// free(res);
-	return(temp);
+	return(res);
 }
