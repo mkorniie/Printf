@@ -94,4 +94,4 @@ add_executable(UNIT1303
         ft_unicode.c
         ft_validflag.c
         header.h
-        main_2.c ft_chartostr.c ft_strjoinfree.c ft_addustring.c)
+        main_2.c ft_chartostr.c ft_strjoinfree.c ft_addustring.c ft_fieldflags_additional.c)

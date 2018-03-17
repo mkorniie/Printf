@@ -1,12 +1,27 @@
 #include "header.h"
 
-void	ft_freearr(char **split)
+void ft_freeintarr(int **split, int len)
 {
 	int i;
 
-	i = 0;
 	if (split == NULL)
 		return ;
+	i = 0;
+	while(i < len)
+	{
+		free(split[i]);
+		i++;
+	}
+	free(split);
+}
+
+void	ft_freestrarr(char **split)
+{
+	int i;
+
+	if (split == NULL)
+		return ;
+	i = 0;
 	while(split[i])
 	{
 		free(split[i]);

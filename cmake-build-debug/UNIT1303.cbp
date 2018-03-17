@@ -125,6 +125,9 @@
 		<Unit filename="/Users/Maria/Desktop/GoHome08]/UNIT1303/ft_fieldflags.c">
 			<Option target="UNIT1303"/>
 		</Unit>
+		<Unit filename="/Users/Maria/Desktop/GoHome08]/UNIT1303/ft_fieldflags_additional.c">
+			<Option target="UNIT1303"/>
+		</Unit>
 		<Unit filename="/Users/Maria/Desktop/GoHome08]/UNIT1303/ft_flags.c">
 			<Option target="UNIT1303"/>
 		</Unit>

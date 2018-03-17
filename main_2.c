@@ -6,15 +6,15 @@ int		ft_printf(const char * restrict format, ...);
 
 int main(void)
 {
-	int i;
+//	int i;
 	int size1;
 	int size2;
 
 	setlocale(LC_ALL, "");
 
-//    size1 = printf("1{%05.Z}\n", 0);
+//    size1 = printf("1a%Sb%sc%S\n", L"我", "42", L"猫");
 
-    size2 = ft_printf("2{%S}\n", L"");
+    size2 = ft_printf("2a%Sb%sc%S\n", L"我", "42", L"猫");
 
 //    while (1)
 //    {

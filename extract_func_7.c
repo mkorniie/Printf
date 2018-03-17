@@ -15,30 +15,16 @@
 
 char	*ft_lxcnv(va_list ap)
 {
-	// ft_putstr("ft_lxcnv\n");
-	char			*res;
 	unsigned long	temp;
 
 	temp = va_arg(ap, long);
-	// printf("ft_lxcnv: temp is %lu\n", temp);
-	res = ft_ubase(temp, 16, "0123456789abcdef");
-	// ft_putstr("ft_lxcnv: res is ");
-	// ft_putstr(res);
-	// ft_putstr("\n");
-	return (res);
+    return (ft_ubase(temp, 16, "0123456789abcdef"));
 }
 
 char	*ft_lxccnv(va_list ap)
 {
-	char			*res;
 	unsigned long	temp;
 
 	temp = va_arg(ap, long);
-	// if (temp == NULL)
-	// {
-	// 	ERROR = 2;
-	// 	return(ft_strdup("(null)"));
-	// }
-	res = ft_ubase(temp, 16, "0123456789ABCDEF");
-	return (res);
+    return (ft_ubase(temp, 16, "0123456789ABCDEF"));
 }

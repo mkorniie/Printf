@@ -11,7 +11,6 @@
 /* ************************************************************************** */
 
 #include "header.h"
-// #include <stdio.h>
 
 int ft_inactive(wchar_t src)
 {
@@ -30,11 +29,23 @@ int ft_inactive(wchar_t src)
 	return(i);
 }
 
+int      ft_find_n_by_active(int active)
+{
+    if (active <= 7)
+        return (1);
+    else if (active <= 11 && MB_CUR_MAX >= 2)
+        return (2);
+    else if (active <= 16 && MB_CUR_MAX >= 3)
+        return (3);
+    else if (active > 16 && MB_CUR_MAX >= 4)
+        return (4);
+}
+
 void	ft_addunicode(int active)
 {
-	int* temp;
-	int len;
-	int i;
+	int*	temp;
+	int		len;
+	int		i;
 
 	len = 0;
 	i = 0;
@@ -46,60 +57,41 @@ void	ft_addunicode(int active)
 	UNISTRINGS[CURR] = (int*)malloc(sizeof(int) * (len + 2));
 	UNISTRINGS[CURR][len + 1] = 0;
 	i = 0;
-//	printf("Now unistring is: ");
 	if (temp != NULL)
 		while (temp[i])
 		{
 			UNISTRINGS[CURR][i] = temp[i];
-//			printf("%d", UNISTRINGS[CURR][i]);
 			i++;
 		}
-
-	if (active <= 7)
-	{
-		UNISTRINGS[CURR][i] = 1;
-//		printf("%d\n", UNISTRINGS[CURR][i]);
-	}
-	else if (active <= 11 && MB_CUR_MAX >= 2)
-		UNISTRINGS[CURR][i] = 2;
-	else if (active <= 16 && MB_CUR_MAX >= 3)
-		UNISTRINGS[CURR][i] = 3;
-	else if (active > 16 && MB_CUR_MAX >= 4)
-		UNISTRINGS[CURR][i] = 4;
+    UNISTRINGS[CURR][i] = ft_find_n_by_active(active);
+    free(temp);
 }
 
 char	*ft_unicode(unsigned int src, int flag)
 {
 	int		active;
 	char	*res;
-	int		curr;
 
 	active = (8 * 4) - ft_inactive(src);
+    res = (char*)malloc(sizeof(char) * (ft_find_n_by_active(active) + 1));
+    res[ft_find_n_by_active(active)] = '\0';
+//    ft_mask(active, &res);
 	if (active <= 7)
-	{
-		res = (char*)malloc(sizeof(char) * 2);
-		res[1] = '\0';
 		res[0] = (char)src;
-	}
 	else if (active <= 11 && MB_CUR_MAX >= 2)
 	{
-		res = (char*)malloc(sizeof(char) * 3);
-		res[2] = '\0';
 		res[0] = (6 << 5) + (src >> 6);
 		res[1] = (2 << 6) + ((src << 26) >> 26);
 	}
 	else if (active <= 16 && MB_CUR_MAX >= 3)
 	{
-		res = (char*)malloc(sizeof(char) * 4);
-		res[3] = '\0';
+
 		res[0] = (14 << 4) + (src >> 12);
 		res[1] = (2 << 6) + (((src >> 6) << 26) >> 26);
 		res[2] = (2 << 6) + ((src << 26) >> 26);
 	}
 	else if (active > 16 && MB_CUR_MAX >= 4)
 	{
-		res = (char*)malloc(sizeof(char) * 5);
-		res[4] = '\0';
 		res[0] = (30 << 3) + (src >> 18);
 		res[1] = (2 << 6) + (((src >> 12) << 26) >> 26);
 		res[2] = (2 << 6) + (((src >> 6) << 26) >> 26);

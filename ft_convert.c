@@ -43,10 +43,34 @@ char	*ft_extractor(va_list ap, int z, char *flag)
 	return (ft_cvs[z](ap));
 }
 
+char    *ft_findconv(va_list ap, char **flag)
+{
+    int		z;
+    char	*res;
+	char 	*temp;
+    int		strlen;
+
+    z = -1;
+    strlen = ft_strlen(*flag);
+    while (convs[++z])
+        if (convs[z][0] == (*flag)[strlen - 1])
+        {
+            res = ft_extractor(ap, z, *flag);
+            if (ft_strchr("Cc", (*flag)[strlen - 1]) != NULL)
+                if (ft_strcmp(res, "zero") == 0)
+                {
+					temp = res;
+                    res = ft_strdup("z");
+					free(temp);
+                    (*flag) = ft_strjoinfree(*flag, "!", 1);
+                }
+        }
+    return (res);
+}
+
 char	**ft_get(va_list ap, char **flags, char **arr)
 {
 	int i;
-	int z;
 	int strlen;
 
 	i = -1;
@@ -55,23 +79,13 @@ char	**ft_get(va_list ap, char **flags, char **arr)
 			arr[i] = NULL;
 		else
 		{
-            z = -1;
 			strlen = ft_strlen(flags[i]);
 			if (flags[i][strlen - 1] == '%')
 				arr[i] = ft_strdup("%");
 			else if (flags[i][strlen - 1] == '^')
                 arr[i] = ft_strndup(flags[i] + strlen - 2, 1);
 			else
-				while (convs[++z])
-					if (convs[z][0] == flags[i][strlen - 1])
-					{
-						arr[i] = ft_extractor(ap, z, flags[i]);
-						if ((ft_strchr("Cc", flags[i][strlen - 1]) != NULL) && (ft_strcmp(arr[i], "zero") == 0))
-						{
-							arr[i] = ft_strdup("z");
-							flags[i] = ft_strjoin(flags[i], "!");
-						}
-					}
+                arr[i] = ft_findconv(ap, &(flags[i]));
 		}
 	return (arr);
 }

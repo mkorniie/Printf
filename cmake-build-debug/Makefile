@@ -528,6 +528,33 @@ ft_fieldflags.c.s:
 	$(MAKE) -f CMakeFiles/UNIT1303.dir/build.make CMakeFiles/UNIT1303.dir/ft_fieldflags.c.s
 .PHONY : ft_fieldflags.c.s
 
+ft_fieldflags_additional.o: ft_fieldflags_additional.c.o
+
+.PHONY : ft_fieldflags_additional.o
+
+# target to build an object file
+ft_fieldflags_additional.c.o:
+	$(MAKE) -f CMakeFiles/UNIT1303.dir/build.make CMakeFiles/UNIT1303.dir/ft_fieldflags_additional.c.o
+.PHONY : ft_fieldflags_additional.c.o
+
+ft_fieldflags_additional.i: ft_fieldflags_additional.c.i
+
+.PHONY : ft_fieldflags_additional.i
+
+# target to preprocess a source file
+ft_fieldflags_additional.c.i:
+	$(MAKE) -f CMakeFiles/UNIT1303.dir/build.make CMakeFiles/UNIT1303.dir/ft_fieldflags_additional.c.i
+.PHONY : ft_fieldflags_additional.c.i
+
+ft_fieldflags_additional.s: ft_fieldflags_additional.c.s
+
+.PHONY : ft_fieldflags_additional.s
+
+# target to generate assembly for a file
+ft_fieldflags_additional.c.s:
+	$(MAKE) -f CMakeFiles/UNIT1303.dir/build.make CMakeFiles/UNIT1303.dir/ft_fieldflags_additional.c.s
+.PHONY : ft_fieldflags_additional.c.s
+
 ft_flags.o: ft_flags.c.o
 
 .PHONY : ft_flags.o
@@ -2661,6 +2688,9 @@ help:
 	@echo "... ft_fieldflags.o"
 	@echo "... ft_fieldflags.i"
 	@echo "... ft_fieldflags.s"
+	@echo "... ft_fieldflags_additional.o"
+	@echo "... ft_fieldflags_additional.i"
+	@echo "... ft_fieldflags_additional.s"
 	@echo "... ft_flags.o"
 	@echo "... ft_flags.i"
 	@echo "... ft_flags.s"

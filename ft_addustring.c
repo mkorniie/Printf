@@ -18,6 +18,6 @@ void	ft_addustring(void)
     if (temp != NULL)
         while (temp[++i])
             UNISTRINGS[i] = temp[i];
-    //free temp
+    ft_freeintarr(temp, 0);
     UNISTRINGS[CURR] = NULL;
 }
