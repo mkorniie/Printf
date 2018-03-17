@@ -11,7 +11,6 @@
 /* ************************************************************************** */
 
 #include "header.h"
-#include "stdio.h"
 
 char *ft_zero(char	*res, int wp[3], char x)
 {
@@ -19,14 +18,12 @@ char *ft_zero(char	*res, int wp[3], char x)
 	size_t	len;
 	int		f;
 
-	// printf("ZERO CONV: res is [%s], wp is : [%d] [%d], x is %c\n", res, wp[0], wp[1], x);
 	if (res == NULL || wp[0] == -1)
 		return (res);
 	if (wp[1] != -1)
 		if (ft_strchr("diouxX", x) != NULL)
 			return (res);
 	len = ft_strlen(res);
-	// printf("LEN is %lu\n", len);
 	if ((unsigned long)wp[0] > len)
 		len = wp[0] - wp[2] - len + 1;
 	else
@@ -38,13 +35,7 @@ char *ft_zero(char	*res, int wp[3], char x)
 	if (f == 1)
 		res = ft_strdup(res + 1);
 	while (--len > 0)
-	{
-		// printf("Here!\n");
-		temp = res;
-		temp = ft_strjoin("0", temp);
-		// free(res);
-		res = temp;
-	}
+		res = ft_strjoinfree("0", res, 2);
 	if (f == 1)
 		res =  ft_strjoin("-", res);
 	if (x == 'p')

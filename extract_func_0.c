@@ -30,7 +30,7 @@ char	*ft_scnv(va_list ap)
 
 char	*ft_sccnv(va_list ap)
 {
-	char	*res[2];
+	char	*res;
 	wchar_t	*temp;
 	int		i;
 
@@ -41,13 +41,13 @@ char	*ft_sccnv(va_list ap)
 	ft_addustring();
 	if (ft_strlen(temp) == 0)
 		return (ft_strdup(""));
-	res[0] = ft_unicode(temp[0], 1);
+	res = ft_unicode(temp[0], 1);
 	if (ERROR == 1)
 		return(NULL);
 	i = 0;
 	while (temp[++i] != '\0')
-		res[0] = ft_strjoinfree(res[0], ft_unicode(temp[i], 1), 1);
-	return (res[0]);
+		res = ft_strjoinfree(res, ft_unicode(temp[i], 1), 1);
+	return (res);
 }
 
 
