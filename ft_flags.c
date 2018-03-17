@@ -62,7 +62,7 @@ char *ft_hash(char	*res, int wp[3], char x)
 	{
 		if (ft_strlen(res) == 0 || res[adj] != '0')
 		{
-			res = ft_strjoinfree("0", res, 2);
+			temp = ft_strjoin("0", res);
 		}
 	}
 	else if (x == 'x' || x == 'X')
@@ -71,7 +71,7 @@ char *ft_hash(char	*res, int wp[3], char x)
 			return (res);
 		if (ft_atoi(res) != 0)
 		{
-			res = ft_strjoinfree((x == 'x' ? "0x" : "0X"), res, 2);
+			temp = ft_strjoin((x == 'x' ? "0x" : "0X"), res);
 		}
 	}
 	return(temp);
@@ -79,21 +79,13 @@ char *ft_hash(char	*res, int wp[3], char x)
 
 char *ft_space(char	*res, int wp[3], char x)
 {
-	char *temp;
 	int		adj;
 
 	adj = (wp[2] < 0 ? wp[2] * (-1) : 0);
 	if (res == NULL || ft_strchr("aAdeEfFgGi", x) == NULL)
-	{
-			// printf("SPACE: RES is returned!\n");
 			return (res);
-	}
 	if (res[0] != '-')
-	{
-		temp = res;
-		res = ft_strjoin(" ", res);
-		// free(temp);
-	}
+		res = ft_strjoinfree(" ", res, 2);
 	return(res);
 }
 
@@ -104,16 +96,9 @@ char *ft_plus(char	*res, int wp[3], char x)
 
 	adj = (wp[2] < 0 ? wp[2] * (-1) : 0);
 	if (res == NULL || ft_strchr("aAdeEfFgGi", x) == NULL)
-	{
-			// printf("PLUS: RES is returned!\n");
 			return (res);
-	}
 	if (res[0] != '-')
-	{
-		temp = res;
-		res = ft_strjoin("+", res);
-		// free(temp);
-	}
+		res = ft_strjoinfree("+", res, 2);
 	return(res);
 }
 
