@@ -6,7 +6,7 @@ HASH_ZERO_MINUS_PLUS_FUNCTIONS = ft_flags.c
 WIDTH_PRECISION = ft_fieldflags.c ft_fieldflags_additional.c
 FLAG_VALIDATION = ft_validflag.c
 DETERMINE_THE_TYPE_OF_MODIFIER = ft_modfunc.c
-OTHER_FUNCTIONS = ft_ubase.c ft_ditoap.c ft_litoa.c ft_powl.c ft_ulitoa.c ft_unicode.c ft_strjoinfree.c ft_chartostr.c ft_freearr.c
+OTHER_FUNCTIONS = ft_ubase.c ft_ditoap.c ft_litoa.c ft_powl.c ft_ulitoa.c ft_unicode.c ft_strjoinfree.c ft_chartostr.c ft_freearr.c ft_strndupfree.c ft_strdupfree.c
 
 CONVERT = ft_convert.c $(FLAG_VALIDATION) $(DETERMINE_THE_TYPE_OF_MODIFIER) $(EXTRACT_FROM_VALIST) $(OTHER_FUNCTIONS) $(HASH_ZERO_MINUS_PLUS_FUNCTIONS) $(WIDTH_PRECISION)
 

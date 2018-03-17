@@ -29,17 +29,25 @@ char *ft_zero(char	*res, int wp[3], char x)
 	else
 		return (res);
 	if (x == 'p')
-		res = ft_strdup(res + 2);
+    {
+        temp = res;
+        res = ft_strdup(res + 2);
+        free(temp);
+    }
 	f = (res[0] == '-' ? 1 : 0);
 	wp[2] = (len - 1) * (-1);
 	if (f == 1)
-		res = ft_strdup(res + 1);
+    {
+        temp = res;
+        res = ft_strdup(res + 1);
+        free(temp);
+    }
 	while (--len > 0)
 		res = ft_strjoinfree("0", res, 2);
 	if (f == 1)
-		res =  ft_strjoin("-", res);
+		res =  ft_strjoinfree("-", res, 2);
 	if (x == 'p')
-		res = ft_strjoin("0x", res);
+		res = ft_strjoinfree("0x", res, 2);
 	return(res);
 }
 
@@ -48,16 +56,13 @@ char *ft_hash(char	*res, int wp[3], char x)
 	char	*temp;
 	int		adj;
 
-// printf("ft_hash: we get %s\n", res);
 	adj = (wp[2] < 0 ? wp[2] * (-1) : 0);
 	temp = res;
 	if (x == 'o' || x == 'O')
 	{
-		// printf("At least we went here\n");
 		if (ft_strlen(res) == 0 || res[adj] != '0')
 		{
-			temp = ft_strjoin("0", res);
-			// free(res);
+			res = ft_strjoinfree("0", res, 2);
 		}
 	}
 	else if (x == 'x' || x == 'X')
@@ -66,11 +71,9 @@ char *ft_hash(char	*res, int wp[3], char x)
 			return (res);
 		if (ft_atoi(res) != 0)
 		{
-			temp = ft_strjoin((x == 'x' ? "0x" : "0X"), res);
-			// free(res);
+			res = ft_strjoinfree((x == 'x' ? "0x" : "0X"), res, 2);
 		}
 	}
-	// printf("ft_hash: we return %s\n", temp);
 	return(temp);
 }
 
