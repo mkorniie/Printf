@@ -53,16 +53,14 @@ char *ft_zero(char	*res, int wp[3], char x)
 
 char *ft_hash(char	*res, int wp[3], char x)
 {
-	char	*temp;
 	int		adj;
 
 	adj = (wp[2] < 0 ? wp[2] * (-1) : 0);
-	temp = res;
 	if (x == 'o' || x == 'O')
 	{
 		if (ft_strlen(res) == 0 || res[adj] != '0')
 		{
-			temp = ft_strjoin("0", res);
+			res = ft_strjoinfree("0", res, 2);
 		}
 	}
 	else if (x == 'x' || x == 'X')
@@ -71,10 +69,10 @@ char *ft_hash(char	*res, int wp[3], char x)
 			return (res);
 		if (ft_atoi(res) != 0)
 		{
-			temp = ft_strjoin((x == 'x' ? "0x" : "0X"), res);
+			res = ft_strjoinfree((x == 'x' ? "0x" : "0X"), res, 2);
 		}
 	}
-	return(temp);
+	return(res);
 }
 
 char *ft_space(char	*res, int wp[3], char x)
