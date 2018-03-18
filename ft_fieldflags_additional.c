@@ -93,7 +93,8 @@ int *ft_findflag(char *flag)
 	flgs = "0# +-"; /*now 02 is 04*/
 	works[1] = "oOxXaAeEfFgG";		/* for hash */
 	works[0] = "%diouxXaAeEfFgGsc!Sp^";	/* for zero */
-	flgI = (int *)malloc(sizeof(int) * 5);
+	flgI = (int *)malloc(sizeof(int) * 6);
+	flgI[5] = 0;
 	i[0] = -1;
 	while (++i[0] < 5)
 		flgI[i[0]] = ft_isflag(flag, flgs[i[0]]); /**/

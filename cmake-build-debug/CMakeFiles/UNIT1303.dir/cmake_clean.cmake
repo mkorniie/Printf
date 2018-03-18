@@ -94,6 +94,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/UNIT1303.dir/ft_strjoinfree.c.o"
   "CMakeFiles/UNIT1303.dir/ft_addustring.c.o"
   "CMakeFiles/UNIT1303.dir/ft_fieldflags_additional.c.o"
+  "CMakeFiles/UNIT1303.dir/ft_memdelzero.c.o"
   "UNIT1303.pdb"
   "UNIT1303"
 )

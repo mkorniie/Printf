@@ -92,6 +92,7 @@ void	ft_mask(int active, char **res, unsigned int src)
 	else
 	{
 		ERROR = 1;
+		free(*res);
 		(*res) = NULL;
 	}
 }

@@ -25,7 +25,7 @@ char	*ft_presicion(char *res, int pres, char x)
 	if (ft_strchr("dioOuxXp", x) != NULL)
 	{
 		if (x == 'p')
-			res = ft_strdup(res + 2);
+			res = ft_strdupfreearg(res + 2, res);
 		if (x == 'p' && pres == 2)
 			return (ft_strdupfreearg("0x", res));
 		if (pres == 0 && res[0] == '0')
@@ -38,7 +38,10 @@ char	*ft_presicion(char *res, int pres, char x)
 			if (sign == 1)
 				res = ft_strjoinfree(ft_chartostr(res[0]), temp, 2);
 			else
-				res = temp;
+            {
+                free(res);
+                res = temp;
+            }
 		}
 	}
 	else if (x == 's' || x == 'g' || x == 'G')
@@ -111,9 +114,8 @@ char	**ft_fieldflags(char **res, char **flags)
                 if (flg[x] != -1)
                     res[i] = ft_flags[x](res[i], wp, flags[i][len - 1]);
             res[i] = ft_Fwidth(res[i], wp[0], flg);
-            free(flg);
+			free(flg);
             free(wp);
-            wp = NULL;
         }
     }
 	return (res);

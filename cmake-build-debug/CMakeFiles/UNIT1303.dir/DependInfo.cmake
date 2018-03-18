@@ -23,6 +23,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_flags.c" "/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles/UNIT1303.dir/ft_flags.c.o"
   "/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_freearr.c" "/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles/UNIT1303.dir/ft_freearr.c.o"
   "/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_litoa.c" "/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles/UNIT1303.dir/ft_litoa.c.o"
+  "/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_memdelzero.c" "/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles/UNIT1303.dir/ft_memdelzero.c.o"
   "/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_modfunc.c" "/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles/UNIT1303.dir/ft_modfunc.c.o"
   "/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_parce.c" "/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles/UNIT1303.dir/ft_parce.c.o"
   "/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_powl.c" "/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles/UNIT1303.dir/ft_powl.c.o"

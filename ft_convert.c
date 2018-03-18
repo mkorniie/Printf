@@ -47,7 +47,6 @@ char    *ft_findconv(va_list ap, char **flag)
 {
     int		z;
     char	*res;
-	char 	*temp;
     int		strlen;
 
     z = -1;
@@ -59,10 +58,9 @@ char    *ft_findconv(va_list ap, char **flag)
             if (ft_strchr("Cc", (*flag)[strlen - 1]) != NULL)
                 if (ft_strcmp(res, "zero") == 0)
                 {
-					temp = res;
-                    res = ft_strdup("z");
-					free(temp);
+                    res = ft_strdupfreearg("z", res);
                     (*flag) = ft_strjoinfree(*flag, "!", 1);
+                    break;
                 }
         }
     return (res);

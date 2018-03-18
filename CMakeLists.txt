@@ -96,4 +96,4 @@ add_executable(UNIT1303
         ft_strndupfree.c
         ft_strdupfree.c
         header.h
-        main_2.c ft_chartostr.c ft_strjoinfree.c ft_addustring.c ft_fieldflags_additional.c)
+        main_2.c ft_chartostr.c ft_strjoinfree.c ft_addustring.c ft_fieldflags_additional.c ft_memdelzero.c)

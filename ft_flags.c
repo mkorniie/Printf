@@ -14,7 +14,6 @@
 
 char	*ft_zero(char *res, int wp[3], char x)
 {
-	char	*temp;
 	size_t	len;
 	int		f;
 

@@ -636,6 +636,33 @@ ft_litoa.c.s:
 	$(MAKE) -f CMakeFiles/UNIT1303.dir/build.make CMakeFiles/UNIT1303.dir/ft_litoa.c.s
 .PHONY : ft_litoa.c.s
 
+ft_memdelzero.o: ft_memdelzero.c.o
+
+.PHONY : ft_memdelzero.o
+
+# target to build an object file
+ft_memdelzero.c.o:
+	$(MAKE) -f CMakeFiles/UNIT1303.dir/build.make CMakeFiles/UNIT1303.dir/ft_memdelzero.c.o
+.PHONY : ft_memdelzero.c.o
+
+ft_memdelzero.i: ft_memdelzero.c.i
+
+.PHONY : ft_memdelzero.i
+
+# target to preprocess a source file
+ft_memdelzero.c.i:
+	$(MAKE) -f CMakeFiles/UNIT1303.dir/build.make CMakeFiles/UNIT1303.dir/ft_memdelzero.c.i
+.PHONY : ft_memdelzero.c.i
+
+ft_memdelzero.s: ft_memdelzero.c.s
+
+.PHONY : ft_memdelzero.s
+
+# target to generate assembly for a file
+ft_memdelzero.c.s:
+	$(MAKE) -f CMakeFiles/UNIT1303.dir/build.make CMakeFiles/UNIT1303.dir/ft_memdelzero.c.s
+.PHONY : ft_memdelzero.c.s
+
 ft_modfunc.o: ft_modfunc.c.o
 
 .PHONY : ft_modfunc.o
@@ -2754,6 +2781,9 @@ help:
 	@echo "... ft_litoa.o"
 	@echo "... ft_litoa.i"
 	@echo "... ft_litoa.s"
+	@echo "... ft_memdelzero.o"
+	@echo "... ft_memdelzero.i"
+	@echo "... ft_memdelzero.s"
 	@echo "... ft_modfunc.o"
 	@echo "... ft_modfunc.i"
 	@echo "... ft_modfunc.s"

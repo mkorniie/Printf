@@ -13,7 +13,8 @@ void	ft_addustring(void)
         while (UNISTRINGS[i])
             i++;
     len += i;
-    UNISTRINGS = (int**)malloc(sizeof(int*) * (len + 1));
+    UNISTRINGS = (int**)malloc(sizeof(int*) * (len + 2));
+    UNISTRINGS[len + 1] = 0;
     i = -1;
     if (temp != NULL)
         while (temp[++i])
