@@ -43,10 +43,7 @@ char	*ft_presicion(char *res, int pres, char x)
 	}
 	else if (x == 's' || x == 'g' || x == 'G')
 		if (pres < len)
-		{
-			temp = res;
-			res = ft_strndup(res, pres);
-		}
+			res = ft_strndupfree(res, pres);
 	if (x == 'S')
 	{
 		if (pres < len)
@@ -61,7 +58,7 @@ char	*ft_presicion(char *res, int pres, char x)
 				i++;
 			}
 			sum -= UNISTRINGS[CURR][i - 1];
-			res = ft_strndup(res, sum);
+			res = ft_strndupfree(res, sum);
 		}
 		CURR++;
 	}
@@ -72,7 +69,6 @@ char	*ft_presicion(char *res, int pres, char x)
 
 char	*ft_Fwidth(char *res, int width, int *flg)
 {
-	char *temp;
 	size_t len;
 
 	if (res == NULL || width == -1)
@@ -85,11 +81,7 @@ char	*ft_Fwidth(char *res, int width, int *flg)
 	else
 		return (res);
 	while (--len > 0)
-	{
-		temp = res;
-		temp = ft_strjoin(" ", temp);
-		res = temp;
-	}
+        res = ft_strjoinfree(" ", res, 2);
 	return(res);
 }
 
@@ -102,11 +94,13 @@ char	**ft_fieldflags(char **res, char **flags)
 	int len;
 
 	i = -1;
+    wp = NULL;
 	while (++i < N_OF_F)
     {
         if (flags[i] == NULL)
             res[i] = NULL;
-        else {
+        else
+        {
             len = ft_strlen(flags[i]);
             flg = ft_findflag(flags[i]);
             wp = ft_widthPres(flags[i], flg[0]);
@@ -117,10 +111,9 @@ char	**ft_fieldflags(char **res, char **flags)
                 if (flg[x] != -1)
                     res[i] = ft_flags[x](res[i], wp, flags[i][len - 1]);
             res[i] = ft_Fwidth(res[i], wp[0], flg);
-//            free(flg);
-//            flg = NULL;
-//            free(wp);
-//            wp = NULL;
+            free(flg);
+            free(wp);
+            wp = NULL;
         }
     }
 	return (res);
