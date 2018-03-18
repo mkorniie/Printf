@@ -31,7 +31,7 @@ int		ft_invalid_flag_len(const char *start)
 	i = 1;
 	while ((start[i] != '\0') && (ft_isvalid(start[i]) != -1))
 		++i;
-	return(i);
+	return (i);
 }
 
 void	ft_putzero(char *print)
@@ -41,7 +41,7 @@ void	ft_putzero(char *print)
 
 	i = -1;
 	zero = 0;
-	while(print[++i] != '\0')
+	while (print[++i] != '\0')
 	{
 		if (print[i] == 'z')
 			write(1, &zero, 1);
@@ -50,7 +50,7 @@ void	ft_putzero(char *print)
 	}
 }
 
-int	ft_out(const char * restrict format, char **flags, char **print)
+int		ft_out(const char *restrict format, char **flags, char **print)
 {
 	int i;
 	int count;
@@ -69,10 +69,8 @@ int	ft_out(const char * restrict format, char **flags, char **print)
 					return (-1);
 				else
 				{
-                    if (ft_strstr(flags[count], "^") != NULL)
-                    {
-                        i--;
-                    }
+					if (ft_strstr(flags[count], "^") != NULL)
+						i--;
 					if ((ft_strstr(flags[count], "c!") != NULL) || (ft_strstr(flags[count], "C!") != NULL))
 					{
 						ft_putzero(print[count]);
@@ -90,15 +88,17 @@ int	ft_out(const char * restrict format, char **flags, char **print)
 				i += ft_invalid_flag_len(format + i) - 1;
 		}
 		else
+		{
 			if (format[i] != '%')
 			{
 				ft_putchar(format[i]);
 				printlen++;
 			}
+		}
 	return (printlen);
 }
 
-int		ft_printf(const char * restrict format, ...)
+int		ft_printf(const char *restrict format, ...)
 {
 	va_list	ap;
 	char	**flags;
@@ -121,7 +121,7 @@ int		ft_printf(const char * restrict format, ...)
 		return (-1);
 	printlen = ft_out(format, flags, print);
 	va_end(ap);
-    ft_freestrarr(flags);
-    ft_freestrarr(print);
+	ft_freestrarr(flags);
+	ft_freestrarr(print);
 	return (printlen);
 }

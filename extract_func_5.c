@@ -52,7 +52,7 @@ char	*ft_hhxccnv(va_list ap)
 	return (res);
 }
 
-char		*ft_hhdcnv(va_list	ap)
+char	*ft_hhdcnv(va_list ap)
 {
 	char	*res;
 	char	temp;

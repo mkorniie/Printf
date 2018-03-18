@@ -33,7 +33,7 @@ char	*ft_uuintmax_tcnv(va_list ap)
 	uintmax_t	temp;
 
 	temp = va_arg(ap, intmax_t);
-	return(ft_ulitoa(temp));
+	return (ft_ulitoa(temp));
 }
 
 char	*ft_xuintmax_tcnv(va_list ap)
@@ -41,7 +41,7 @@ char	*ft_xuintmax_tcnv(va_list ap)
 	uintmax_t	temp;
 
 	temp = va_arg(ap, intmax_t);
-	return(ft_ubase(temp, 16, "0123456789abcdef"));
+	return (ft_ubase(temp, 16, "0123456789abcdef"));
 }
 
 char	*ft_xcuintmax_tcnv(va_list ap)
@@ -49,5 +49,5 @@ char	*ft_xcuintmax_tcnv(va_list ap)
 	uintmax_t	temp;
 
 	temp = va_arg(ap, intmax_t);
-	return(ft_ubase(temp, 16, "0123456789ABCDEF"));
+	return (ft_ubase(temp, 16, "0123456789ABCDEF"));
 }

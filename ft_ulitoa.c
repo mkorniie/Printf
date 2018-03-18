@@ -22,7 +22,7 @@ char		*ft_ulitoa(uintmax_t n)
 	i = 1;
 	while ((n / ft_powl(10, i)) > (n > 1000 ? 100 : 0))
 		i++;
-	i = (n > 1000 ? i + 2 : i); 
+	i = (n > 1000 ? i + 2 : i);
 	str = (char *)malloc(sizeof(char) * (i + 1));
 	if (str == NULL)
 		return (NULL);

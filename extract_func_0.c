@@ -18,7 +18,7 @@ char	*ft_scnv(va_list ap)
 
 	res = va_arg(ap, char*);
 	if (res == NULL)
-		return(ft_strdup("(null)"));
+		return (ft_strdup("(null)"));
 	if (ft_strlen(res) == 0)
 	{
 		res = (char*)malloc(sizeof(char) * 1);
@@ -43,13 +43,12 @@ char	*ft_sccnv(va_list ap)
 		return (ft_strdup(""));
 	res = ft_unicode(temp[0], 1);
 	if (ERROR == 1)
-		return(NULL);
+		return (NULL);
 	i = 0;
 	while (temp[++i] != '\0')
 		res = ft_strjoinfree(res, ft_unicode(temp[i], 1), 1);
 	return (res);
 }
-
 
 char	*ft_pcnv(va_list ap)
 {

@@ -17,7 +17,7 @@ char	*ft_dssize_tcnv(va_list ap)
 	ssize_t	temp;
 
 	temp = va_arg(ap, size_t);
-	return(ft_litoa(temp));
+	return (ft_litoa(temp));
 }
 
 char	*ft_osize_tcnv(va_list ap)
@@ -25,7 +25,7 @@ char	*ft_osize_tcnv(va_list ap)
 	size_t	temp;
 
 	temp = va_arg(ap, size_t);
-	return(ft_ubase(temp, 8, "01234567"));
+	return (ft_ubase(temp, 8, "01234567"));
 }
 
 char	*ft_usize_tcnv(va_list ap)
@@ -33,7 +33,7 @@ char	*ft_usize_tcnv(va_list ap)
 	size_t	temp;
 
 	temp = va_arg(ap, size_t);
-	return(ft_ulitoa(temp));
+	return (ft_ulitoa(temp));
 }
 
 char	*ft_xsize_tcnv(va_list ap)
@@ -41,7 +41,7 @@ char	*ft_xsize_tcnv(va_list ap)
 	size_t	temp;
 
 	temp = va_arg(ap, size_t);
-	return(ft_ubase(temp, 16, "0123456789abcdef"));
+	return (ft_ubase(temp, 16, "0123456789abcdef"));
 }
 
 char	*ft_xcsize_tcnv(va_list ap)
@@ -49,5 +49,5 @@ char	*ft_xcsize_tcnv(va_list ap)
 	size_t	temp;
 
 	temp = va_arg(ap, size_t);
-	return(ft_ubase(temp, 16, "0123456789ABCDEF"));
+	return (ft_ubase(temp, 16, "0123456789ABCDEF"));
 }

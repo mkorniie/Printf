@@ -11,14 +11,13 @@
 /* ************************************************************************** */
 
 #include "header.h"
-// #include <stdio.h>
 
 char	*ft_lxcnv(va_list ap)
 {
 	unsigned long	temp;
 
 	temp = va_arg(ap, long);
-    return (ft_ubase(temp, 16, "0123456789abcdef"));
+	return (ft_ubase(temp, 16, "0123456789abcdef"));
 }
 
 char	*ft_lxccnv(va_list ap)
@@ -26,5 +25,5 @@ char	*ft_lxccnv(va_list ap)
 	unsigned long	temp;
 
 	temp = va_arg(ap, long);
-    return (ft_ubase(temp, 16, "0123456789ABCDEF"));
+	return (ft_ubase(temp, 16, "0123456789ABCDEF"));
 }

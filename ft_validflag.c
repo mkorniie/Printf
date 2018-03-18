@@ -1,6 +1,18 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_validflag.c                                     :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mkorniie <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2018/03/18 14:35:31 by mkorniie          #+#    #+#             */
+/*   Updated: 2018/03/18 14:35:39 by mkorniie         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "header.h"
 
-int	ft_isvalid(char x)
+int		ft_isvalid(char x)
 {
 	char	*all;
 	int		i;
@@ -9,11 +21,11 @@ int	ft_isvalid(char x)
 	i = -1;
 	while (all[++i] != '\0')
 		if (x == all[i])
-			return(i);
-	return(-1);
+			return (i);
+	return (-1);
 }
 
-int	ft_isspecifier(char x)
+int		ft_isspecifier(char x)
 {
 	char	*all;
 	int		i;
@@ -22,15 +34,15 @@ int	ft_isspecifier(char x)
 	i = -1;
 	while (all[++i] != '\0')
 		if (x == all[i])
-			return(i);
-	return(-1);
+			return (i);
+	return (-1);
 }
 
 char	*ft_invalidconv(int i, char *temp)
 {
-    char    *res;
-	int     *wp;
-	int     zeroflag;
+	char	*res;
+	int		*wp;
+	int		zeroflag;
 
 	if (i > 1)
 	{
@@ -41,7 +53,7 @@ char	*ft_invalidconv(int i, char *temp)
 		{
 			res = ft_strjoinfree(res, "^", 1);
 			free(wp);
-			return(res);
+			return (res);
 		}
 		free(wp);
 	}
@@ -58,8 +70,8 @@ char	*ft_validflag(char *temp)
 		return (NULL);
 	while (temp[++i] != '\0')
 		if ((val_index = ft_isvalid(temp[i])) == -1)
-			return(ft_invalidconv(i, temp));
+			return (ft_invalidconv(i, temp));
 		else if (val_index < 24)
-			return(ft_strndup(temp, i + 1));
+			return (ft_strndup(temp, i + 1));
 	return (NULL);
 }
