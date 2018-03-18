@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Maria/Desktop/GoHome08]/UNIT1303
+CMAKE_SOURCE_DIR = /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/UNIT1303.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/UNIT1303.dir/flags.make
 
 CMakeFiles/UNIT1303.dir/libft/ft_abs.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_abs.c.o: ../libft/ft_abs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_abs.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_abs.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_abs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_abs.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_abs.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_abs.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_abs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_abs.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_abs.c > CMakeFiles/UNIT1303.dir/libft/ft_abs.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_abs.c > CMakeFiles/UNIT1303.dir/libft/ft_abs.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_abs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_abs.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_abs.c -o CMakeFiles/UNIT1303.dir/libft/ft_abs.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_abs.c -o CMakeFiles/UNIT1303.dir/libft/ft_abs.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_abs.c.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_abs.c.o.provides.build: CMakeFiles/UNIT1303.dir
 
 CMakeFiles/UNIT1303.dir/libft/ft_atoi.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_atoi.c.o: ../libft/ft_atoi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_atoi.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_atoi.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_atoi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_atoi.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_atoi.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_atoi.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_atoi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_atoi.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_atoi.c > CMakeFiles/UNIT1303.dir/libft/ft_atoi.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_atoi.c > CMakeFiles/UNIT1303.dir/libft/ft_atoi.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_atoi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_atoi.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_atoi.c -o CMakeFiles/UNIT1303.dir/libft/ft_atoi.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_atoi.c -o CMakeFiles/UNIT1303.dir/libft/ft_atoi.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_atoi.c.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_atoi.c.o.provides.build: CMakeFiles/UNIT1303.di
 
 CMakeFiles/UNIT1303.dir/libft/ft_bzero.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_bzero.c.o: ../libft/ft_bzero.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_bzero.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_bzero.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_bzero.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_bzero.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_bzero.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_bzero.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_bzero.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_bzero.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_bzero.c > CMakeFiles/UNIT1303.dir/libft/ft_bzero.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_bzero.c > CMakeFiles/UNIT1303.dir/libft/ft_bzero.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_bzero.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_bzero.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_bzero.c -o CMakeFiles/UNIT1303.dir/libft/ft_bzero.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_bzero.c -o CMakeFiles/UNIT1303.dir/libft/ft_bzero.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_bzero.c.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_bzero.c.o.provides.build: CMakeFiles/UNIT1303.d
 
 CMakeFiles/UNIT1303.dir/libft/ft_isalnum.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_isalnum.c.o: ../libft/ft_isalnum.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_isalnum.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_isalnum.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_isalnum.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_isalnum.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_isalnum.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_isalnum.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_isalnum.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_isalnum.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_isalnum.c > CMakeFiles/UNIT1303.dir/libft/ft_isalnum.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_isalnum.c > CMakeFiles/UNIT1303.dir/libft/ft_isalnum.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_isalnum.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_isalnum.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_isalnum.c -o CMakeFiles/UNIT1303.dir/libft/ft_isalnum.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_isalnum.c -o CMakeFiles/UNIT1303.dir/libft/ft_isalnum.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_isalnum.c.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_isalnum.c.o.provides.build: CMakeFiles/UNIT1303
 
 CMakeFiles/UNIT1303.dir/libft/ft_isalpha.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_isalpha.c.o: ../libft/ft_isalpha.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_isalpha.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_isalpha.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_isalpha.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_isalpha.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_isalpha.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_isalpha.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_isalpha.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_isalpha.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_isalpha.c > CMakeFiles/UNIT1303.dir/libft/ft_isalpha.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_isalpha.c > CMakeFiles/UNIT1303.dir/libft/ft_isalpha.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_isalpha.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_isalpha.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_isalpha.c -o CMakeFiles/UNIT1303.dir/libft/ft_isalpha.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_isalpha.c -o CMakeFiles/UNIT1303.dir/libft/ft_isalpha.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_isalpha.c.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_isalpha.c.o.provides.build: CMakeFiles/UNIT1303
 
 CMakeFiles/UNIT1303.dir/libft/ft_isascii.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_isascii.c.o: ../libft/ft_isascii.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_isascii.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_isascii.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_isascii.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_isascii.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_isascii.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_isascii.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_isascii.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_isascii.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_isascii.c > CMakeFiles/UNIT1303.dir/libft/ft_isascii.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_isascii.c > CMakeFiles/UNIT1303.dir/libft/ft_isascii.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_isascii.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_isascii.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_isascii.c -o CMakeFiles/UNIT1303.dir/libft/ft_isascii.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_isascii.c -o CMakeFiles/UNIT1303.dir/libft/ft_isascii.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_isascii.c.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_isascii.c.o.provides.build: CMakeFiles/UNIT1303
 
 CMakeFiles/UNIT1303.dir/libft/ft_isdigit.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_isdigit.c.o: ../libft/ft_isdigit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_isdigit.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_isdigit.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_isdigit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_isdigit.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_isdigit.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_isdigit.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_isdigit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_isdigit.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_isdigit.c > CMakeFiles/UNIT1303.dir/libft/ft_isdigit.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_isdigit.c > CMakeFiles/UNIT1303.dir/libft/ft_isdigit.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_isdigit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_isdigit.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_isdigit.c -o CMakeFiles/UNIT1303.dir/libft/ft_isdigit.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_isdigit.c -o CMakeFiles/UNIT1303.dir/libft/ft_isdigit.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_isdigit.c.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_isdigit.c.o.provides.build: CMakeFiles/UNIT1303
 
 CMakeFiles/UNIT1303.dir/libft/ft_isprint.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_isprint.c.o: ../libft/ft_isprint.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_isprint.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_isprint.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_isprint.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_isprint.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_isprint.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_isprint.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_isprint.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_isprint.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_isprint.c > CMakeFiles/UNIT1303.dir/libft/ft_isprint.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_isprint.c > CMakeFiles/UNIT1303.dir/libft/ft_isprint.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_isprint.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_isprint.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_isprint.c -o CMakeFiles/UNIT1303.dir/libft/ft_isprint.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_isprint.c -o CMakeFiles/UNIT1303.dir/libft/ft_isprint.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_isprint.c.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_isprint.c.o.provides.build: CMakeFiles/UNIT1303
 
 CMakeFiles/UNIT1303.dir/libft/ft_itoa.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_itoa.c.o: ../libft/ft_itoa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_itoa.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_itoa.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_itoa.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_itoa.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_itoa.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_itoa.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_itoa.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_itoa.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_itoa.c > CMakeFiles/UNIT1303.dir/libft/ft_itoa.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_itoa.c > CMakeFiles/UNIT1303.dir/libft/ft_itoa.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_itoa.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_itoa.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_itoa.c -o CMakeFiles/UNIT1303.dir/libft/ft_itoa.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_itoa.c -o CMakeFiles/UNIT1303.dir/libft/ft_itoa.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_itoa.c.o.requires:
 
@@ -275,16 +275,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_itoa.c.o.provides.build: CMakeFiles/UNIT1303.di
 
 CMakeFiles/UNIT1303.dir/libft/ft_lstadd.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_lstadd.c.o: ../libft/ft_lstadd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_lstadd.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_lstadd.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_lstadd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_lstadd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_lstadd.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_lstadd.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_lstadd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_lstadd.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_lstadd.c > CMakeFiles/UNIT1303.dir/libft/ft_lstadd.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_lstadd.c > CMakeFiles/UNIT1303.dir/libft/ft_lstadd.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_lstadd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_lstadd.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_lstadd.c -o CMakeFiles/UNIT1303.dir/libft/ft_lstadd.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_lstadd.c -o CMakeFiles/UNIT1303.dir/libft/ft_lstadd.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_lstadd.c.o.requires:
 
@@ -299,16 +299,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_lstadd.c.o.provides.build: CMakeFiles/UNIT1303.
 
 CMakeFiles/UNIT1303.dir/libft/ft_lstdel.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_lstdel.c.o: ../libft/ft_lstdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_lstdel.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_lstdel.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_lstdel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_lstdel.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_lstdel.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_lstdel.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_lstdel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_lstdel.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_lstdel.c > CMakeFiles/UNIT1303.dir/libft/ft_lstdel.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_lstdel.c > CMakeFiles/UNIT1303.dir/libft/ft_lstdel.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_lstdel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_lstdel.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_lstdel.c -o CMakeFiles/UNIT1303.dir/libft/ft_lstdel.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_lstdel.c -o CMakeFiles/UNIT1303.dir/libft/ft_lstdel.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_lstdel.c.o.requires:
 
@@ -323,16 +323,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_lstdel.c.o.provides.build: CMakeFiles/UNIT1303.
 
 CMakeFiles/UNIT1303.dir/libft/ft_lstdelone.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_lstdelone.c.o: ../libft/ft_lstdelone.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_lstdelone.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_lstdelone.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_lstdelone.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_lstdelone.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_lstdelone.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_lstdelone.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_lstdelone.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_lstdelone.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_lstdelone.c > CMakeFiles/UNIT1303.dir/libft/ft_lstdelone.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_lstdelone.c > CMakeFiles/UNIT1303.dir/libft/ft_lstdelone.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_lstdelone.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_lstdelone.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_lstdelone.c -o CMakeFiles/UNIT1303.dir/libft/ft_lstdelone.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_lstdelone.c -o CMakeFiles/UNIT1303.dir/libft/ft_lstdelone.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_lstdelone.c.o.requires:
 
@@ -347,16 +347,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_lstdelone.c.o.provides.build: CMakeFiles/UNIT13
 
 CMakeFiles/UNIT1303.dir/libft/ft_lstiter.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_lstiter.c.o: ../libft/ft_lstiter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_lstiter.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_lstiter.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_lstiter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_lstiter.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_lstiter.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_lstiter.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_lstiter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_lstiter.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_lstiter.c > CMakeFiles/UNIT1303.dir/libft/ft_lstiter.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_lstiter.c > CMakeFiles/UNIT1303.dir/libft/ft_lstiter.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_lstiter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_lstiter.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_lstiter.c -o CMakeFiles/UNIT1303.dir/libft/ft_lstiter.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_lstiter.c -o CMakeFiles/UNIT1303.dir/libft/ft_lstiter.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_lstiter.c.o.requires:
 
@@ -371,16 +371,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_lstiter.c.o.provides.build: CMakeFiles/UNIT1303
 
 CMakeFiles/UNIT1303.dir/libft/ft_lstmap.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_lstmap.c.o: ../libft/ft_lstmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_lstmap.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_lstmap.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_lstmap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_lstmap.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_lstmap.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_lstmap.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_lstmap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_lstmap.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_lstmap.c > CMakeFiles/UNIT1303.dir/libft/ft_lstmap.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_lstmap.c > CMakeFiles/UNIT1303.dir/libft/ft_lstmap.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_lstmap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_lstmap.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_lstmap.c -o CMakeFiles/UNIT1303.dir/libft/ft_lstmap.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_lstmap.c -o CMakeFiles/UNIT1303.dir/libft/ft_lstmap.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_lstmap.c.o.requires:
 
@@ -395,16 +395,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_lstmap.c.o.provides.build: CMakeFiles/UNIT1303.
 
 CMakeFiles/UNIT1303.dir/libft/ft_lstnew.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_lstnew.c.o: ../libft/ft_lstnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_lstnew.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_lstnew.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_lstnew.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_lstnew.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_lstnew.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_lstnew.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_lstnew.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_lstnew.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_lstnew.c > CMakeFiles/UNIT1303.dir/libft/ft_lstnew.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_lstnew.c > CMakeFiles/UNIT1303.dir/libft/ft_lstnew.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_lstnew.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_lstnew.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_lstnew.c -o CMakeFiles/UNIT1303.dir/libft/ft_lstnew.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_lstnew.c -o CMakeFiles/UNIT1303.dir/libft/ft_lstnew.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_lstnew.c.o.requires:
 
@@ -419,16 +419,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_lstnew.c.o.provides.build: CMakeFiles/UNIT1303.
 
 CMakeFiles/UNIT1303.dir/libft/ft_memalloc.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_memalloc.c.o: ../libft/ft_memalloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_memalloc.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_memalloc.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_memalloc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_memalloc.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_memalloc.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_memalloc.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_memalloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_memalloc.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_memalloc.c > CMakeFiles/UNIT1303.dir/libft/ft_memalloc.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_memalloc.c > CMakeFiles/UNIT1303.dir/libft/ft_memalloc.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_memalloc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_memalloc.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_memalloc.c -o CMakeFiles/UNIT1303.dir/libft/ft_memalloc.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_memalloc.c -o CMakeFiles/UNIT1303.dir/libft/ft_memalloc.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_memalloc.c.o.requires:
 
@@ -443,16 +443,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_memalloc.c.o.provides.build: CMakeFiles/UNIT130
 
 CMakeFiles/UNIT1303.dir/libft/ft_memccpy.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_memccpy.c.o: ../libft/ft_memccpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_memccpy.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_memccpy.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_memccpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_memccpy.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_memccpy.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_memccpy.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_memccpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_memccpy.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_memccpy.c > CMakeFiles/UNIT1303.dir/libft/ft_memccpy.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_memccpy.c > CMakeFiles/UNIT1303.dir/libft/ft_memccpy.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_memccpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_memccpy.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_memccpy.c -o CMakeFiles/UNIT1303.dir/libft/ft_memccpy.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_memccpy.c -o CMakeFiles/UNIT1303.dir/libft/ft_memccpy.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_memccpy.c.o.requires:
 
@@ -467,16 +467,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_memccpy.c.o.provides.build: CMakeFiles/UNIT1303
 
 CMakeFiles/UNIT1303.dir/libft/ft_memchr.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_memchr.c.o: ../libft/ft_memchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_memchr.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_memchr.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_memchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_memchr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_memchr.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_memchr.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_memchr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_memchr.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_memchr.c > CMakeFiles/UNIT1303.dir/libft/ft_memchr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_memchr.c > CMakeFiles/UNIT1303.dir/libft/ft_memchr.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_memchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_memchr.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_memchr.c -o CMakeFiles/UNIT1303.dir/libft/ft_memchr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_memchr.c -o CMakeFiles/UNIT1303.dir/libft/ft_memchr.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_memchr.c.o.requires:
 
@@ -491,16 +491,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_memchr.c.o.provides.build: CMakeFiles/UNIT1303.
 
 CMakeFiles/UNIT1303.dir/libft/ft_memcmp.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_memcmp.c.o: ../libft/ft_memcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_memcmp.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_memcmp.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_memcmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_memcmp.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_memcmp.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_memcmp.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_memcmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_memcmp.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_memcmp.c > CMakeFiles/UNIT1303.dir/libft/ft_memcmp.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_memcmp.c > CMakeFiles/UNIT1303.dir/libft/ft_memcmp.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_memcmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_memcmp.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_memcmp.c -o CMakeFiles/UNIT1303.dir/libft/ft_memcmp.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_memcmp.c -o CMakeFiles/UNIT1303.dir/libft/ft_memcmp.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_memcmp.c.o.requires:
 
@@ -515,16 +515,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_memcmp.c.o.provides.build: CMakeFiles/UNIT1303.
 
 CMakeFiles/UNIT1303.dir/libft/ft_memcpy.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_memcpy.c.o: ../libft/ft_memcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_memcpy.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_memcpy.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_memcpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_memcpy.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_memcpy.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_memcpy.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_memcpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_memcpy.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_memcpy.c > CMakeFiles/UNIT1303.dir/libft/ft_memcpy.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_memcpy.c > CMakeFiles/UNIT1303.dir/libft/ft_memcpy.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_memcpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_memcpy.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_memcpy.c -o CMakeFiles/UNIT1303.dir/libft/ft_memcpy.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_memcpy.c -o CMakeFiles/UNIT1303.dir/libft/ft_memcpy.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_memcpy.c.o.requires:
 
@@ -539,16 +539,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_memcpy.c.o.provides.build: CMakeFiles/UNIT1303.
 
 CMakeFiles/UNIT1303.dir/libft/ft_memdel.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_memdel.c.o: ../libft/ft_memdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_memdel.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_memdel.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_memdel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_memdel.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_memdel.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_memdel.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_memdel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_memdel.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_memdel.c > CMakeFiles/UNIT1303.dir/libft/ft_memdel.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_memdel.c > CMakeFiles/UNIT1303.dir/libft/ft_memdel.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_memdel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_memdel.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_memdel.c -o CMakeFiles/UNIT1303.dir/libft/ft_memdel.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_memdel.c -o CMakeFiles/UNIT1303.dir/libft/ft_memdel.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_memdel.c.o.requires:
 
@@ -563,16 +563,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_memdel.c.o.provides.build: CMakeFiles/UNIT1303.
 
 CMakeFiles/UNIT1303.dir/libft/ft_memmove.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_memmove.c.o: ../libft/ft_memmove.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_memmove.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_memmove.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_memmove.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_memmove.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_memmove.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_memmove.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_memmove.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_memmove.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_memmove.c > CMakeFiles/UNIT1303.dir/libft/ft_memmove.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_memmove.c > CMakeFiles/UNIT1303.dir/libft/ft_memmove.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_memmove.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_memmove.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_memmove.c -o CMakeFiles/UNIT1303.dir/libft/ft_memmove.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_memmove.c -o CMakeFiles/UNIT1303.dir/libft/ft_memmove.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_memmove.c.o.requires:
 
@@ -587,16 +587,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_memmove.c.o.provides.build: CMakeFiles/UNIT1303
 
 CMakeFiles/UNIT1303.dir/libft/ft_memset.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_memset.c.o: ../libft/ft_memset.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_memset.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_memset.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_memset.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_memset.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_memset.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_memset.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_memset.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_memset.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_memset.c > CMakeFiles/UNIT1303.dir/libft/ft_memset.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_memset.c > CMakeFiles/UNIT1303.dir/libft/ft_memset.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_memset.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_memset.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_memset.c -o CMakeFiles/UNIT1303.dir/libft/ft_memset.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_memset.c -o CMakeFiles/UNIT1303.dir/libft/ft_memset.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_memset.c.o.requires:
 
@@ -611,16 +611,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_memset.c.o.provides.build: CMakeFiles/UNIT1303.
 
 CMakeFiles/UNIT1303.dir/libft/ft_numsize.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_numsize.c.o: ../libft/ft_numsize.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_numsize.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_numsize.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_numsize.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_numsize.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_numsize.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_numsize.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_numsize.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_numsize.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_numsize.c > CMakeFiles/UNIT1303.dir/libft/ft_numsize.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_numsize.c > CMakeFiles/UNIT1303.dir/libft/ft_numsize.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_numsize.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_numsize.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_numsize.c -o CMakeFiles/UNIT1303.dir/libft/ft_numsize.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_numsize.c -o CMakeFiles/UNIT1303.dir/libft/ft_numsize.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_numsize.c.o.requires:
 
@@ -635,16 +635,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_numsize.c.o.provides.build: CMakeFiles/UNIT1303
 
 CMakeFiles/UNIT1303.dir/libft/ft_pow.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_pow.c.o: ../libft/ft_pow.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_pow.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_pow.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_pow.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_pow.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_pow.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_pow.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_pow.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_pow.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_pow.c > CMakeFiles/UNIT1303.dir/libft/ft_pow.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_pow.c > CMakeFiles/UNIT1303.dir/libft/ft_pow.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_pow.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_pow.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_pow.c -o CMakeFiles/UNIT1303.dir/libft/ft_pow.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_pow.c -o CMakeFiles/UNIT1303.dir/libft/ft_pow.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_pow.c.o.requires:
 
@@ -659,16 +659,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_pow.c.o.provides.build: CMakeFiles/UNIT1303.dir
 
 CMakeFiles/UNIT1303.dir/libft/ft_printlst.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_printlst.c.o: ../libft/ft_printlst.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_printlst.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_printlst.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_printlst.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_printlst.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_printlst.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_printlst.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_printlst.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_printlst.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_printlst.c > CMakeFiles/UNIT1303.dir/libft/ft_printlst.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_printlst.c > CMakeFiles/UNIT1303.dir/libft/ft_printlst.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_printlst.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_printlst.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_printlst.c -o CMakeFiles/UNIT1303.dir/libft/ft_printlst.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_printlst.c -o CMakeFiles/UNIT1303.dir/libft/ft_printlst.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_printlst.c.o.requires:
 
@@ -683,16 +683,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_printlst.c.o.provides.build: CMakeFiles/UNIT130
 
 CMakeFiles/UNIT1303.dir/libft/ft_putchar.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_putchar.c.o: ../libft/ft_putchar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_putchar.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_putchar.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_putchar.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_putchar.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_putchar.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_putchar.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_putchar.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_putchar.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_putchar.c > CMakeFiles/UNIT1303.dir/libft/ft_putchar.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_putchar.c > CMakeFiles/UNIT1303.dir/libft/ft_putchar.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_putchar.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_putchar.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_putchar.c -o CMakeFiles/UNIT1303.dir/libft/ft_putchar.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_putchar.c -o CMakeFiles/UNIT1303.dir/libft/ft_putchar.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_putchar.c.o.requires:
 
@@ -707,16 +707,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_putchar.c.o.provides.build: CMakeFiles/UNIT1303
 
 CMakeFiles/UNIT1303.dir/libft/ft_putchar_fd.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_putchar_fd.c.o: ../libft/ft_putchar_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_putchar_fd.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_putchar_fd.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_putchar_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_putchar_fd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_putchar_fd.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_putchar_fd.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_putchar_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_putchar_fd.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_putchar_fd.c > CMakeFiles/UNIT1303.dir/libft/ft_putchar_fd.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_putchar_fd.c > CMakeFiles/UNIT1303.dir/libft/ft_putchar_fd.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_putchar_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_putchar_fd.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_putchar_fd.c -o CMakeFiles/UNIT1303.dir/libft/ft_putchar_fd.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_putchar_fd.c -o CMakeFiles/UNIT1303.dir/libft/ft_putchar_fd.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_putchar_fd.c.o.requires:
 
@@ -731,16 +731,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_putchar_fd.c.o.provides.build: CMakeFiles/UNIT1
 
 CMakeFiles/UNIT1303.dir/libft/ft_putendl.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_putendl.c.o: ../libft/ft_putendl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_putendl.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_putendl.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_putendl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_putendl.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_putendl.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_putendl.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_putendl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_putendl.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_putendl.c > CMakeFiles/UNIT1303.dir/libft/ft_putendl.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_putendl.c > CMakeFiles/UNIT1303.dir/libft/ft_putendl.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_putendl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_putendl.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_putendl.c -o CMakeFiles/UNIT1303.dir/libft/ft_putendl.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_putendl.c -o CMakeFiles/UNIT1303.dir/libft/ft_putendl.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_putendl.c.o.requires:
 
@@ -755,16 +755,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_putendl.c.o.provides.build: CMakeFiles/UNIT1303
 
 CMakeFiles/UNIT1303.dir/libft/ft_putendl_fd.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_putendl_fd.c.o: ../libft/ft_putendl_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_putendl_fd.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_putendl_fd.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_putendl_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_putendl_fd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_putendl_fd.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_putendl_fd.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_putendl_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_putendl_fd.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_putendl_fd.c > CMakeFiles/UNIT1303.dir/libft/ft_putendl_fd.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_putendl_fd.c > CMakeFiles/UNIT1303.dir/libft/ft_putendl_fd.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_putendl_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_putendl_fd.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_putendl_fd.c -o CMakeFiles/UNIT1303.dir/libft/ft_putendl_fd.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_putendl_fd.c -o CMakeFiles/UNIT1303.dir/libft/ft_putendl_fd.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_putendl_fd.c.o.requires:
 
@@ -779,16 +779,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_putendl_fd.c.o.provides.build: CMakeFiles/UNIT1
 
 CMakeFiles/UNIT1303.dir/libft/ft_putnbr.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_putnbr.c.o: ../libft/ft_putnbr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_putnbr.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_putnbr.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_putnbr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_putnbr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_putnbr.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_putnbr.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_putnbr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_putnbr.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_putnbr.c > CMakeFiles/UNIT1303.dir/libft/ft_putnbr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_putnbr.c > CMakeFiles/UNIT1303.dir/libft/ft_putnbr.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_putnbr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_putnbr.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_putnbr.c -o CMakeFiles/UNIT1303.dir/libft/ft_putnbr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_putnbr.c -o CMakeFiles/UNIT1303.dir/libft/ft_putnbr.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_putnbr.c.o.requires:
 
@@ -803,16 +803,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_putnbr.c.o.provides.build: CMakeFiles/UNIT1303.
 
 CMakeFiles/UNIT1303.dir/libft/ft_putnbr_fd.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_putnbr_fd.c.o: ../libft/ft_putnbr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_putnbr_fd.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_putnbr_fd.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_putnbr_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_putnbr_fd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_putnbr_fd.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_putnbr_fd.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_putnbr_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_putnbr_fd.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_putnbr_fd.c > CMakeFiles/UNIT1303.dir/libft/ft_putnbr_fd.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_putnbr_fd.c > CMakeFiles/UNIT1303.dir/libft/ft_putnbr_fd.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_putnbr_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_putnbr_fd.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_putnbr_fd.c -o CMakeFiles/UNIT1303.dir/libft/ft_putnbr_fd.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_putnbr_fd.c -o CMakeFiles/UNIT1303.dir/libft/ft_putnbr_fd.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_putnbr_fd.c.o.requires:
 
@@ -827,16 +827,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_putnbr_fd.c.o.provides.build: CMakeFiles/UNIT13
 
 CMakeFiles/UNIT1303.dir/libft/ft_putstr.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_putstr.c.o: ../libft/ft_putstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_putstr.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_putstr.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_putstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_putstr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_putstr.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_putstr.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_putstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_putstr.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_putstr.c > CMakeFiles/UNIT1303.dir/libft/ft_putstr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_putstr.c > CMakeFiles/UNIT1303.dir/libft/ft_putstr.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_putstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_putstr.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_putstr.c -o CMakeFiles/UNIT1303.dir/libft/ft_putstr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_putstr.c -o CMakeFiles/UNIT1303.dir/libft/ft_putstr.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_putstr.c.o.requires:
 
@@ -851,16 +851,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_putstr.c.o.provides.build: CMakeFiles/UNIT1303.
 
 CMakeFiles/UNIT1303.dir/libft/ft_putstr_fd.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_putstr_fd.c.o: ../libft/ft_putstr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_putstr_fd.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_putstr_fd.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_putstr_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_putstr_fd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_putstr_fd.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_putstr_fd.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_putstr_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_putstr_fd.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_putstr_fd.c > CMakeFiles/UNIT1303.dir/libft/ft_putstr_fd.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_putstr_fd.c > CMakeFiles/UNIT1303.dir/libft/ft_putstr_fd.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_putstr_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_putstr_fd.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_putstr_fd.c -o CMakeFiles/UNIT1303.dir/libft/ft_putstr_fd.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_putstr_fd.c -o CMakeFiles/UNIT1303.dir/libft/ft_putstr_fd.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_putstr_fd.c.o.requires:
 
@@ -875,16 +875,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_putstr_fd.c.o.provides.build: CMakeFiles/UNIT13
 
 CMakeFiles/UNIT1303.dir/libft/ft_sqrt.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_sqrt.c.o: ../libft/ft_sqrt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_sqrt.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_sqrt.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_sqrt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_sqrt.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_sqrt.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_sqrt.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_sqrt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_sqrt.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_sqrt.c > CMakeFiles/UNIT1303.dir/libft/ft_sqrt.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_sqrt.c > CMakeFiles/UNIT1303.dir/libft/ft_sqrt.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_sqrt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_sqrt.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_sqrt.c -o CMakeFiles/UNIT1303.dir/libft/ft_sqrt.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_sqrt.c -o CMakeFiles/UNIT1303.dir/libft/ft_sqrt.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_sqrt.c.o.requires:
 
@@ -899,16 +899,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_sqrt.c.o.provides.build: CMakeFiles/UNIT1303.di
 
 CMakeFiles/UNIT1303.dir/libft/ft_strcat.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_strcat.c.o: ../libft/ft_strcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_strcat.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_strcat.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strcat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_strcat.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_strcat.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strcat.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_strcat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_strcat.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strcat.c > CMakeFiles/UNIT1303.dir/libft/ft_strcat.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strcat.c > CMakeFiles/UNIT1303.dir/libft/ft_strcat.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_strcat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_strcat.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strcat.c -o CMakeFiles/UNIT1303.dir/libft/ft_strcat.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strcat.c -o CMakeFiles/UNIT1303.dir/libft/ft_strcat.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_strcat.c.o.requires:
 
@@ -923,16 +923,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_strcat.c.o.provides.build: CMakeFiles/UNIT1303.
 
 CMakeFiles/UNIT1303.dir/libft/ft_strchr.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_strchr.c.o: ../libft/ft_strchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_strchr.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_strchr.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_strchr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_strchr.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strchr.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_strchr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_strchr.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strchr.c > CMakeFiles/UNIT1303.dir/libft/ft_strchr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strchr.c > CMakeFiles/UNIT1303.dir/libft/ft_strchr.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_strchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_strchr.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strchr.c -o CMakeFiles/UNIT1303.dir/libft/ft_strchr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strchr.c -o CMakeFiles/UNIT1303.dir/libft/ft_strchr.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_strchr.c.o.requires:
 
@@ -947,16 +947,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_strchr.c.o.provides.build: CMakeFiles/UNIT1303.
 
 CMakeFiles/UNIT1303.dir/libft/ft_strclr.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_strclr.c.o: ../libft/ft_strclr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_strclr.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_strclr.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strclr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_strclr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_strclr.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strclr.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_strclr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_strclr.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strclr.c > CMakeFiles/UNIT1303.dir/libft/ft_strclr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strclr.c > CMakeFiles/UNIT1303.dir/libft/ft_strclr.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_strclr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_strclr.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strclr.c -o CMakeFiles/UNIT1303.dir/libft/ft_strclr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strclr.c -o CMakeFiles/UNIT1303.dir/libft/ft_strclr.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_strclr.c.o.requires:
 
@@ -971,16 +971,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_strclr.c.o.provides.build: CMakeFiles/UNIT1303.
 
 CMakeFiles/UNIT1303.dir/libft/ft_strcmp.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_strcmp.c.o: ../libft/ft_strcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_strcmp.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_strcmp.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strcmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_strcmp.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_strcmp.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strcmp.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_strcmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_strcmp.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strcmp.c > CMakeFiles/UNIT1303.dir/libft/ft_strcmp.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strcmp.c > CMakeFiles/UNIT1303.dir/libft/ft_strcmp.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_strcmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_strcmp.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strcmp.c -o CMakeFiles/UNIT1303.dir/libft/ft_strcmp.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strcmp.c -o CMakeFiles/UNIT1303.dir/libft/ft_strcmp.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_strcmp.c.o.requires:
 
@@ -995,16 +995,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_strcmp.c.o.provides.build: CMakeFiles/UNIT1303.
 
 CMakeFiles/UNIT1303.dir/libft/ft_strcpy.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_strcpy.c.o: ../libft/ft_strcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_strcpy.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_strcpy.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strcpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_strcpy.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_strcpy.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strcpy.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_strcpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_strcpy.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strcpy.c > CMakeFiles/UNIT1303.dir/libft/ft_strcpy.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strcpy.c > CMakeFiles/UNIT1303.dir/libft/ft_strcpy.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_strcpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_strcpy.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strcpy.c -o CMakeFiles/UNIT1303.dir/libft/ft_strcpy.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strcpy.c -o CMakeFiles/UNIT1303.dir/libft/ft_strcpy.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_strcpy.c.o.requires:
 
@@ -1019,16 +1019,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_strcpy.c.o.provides.build: CMakeFiles/UNIT1303.
 
 CMakeFiles/UNIT1303.dir/libft/ft_strdel.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_strdel.c.o: ../libft/ft_strdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_strdel.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_strdel.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strdel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_strdel.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_strdel.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strdel.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_strdel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_strdel.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strdel.c > CMakeFiles/UNIT1303.dir/libft/ft_strdel.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strdel.c > CMakeFiles/UNIT1303.dir/libft/ft_strdel.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_strdel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_strdel.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strdel.c -o CMakeFiles/UNIT1303.dir/libft/ft_strdel.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strdel.c -o CMakeFiles/UNIT1303.dir/libft/ft_strdel.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_strdel.c.o.requires:
 
@@ -1043,16 +1043,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_strdel.c.o.provides.build: CMakeFiles/UNIT1303.
 
 CMakeFiles/UNIT1303.dir/libft/ft_strdup.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_strdup.c.o: ../libft/ft_strdup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_strdup.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_strdup.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strdup.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_strdup.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_strdup.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strdup.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_strdup.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_strdup.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strdup.c > CMakeFiles/UNIT1303.dir/libft/ft_strdup.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strdup.c > CMakeFiles/UNIT1303.dir/libft/ft_strdup.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_strdup.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_strdup.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strdup.c -o CMakeFiles/UNIT1303.dir/libft/ft_strdup.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strdup.c -o CMakeFiles/UNIT1303.dir/libft/ft_strdup.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_strdup.c.o.requires:
 
@@ -1067,16 +1067,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_strdup.c.o.provides.build: CMakeFiles/UNIT1303.
 
 CMakeFiles/UNIT1303.dir/libft/ft_strequ.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_strequ.c.o: ../libft/ft_strequ.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_strequ.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_strequ.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strequ.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_strequ.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_strequ.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strequ.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_strequ.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_strequ.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strequ.c > CMakeFiles/UNIT1303.dir/libft/ft_strequ.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strequ.c > CMakeFiles/UNIT1303.dir/libft/ft_strequ.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_strequ.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_strequ.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strequ.c -o CMakeFiles/UNIT1303.dir/libft/ft_strequ.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strequ.c -o CMakeFiles/UNIT1303.dir/libft/ft_strequ.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_strequ.c.o.requires:
 
@@ -1091,16 +1091,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_strequ.c.o.provides.build: CMakeFiles/UNIT1303.
 
 CMakeFiles/UNIT1303.dir/libft/ft_striter.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_striter.c.o: ../libft/ft_striter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_striter.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_striter.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_striter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_striter.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_striter.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_striter.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_striter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_striter.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_striter.c > CMakeFiles/UNIT1303.dir/libft/ft_striter.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_striter.c > CMakeFiles/UNIT1303.dir/libft/ft_striter.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_striter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_striter.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_striter.c -o CMakeFiles/UNIT1303.dir/libft/ft_striter.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_striter.c -o CMakeFiles/UNIT1303.dir/libft/ft_striter.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_striter.c.o.requires:
 
@@ -1115,16 +1115,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_striter.c.o.provides.build: CMakeFiles/UNIT1303
 
 CMakeFiles/UNIT1303.dir/libft/ft_striteri.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_striteri.c.o: ../libft/ft_striteri.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_striteri.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_striteri.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_striteri.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_striteri.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_striteri.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_striteri.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_striteri.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_striteri.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_striteri.c > CMakeFiles/UNIT1303.dir/libft/ft_striteri.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_striteri.c > CMakeFiles/UNIT1303.dir/libft/ft_striteri.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_striteri.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_striteri.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_striteri.c -o CMakeFiles/UNIT1303.dir/libft/ft_striteri.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_striteri.c -o CMakeFiles/UNIT1303.dir/libft/ft_striteri.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_striteri.c.o.requires:
 
@@ -1139,16 +1139,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_striteri.c.o.provides.build: CMakeFiles/UNIT130
 
 CMakeFiles/UNIT1303.dir/libft/ft_strjoin.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_strjoin.c.o: ../libft/ft_strjoin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_strjoin.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_strjoin.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strjoin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_strjoin.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_strjoin.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strjoin.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_strjoin.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_strjoin.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strjoin.c > CMakeFiles/UNIT1303.dir/libft/ft_strjoin.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strjoin.c > CMakeFiles/UNIT1303.dir/libft/ft_strjoin.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_strjoin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_strjoin.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strjoin.c -o CMakeFiles/UNIT1303.dir/libft/ft_strjoin.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strjoin.c -o CMakeFiles/UNIT1303.dir/libft/ft_strjoin.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_strjoin.c.o.requires:
 
@@ -1163,16 +1163,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_strjoin.c.o.provides.build: CMakeFiles/UNIT1303
 
 CMakeFiles/UNIT1303.dir/libft/ft_strlcat.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_strlcat.c.o: ../libft/ft_strlcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_strlcat.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_strlcat.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strlcat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_strlcat.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_strlcat.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strlcat.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_strlcat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_strlcat.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strlcat.c > CMakeFiles/UNIT1303.dir/libft/ft_strlcat.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strlcat.c > CMakeFiles/UNIT1303.dir/libft/ft_strlcat.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_strlcat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_strlcat.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strlcat.c -o CMakeFiles/UNIT1303.dir/libft/ft_strlcat.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strlcat.c -o CMakeFiles/UNIT1303.dir/libft/ft_strlcat.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_strlcat.c.o.requires:
 
@@ -1187,16 +1187,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_strlcat.c.o.provides.build: CMakeFiles/UNIT1303
 
 CMakeFiles/UNIT1303.dir/libft/ft_strlen.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_strlen.c.o: ../libft/ft_strlen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_strlen.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_strlen.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strlen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_strlen.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_strlen.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strlen.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_strlen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_strlen.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strlen.c > CMakeFiles/UNIT1303.dir/libft/ft_strlen.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strlen.c > CMakeFiles/UNIT1303.dir/libft/ft_strlen.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_strlen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_strlen.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strlen.c -o CMakeFiles/UNIT1303.dir/libft/ft_strlen.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strlen.c -o CMakeFiles/UNIT1303.dir/libft/ft_strlen.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_strlen.c.o.requires:
 
@@ -1211,16 +1211,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_strlen.c.o.provides.build: CMakeFiles/UNIT1303.
 
 CMakeFiles/UNIT1303.dir/libft/ft_strmap.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_strmap.c.o: ../libft/ft_strmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_strmap.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_strmap.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strmap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_strmap.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_strmap.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strmap.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_strmap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_strmap.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strmap.c > CMakeFiles/UNIT1303.dir/libft/ft_strmap.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strmap.c > CMakeFiles/UNIT1303.dir/libft/ft_strmap.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_strmap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_strmap.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strmap.c -o CMakeFiles/UNIT1303.dir/libft/ft_strmap.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strmap.c -o CMakeFiles/UNIT1303.dir/libft/ft_strmap.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_strmap.c.o.requires:
 
@@ -1235,16 +1235,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_strmap.c.o.provides.build: CMakeFiles/UNIT1303.
 
 CMakeFiles/UNIT1303.dir/libft/ft_strmapi.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_strmapi.c.o: ../libft/ft_strmapi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_strmapi.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_strmapi.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strmapi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_strmapi.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_strmapi.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strmapi.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_strmapi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_strmapi.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strmapi.c > CMakeFiles/UNIT1303.dir/libft/ft_strmapi.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strmapi.c > CMakeFiles/UNIT1303.dir/libft/ft_strmapi.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_strmapi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_strmapi.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strmapi.c -o CMakeFiles/UNIT1303.dir/libft/ft_strmapi.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strmapi.c -o CMakeFiles/UNIT1303.dir/libft/ft_strmapi.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_strmapi.c.o.requires:
 
@@ -1259,16 +1259,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_strmapi.c.o.provides.build: CMakeFiles/UNIT1303
 
 CMakeFiles/UNIT1303.dir/libft/ft_strncat.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_strncat.c.o: ../libft/ft_strncat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_strncat.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_strncat.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strncat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_strncat.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_strncat.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strncat.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_strncat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_strncat.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strncat.c > CMakeFiles/UNIT1303.dir/libft/ft_strncat.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strncat.c > CMakeFiles/UNIT1303.dir/libft/ft_strncat.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_strncat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_strncat.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strncat.c -o CMakeFiles/UNIT1303.dir/libft/ft_strncat.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strncat.c -o CMakeFiles/UNIT1303.dir/libft/ft_strncat.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_strncat.c.o.requires:
 
@@ -1283,16 +1283,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_strncat.c.o.provides.build: CMakeFiles/UNIT1303
 
 CMakeFiles/UNIT1303.dir/libft/ft_strncmp.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_strncmp.c.o: ../libft/ft_strncmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_strncmp.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_strncmp.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strncmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_strncmp.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_strncmp.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strncmp.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_strncmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_strncmp.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strncmp.c > CMakeFiles/UNIT1303.dir/libft/ft_strncmp.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strncmp.c > CMakeFiles/UNIT1303.dir/libft/ft_strncmp.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_strncmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_strncmp.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strncmp.c -o CMakeFiles/UNIT1303.dir/libft/ft_strncmp.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strncmp.c -o CMakeFiles/UNIT1303.dir/libft/ft_strncmp.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_strncmp.c.o.requires:
 
@@ -1307,16 +1307,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_strncmp.c.o.provides.build: CMakeFiles/UNIT1303
 
 CMakeFiles/UNIT1303.dir/libft/ft_strncpy.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_strncpy.c.o: ../libft/ft_strncpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_strncpy.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_strncpy.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strncpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_strncpy.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_strncpy.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strncpy.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_strncpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_strncpy.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strncpy.c > CMakeFiles/UNIT1303.dir/libft/ft_strncpy.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strncpy.c > CMakeFiles/UNIT1303.dir/libft/ft_strncpy.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_strncpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_strncpy.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strncpy.c -o CMakeFiles/UNIT1303.dir/libft/ft_strncpy.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strncpy.c -o CMakeFiles/UNIT1303.dir/libft/ft_strncpy.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_strncpy.c.o.requires:
 
@@ -1331,16 +1331,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_strncpy.c.o.provides.build: CMakeFiles/UNIT1303
 
 CMakeFiles/UNIT1303.dir/libft/ft_strndup.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_strndup.c.o: ../libft/ft_strndup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_strndup.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_strndup.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strndup.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_strndup.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_strndup.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strndup.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_strndup.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_strndup.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strndup.c > CMakeFiles/UNIT1303.dir/libft/ft_strndup.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strndup.c > CMakeFiles/UNIT1303.dir/libft/ft_strndup.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_strndup.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_strndup.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strndup.c -o CMakeFiles/UNIT1303.dir/libft/ft_strndup.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strndup.c -o CMakeFiles/UNIT1303.dir/libft/ft_strndup.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_strndup.c.o.requires:
 
@@ -1355,16 +1355,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_strndup.c.o.provides.build: CMakeFiles/UNIT1303
 
 CMakeFiles/UNIT1303.dir/libft/ft_strnequ.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_strnequ.c.o: ../libft/ft_strnequ.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_strnequ.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_strnequ.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strnequ.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_strnequ.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_strnequ.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strnequ.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_strnequ.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_strnequ.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strnequ.c > CMakeFiles/UNIT1303.dir/libft/ft_strnequ.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strnequ.c > CMakeFiles/UNIT1303.dir/libft/ft_strnequ.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_strnequ.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_strnequ.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strnequ.c -o CMakeFiles/UNIT1303.dir/libft/ft_strnequ.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strnequ.c -o CMakeFiles/UNIT1303.dir/libft/ft_strnequ.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_strnequ.c.o.requires:
 
@@ -1379,16 +1379,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_strnequ.c.o.provides.build: CMakeFiles/UNIT1303
 
 CMakeFiles/UNIT1303.dir/libft/ft_strnew.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_strnew.c.o: ../libft/ft_strnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_strnew.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_strnew.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strnew.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_strnew.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_strnew.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strnew.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_strnew.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_strnew.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strnew.c > CMakeFiles/UNIT1303.dir/libft/ft_strnew.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strnew.c > CMakeFiles/UNIT1303.dir/libft/ft_strnew.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_strnew.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_strnew.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strnew.c -o CMakeFiles/UNIT1303.dir/libft/ft_strnew.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strnew.c -o CMakeFiles/UNIT1303.dir/libft/ft_strnew.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_strnew.c.o.requires:
 
@@ -1403,16 +1403,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_strnew.c.o.provides.build: CMakeFiles/UNIT1303.
 
 CMakeFiles/UNIT1303.dir/libft/ft_strnstr.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_strnstr.c.o: ../libft/ft_strnstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_strnstr.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_strnstr.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strnstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_strnstr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_strnstr.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strnstr.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_strnstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_strnstr.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strnstr.c > CMakeFiles/UNIT1303.dir/libft/ft_strnstr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strnstr.c > CMakeFiles/UNIT1303.dir/libft/ft_strnstr.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_strnstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_strnstr.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strnstr.c -o CMakeFiles/UNIT1303.dir/libft/ft_strnstr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strnstr.c -o CMakeFiles/UNIT1303.dir/libft/ft_strnstr.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_strnstr.c.o.requires:
 
@@ -1427,16 +1427,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_strnstr.c.o.provides.build: CMakeFiles/UNIT1303
 
 CMakeFiles/UNIT1303.dir/libft/ft_strrchr.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_strrchr.c.o: ../libft/ft_strrchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_strrchr.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_strrchr.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strrchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_strrchr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_strrchr.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strrchr.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_strrchr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_strrchr.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strrchr.c > CMakeFiles/UNIT1303.dir/libft/ft_strrchr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strrchr.c > CMakeFiles/UNIT1303.dir/libft/ft_strrchr.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_strrchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_strrchr.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strrchr.c -o CMakeFiles/UNIT1303.dir/libft/ft_strrchr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strrchr.c -o CMakeFiles/UNIT1303.dir/libft/ft_strrchr.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_strrchr.c.o.requires:
 
@@ -1451,16 +1451,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_strrchr.c.o.provides.build: CMakeFiles/UNIT1303
 
 CMakeFiles/UNIT1303.dir/libft/ft_strsplit.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_strsplit.c.o: ../libft/ft_strsplit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_strsplit.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_strsplit.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strsplit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_strsplit.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_strsplit.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strsplit.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_strsplit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_strsplit.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strsplit.c > CMakeFiles/UNIT1303.dir/libft/ft_strsplit.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strsplit.c > CMakeFiles/UNIT1303.dir/libft/ft_strsplit.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_strsplit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_strsplit.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strsplit.c -o CMakeFiles/UNIT1303.dir/libft/ft_strsplit.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strsplit.c -o CMakeFiles/UNIT1303.dir/libft/ft_strsplit.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_strsplit.c.o.requires:
 
@@ -1475,16 +1475,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_strsplit.c.o.provides.build: CMakeFiles/UNIT130
 
 CMakeFiles/UNIT1303.dir/libft/ft_strstr.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_strstr.c.o: ../libft/ft_strstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_strstr.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_strstr.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_strstr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_strstr.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strstr.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_strstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_strstr.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strstr.c > CMakeFiles/UNIT1303.dir/libft/ft_strstr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strstr.c > CMakeFiles/UNIT1303.dir/libft/ft_strstr.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_strstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_strstr.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strstr.c -o CMakeFiles/UNIT1303.dir/libft/ft_strstr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strstr.c -o CMakeFiles/UNIT1303.dir/libft/ft_strstr.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_strstr.c.o.requires:
 
@@ -1499,16 +1499,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_strstr.c.o.provides.build: CMakeFiles/UNIT1303.
 
 CMakeFiles/UNIT1303.dir/libft/ft_strsub.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_strsub.c.o: ../libft/ft_strsub.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_strsub.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_strsub.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strsub.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_strsub.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_strsub.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strsub.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_strsub.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_strsub.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strsub.c > CMakeFiles/UNIT1303.dir/libft/ft_strsub.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strsub.c > CMakeFiles/UNIT1303.dir/libft/ft_strsub.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_strsub.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_strsub.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strsub.c -o CMakeFiles/UNIT1303.dir/libft/ft_strsub.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strsub.c -o CMakeFiles/UNIT1303.dir/libft/ft_strsub.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_strsub.c.o.requires:
 
@@ -1523,16 +1523,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_strsub.c.o.provides.build: CMakeFiles/UNIT1303.
 
 CMakeFiles/UNIT1303.dir/libft/ft_strtrim.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_strtrim.c.o: ../libft/ft_strtrim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_strtrim.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_strtrim.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strtrim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_strtrim.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_strtrim.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strtrim.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_strtrim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_strtrim.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strtrim.c > CMakeFiles/UNIT1303.dir/libft/ft_strtrim.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strtrim.c > CMakeFiles/UNIT1303.dir/libft/ft_strtrim.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_strtrim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_strtrim.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_strtrim.c -o CMakeFiles/UNIT1303.dir/libft/ft_strtrim.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_strtrim.c -o CMakeFiles/UNIT1303.dir/libft/ft_strtrim.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_strtrim.c.o.requires:
 
@@ -1547,16 +1547,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_strtrim.c.o.provides.build: CMakeFiles/UNIT1303
 
 CMakeFiles/UNIT1303.dir/libft/ft_tolower.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_tolower.c.o: ../libft/ft_tolower.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_tolower.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_tolower.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_tolower.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_tolower.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_tolower.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_tolower.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_tolower.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_tolower.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_tolower.c > CMakeFiles/UNIT1303.dir/libft/ft_tolower.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_tolower.c > CMakeFiles/UNIT1303.dir/libft/ft_tolower.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_tolower.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_tolower.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_tolower.c -o CMakeFiles/UNIT1303.dir/libft/ft_tolower.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_tolower.c -o CMakeFiles/UNIT1303.dir/libft/ft_tolower.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_tolower.c.o.requires:
 
@@ -1571,16 +1571,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_tolower.c.o.provides.build: CMakeFiles/UNIT1303
 
 CMakeFiles/UNIT1303.dir/libft/ft_toupper.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/libft/ft_toupper.c.o: ../libft/ft_toupper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_toupper.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_toupper.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_toupper.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/UNIT1303.dir/libft/ft_toupper.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/libft/ft_toupper.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_toupper.c
 
 CMakeFiles/UNIT1303.dir/libft/ft_toupper.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/libft/ft_toupper.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_toupper.c > CMakeFiles/UNIT1303.dir/libft/ft_toupper.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_toupper.c > CMakeFiles/UNIT1303.dir/libft/ft_toupper.c.i
 
 CMakeFiles/UNIT1303.dir/libft/ft_toupper.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/libft/ft_toupper.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/libft/ft_toupper.c -o CMakeFiles/UNIT1303.dir/libft/ft_toupper.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/libft/ft_toupper.c -o CMakeFiles/UNIT1303.dir/libft/ft_toupper.c.s
 
 CMakeFiles/UNIT1303.dir/libft/ft_toupper.c.o.requires:
 
@@ -1595,16 +1595,16 @@ CMakeFiles/UNIT1303.dir/libft/ft_toupper.c.o.provides.build: CMakeFiles/UNIT1303
 
 CMakeFiles/UNIT1303.dir/extract_func_0.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/extract_func_0.c.o: ../extract_func_0.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/UNIT1303.dir/extract_func_0.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/extract_func_0.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/extract_func_0.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/UNIT1303.dir/extract_func_0.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/extract_func_0.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/extract_func_0.c
 
 CMakeFiles/UNIT1303.dir/extract_func_0.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/extract_func_0.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/extract_func_0.c > CMakeFiles/UNIT1303.dir/extract_func_0.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/extract_func_0.c > CMakeFiles/UNIT1303.dir/extract_func_0.c.i
 
 CMakeFiles/UNIT1303.dir/extract_func_0.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/extract_func_0.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/extract_func_0.c -o CMakeFiles/UNIT1303.dir/extract_func_0.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/extract_func_0.c -o CMakeFiles/UNIT1303.dir/extract_func_0.c.s
 
 CMakeFiles/UNIT1303.dir/extract_func_0.c.o.requires:
 
@@ -1619,16 +1619,16 @@ CMakeFiles/UNIT1303.dir/extract_func_0.c.o.provides.build: CMakeFiles/UNIT1303.d
 
 CMakeFiles/UNIT1303.dir/extract_func_1.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/extract_func_1.c.o: ../extract_func_1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/UNIT1303.dir/extract_func_1.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/extract_func_1.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/extract_func_1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/UNIT1303.dir/extract_func_1.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/extract_func_1.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/extract_func_1.c
 
 CMakeFiles/UNIT1303.dir/extract_func_1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/extract_func_1.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/extract_func_1.c > CMakeFiles/UNIT1303.dir/extract_func_1.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/extract_func_1.c > CMakeFiles/UNIT1303.dir/extract_func_1.c.i
 
 CMakeFiles/UNIT1303.dir/extract_func_1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/extract_func_1.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/extract_func_1.c -o CMakeFiles/UNIT1303.dir/extract_func_1.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/extract_func_1.c -o CMakeFiles/UNIT1303.dir/extract_func_1.c.s
 
 CMakeFiles/UNIT1303.dir/extract_func_1.c.o.requires:
 
@@ -1643,16 +1643,16 @@ CMakeFiles/UNIT1303.dir/extract_func_1.c.o.provides.build: CMakeFiles/UNIT1303.d
 
 CMakeFiles/UNIT1303.dir/extract_func_2.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/extract_func_2.c.o: ../extract_func_2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/UNIT1303.dir/extract_func_2.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/extract_func_2.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/extract_func_2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/UNIT1303.dir/extract_func_2.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/extract_func_2.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/extract_func_2.c
 
 CMakeFiles/UNIT1303.dir/extract_func_2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/extract_func_2.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/extract_func_2.c > CMakeFiles/UNIT1303.dir/extract_func_2.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/extract_func_2.c > CMakeFiles/UNIT1303.dir/extract_func_2.c.i
 
 CMakeFiles/UNIT1303.dir/extract_func_2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/extract_func_2.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/extract_func_2.c -o CMakeFiles/UNIT1303.dir/extract_func_2.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/extract_func_2.c -o CMakeFiles/UNIT1303.dir/extract_func_2.c.s
 
 CMakeFiles/UNIT1303.dir/extract_func_2.c.o.requires:
 
@@ -1667,16 +1667,16 @@ CMakeFiles/UNIT1303.dir/extract_func_2.c.o.provides.build: CMakeFiles/UNIT1303.d
 
 CMakeFiles/UNIT1303.dir/extract_func_3.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/extract_func_3.c.o: ../extract_func_3.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/UNIT1303.dir/extract_func_3.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/extract_func_3.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/extract_func_3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/UNIT1303.dir/extract_func_3.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/extract_func_3.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/extract_func_3.c
 
 CMakeFiles/UNIT1303.dir/extract_func_3.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/extract_func_3.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/extract_func_3.c > CMakeFiles/UNIT1303.dir/extract_func_3.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/extract_func_3.c > CMakeFiles/UNIT1303.dir/extract_func_3.c.i
 
 CMakeFiles/UNIT1303.dir/extract_func_3.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/extract_func_3.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/extract_func_3.c -o CMakeFiles/UNIT1303.dir/extract_func_3.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/extract_func_3.c -o CMakeFiles/UNIT1303.dir/extract_func_3.c.s
 
 CMakeFiles/UNIT1303.dir/extract_func_3.c.o.requires:
 
@@ -1691,16 +1691,16 @@ CMakeFiles/UNIT1303.dir/extract_func_3.c.o.provides.build: CMakeFiles/UNIT1303.d
 
 CMakeFiles/UNIT1303.dir/extract_func_4.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/extract_func_4.c.o: ../extract_func_4.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/UNIT1303.dir/extract_func_4.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/extract_func_4.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/extract_func_4.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/UNIT1303.dir/extract_func_4.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/extract_func_4.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/extract_func_4.c
 
 CMakeFiles/UNIT1303.dir/extract_func_4.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/extract_func_4.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/extract_func_4.c > CMakeFiles/UNIT1303.dir/extract_func_4.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/extract_func_4.c > CMakeFiles/UNIT1303.dir/extract_func_4.c.i
 
 CMakeFiles/UNIT1303.dir/extract_func_4.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/extract_func_4.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/extract_func_4.c -o CMakeFiles/UNIT1303.dir/extract_func_4.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/extract_func_4.c -o CMakeFiles/UNIT1303.dir/extract_func_4.c.s
 
 CMakeFiles/UNIT1303.dir/extract_func_4.c.o.requires:
 
@@ -1715,16 +1715,16 @@ CMakeFiles/UNIT1303.dir/extract_func_4.c.o.provides.build: CMakeFiles/UNIT1303.d
 
 CMakeFiles/UNIT1303.dir/extract_func_5.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/extract_func_5.c.o: ../extract_func_5.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/UNIT1303.dir/extract_func_5.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/extract_func_5.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/extract_func_5.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/UNIT1303.dir/extract_func_5.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/extract_func_5.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/extract_func_5.c
 
 CMakeFiles/UNIT1303.dir/extract_func_5.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/extract_func_5.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/extract_func_5.c > CMakeFiles/UNIT1303.dir/extract_func_5.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/extract_func_5.c > CMakeFiles/UNIT1303.dir/extract_func_5.c.i
 
 CMakeFiles/UNIT1303.dir/extract_func_5.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/extract_func_5.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/extract_func_5.c -o CMakeFiles/UNIT1303.dir/extract_func_5.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/extract_func_5.c -o CMakeFiles/UNIT1303.dir/extract_func_5.c.s
 
 CMakeFiles/UNIT1303.dir/extract_func_5.c.o.requires:
 
@@ -1739,16 +1739,16 @@ CMakeFiles/UNIT1303.dir/extract_func_5.c.o.provides.build: CMakeFiles/UNIT1303.d
 
 CMakeFiles/UNIT1303.dir/extract_func_6.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/extract_func_6.c.o: ../extract_func_6.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/UNIT1303.dir/extract_func_6.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/extract_func_6.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/extract_func_6.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/UNIT1303.dir/extract_func_6.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/extract_func_6.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/extract_func_6.c
 
 CMakeFiles/UNIT1303.dir/extract_func_6.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/extract_func_6.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/extract_func_6.c > CMakeFiles/UNIT1303.dir/extract_func_6.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/extract_func_6.c > CMakeFiles/UNIT1303.dir/extract_func_6.c.i
 
 CMakeFiles/UNIT1303.dir/extract_func_6.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/extract_func_6.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/extract_func_6.c -o CMakeFiles/UNIT1303.dir/extract_func_6.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/extract_func_6.c -o CMakeFiles/UNIT1303.dir/extract_func_6.c.s
 
 CMakeFiles/UNIT1303.dir/extract_func_6.c.o.requires:
 
@@ -1763,16 +1763,16 @@ CMakeFiles/UNIT1303.dir/extract_func_6.c.o.provides.build: CMakeFiles/UNIT1303.d
 
 CMakeFiles/UNIT1303.dir/extract_func_7.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/extract_func_7.c.o: ../extract_func_7.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/UNIT1303.dir/extract_func_7.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/extract_func_7.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/extract_func_7.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/UNIT1303.dir/extract_func_7.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/extract_func_7.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/extract_func_7.c
 
 CMakeFiles/UNIT1303.dir/extract_func_7.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/extract_func_7.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/extract_func_7.c > CMakeFiles/UNIT1303.dir/extract_func_7.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/extract_func_7.c > CMakeFiles/UNIT1303.dir/extract_func_7.c.i
 
 CMakeFiles/UNIT1303.dir/extract_func_7.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/extract_func_7.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/extract_func_7.c -o CMakeFiles/UNIT1303.dir/extract_func_7.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/extract_func_7.c -o CMakeFiles/UNIT1303.dir/extract_func_7.c.s
 
 CMakeFiles/UNIT1303.dir/extract_func_7.c.o.requires:
 
@@ -1787,16 +1787,16 @@ CMakeFiles/UNIT1303.dir/extract_func_7.c.o.provides.build: CMakeFiles/UNIT1303.d
 
 CMakeFiles/UNIT1303.dir/extract_func_8.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/extract_func_8.c.o: ../extract_func_8.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/UNIT1303.dir/extract_func_8.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/extract_func_8.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/extract_func_8.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/UNIT1303.dir/extract_func_8.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/extract_func_8.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/extract_func_8.c
 
 CMakeFiles/UNIT1303.dir/extract_func_8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/extract_func_8.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/extract_func_8.c > CMakeFiles/UNIT1303.dir/extract_func_8.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/extract_func_8.c > CMakeFiles/UNIT1303.dir/extract_func_8.c.i
 
 CMakeFiles/UNIT1303.dir/extract_func_8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/extract_func_8.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/extract_func_8.c -o CMakeFiles/UNIT1303.dir/extract_func_8.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/extract_func_8.c -o CMakeFiles/UNIT1303.dir/extract_func_8.c.s
 
 CMakeFiles/UNIT1303.dir/extract_func_8.c.o.requires:
 
@@ -1811,16 +1811,16 @@ CMakeFiles/UNIT1303.dir/extract_func_8.c.o.provides.build: CMakeFiles/UNIT1303.d
 
 CMakeFiles/UNIT1303.dir/extract_func_9.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/extract_func_9.c.o: ../extract_func_9.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/UNIT1303.dir/extract_func_9.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/extract_func_9.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/extract_func_9.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/UNIT1303.dir/extract_func_9.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/extract_func_9.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/extract_func_9.c
 
 CMakeFiles/UNIT1303.dir/extract_func_9.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/extract_func_9.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/extract_func_9.c > CMakeFiles/UNIT1303.dir/extract_func_9.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/extract_func_9.c > CMakeFiles/UNIT1303.dir/extract_func_9.c.i
 
 CMakeFiles/UNIT1303.dir/extract_func_9.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/extract_func_9.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/extract_func_9.c -o CMakeFiles/UNIT1303.dir/extract_func_9.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/extract_func_9.c -o CMakeFiles/UNIT1303.dir/extract_func_9.c.s
 
 CMakeFiles/UNIT1303.dir/extract_func_9.c.o.requires:
 
@@ -1835,16 +1835,16 @@ CMakeFiles/UNIT1303.dir/extract_func_9.c.o.provides.build: CMakeFiles/UNIT1303.d
 
 CMakeFiles/UNIT1303.dir/ft_convert.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/ft_convert.c.o: ../ft_convert.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/UNIT1303.dir/ft_convert.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/ft_convert.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_convert.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/UNIT1303.dir/ft_convert.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/ft_convert.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_convert.c
 
 CMakeFiles/UNIT1303.dir/ft_convert.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/ft_convert.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_convert.c > CMakeFiles/UNIT1303.dir/ft_convert.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_convert.c > CMakeFiles/UNIT1303.dir/ft_convert.c.i
 
 CMakeFiles/UNIT1303.dir/ft_convert.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/ft_convert.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_convert.c -o CMakeFiles/UNIT1303.dir/ft_convert.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_convert.c -o CMakeFiles/UNIT1303.dir/ft_convert.c.s
 
 CMakeFiles/UNIT1303.dir/ft_convert.c.o.requires:
 
@@ -1859,16 +1859,16 @@ CMakeFiles/UNIT1303.dir/ft_convert.c.o.provides.build: CMakeFiles/UNIT1303.dir/f
 
 CMakeFiles/UNIT1303.dir/ft_ditoap.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/ft_ditoap.c.o: ../ft_ditoap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/UNIT1303.dir/ft_ditoap.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/ft_ditoap.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_ditoap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/UNIT1303.dir/ft_ditoap.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/ft_ditoap.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_ditoap.c
 
 CMakeFiles/UNIT1303.dir/ft_ditoap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/ft_ditoap.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_ditoap.c > CMakeFiles/UNIT1303.dir/ft_ditoap.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_ditoap.c > CMakeFiles/UNIT1303.dir/ft_ditoap.c.i
 
 CMakeFiles/UNIT1303.dir/ft_ditoap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/ft_ditoap.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_ditoap.c -o CMakeFiles/UNIT1303.dir/ft_ditoap.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_ditoap.c -o CMakeFiles/UNIT1303.dir/ft_ditoap.c.s
 
 CMakeFiles/UNIT1303.dir/ft_ditoap.c.o.requires:
 
@@ -1883,16 +1883,16 @@ CMakeFiles/UNIT1303.dir/ft_ditoap.c.o.provides.build: CMakeFiles/UNIT1303.dir/ft
 
 CMakeFiles/UNIT1303.dir/ft_fieldflags.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/ft_fieldflags.c.o: ../ft_fieldflags.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/UNIT1303.dir/ft_fieldflags.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/ft_fieldflags.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_fieldflags.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/UNIT1303.dir/ft_fieldflags.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/ft_fieldflags.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_fieldflags.c
 
 CMakeFiles/UNIT1303.dir/ft_fieldflags.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/ft_fieldflags.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_fieldflags.c > CMakeFiles/UNIT1303.dir/ft_fieldflags.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_fieldflags.c > CMakeFiles/UNIT1303.dir/ft_fieldflags.c.i
 
 CMakeFiles/UNIT1303.dir/ft_fieldflags.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/ft_fieldflags.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_fieldflags.c -o CMakeFiles/UNIT1303.dir/ft_fieldflags.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_fieldflags.c -o CMakeFiles/UNIT1303.dir/ft_fieldflags.c.s
 
 CMakeFiles/UNIT1303.dir/ft_fieldflags.c.o.requires:
 
@@ -1907,16 +1907,16 @@ CMakeFiles/UNIT1303.dir/ft_fieldflags.c.o.provides.build: CMakeFiles/UNIT1303.di
 
 CMakeFiles/UNIT1303.dir/ft_flags.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/ft_flags.c.o: ../ft_flags.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/UNIT1303.dir/ft_flags.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/ft_flags.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_flags.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/UNIT1303.dir/ft_flags.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/ft_flags.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_flags.c
 
 CMakeFiles/UNIT1303.dir/ft_flags.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/ft_flags.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_flags.c > CMakeFiles/UNIT1303.dir/ft_flags.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_flags.c > CMakeFiles/UNIT1303.dir/ft_flags.c.i
 
 CMakeFiles/UNIT1303.dir/ft_flags.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/ft_flags.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_flags.c -o CMakeFiles/UNIT1303.dir/ft_flags.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_flags.c -o CMakeFiles/UNIT1303.dir/ft_flags.c.s
 
 CMakeFiles/UNIT1303.dir/ft_flags.c.o.requires:
 
@@ -1931,16 +1931,16 @@ CMakeFiles/UNIT1303.dir/ft_flags.c.o.provides.build: CMakeFiles/UNIT1303.dir/ft_
 
 CMakeFiles/UNIT1303.dir/ft_freearr.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/ft_freearr.c.o: ../ft_freearr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/UNIT1303.dir/ft_freearr.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/ft_freearr.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_freearr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/UNIT1303.dir/ft_freearr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/ft_freearr.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_freearr.c
 
 CMakeFiles/UNIT1303.dir/ft_freearr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/ft_freearr.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_freearr.c > CMakeFiles/UNIT1303.dir/ft_freearr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_freearr.c > CMakeFiles/UNIT1303.dir/ft_freearr.c.i
 
 CMakeFiles/UNIT1303.dir/ft_freearr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/ft_freearr.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_freearr.c -o CMakeFiles/UNIT1303.dir/ft_freearr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_freearr.c -o CMakeFiles/UNIT1303.dir/ft_freearr.c.s
 
 CMakeFiles/UNIT1303.dir/ft_freearr.c.o.requires:
 
@@ -1955,16 +1955,16 @@ CMakeFiles/UNIT1303.dir/ft_freearr.c.o.provides.build: CMakeFiles/UNIT1303.dir/f
 
 CMakeFiles/UNIT1303.dir/ft_litoa.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/ft_litoa.c.o: ../ft_litoa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/UNIT1303.dir/ft_litoa.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/ft_litoa.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_litoa.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/UNIT1303.dir/ft_litoa.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/ft_litoa.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_litoa.c
 
 CMakeFiles/UNIT1303.dir/ft_litoa.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/ft_litoa.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_litoa.c > CMakeFiles/UNIT1303.dir/ft_litoa.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_litoa.c > CMakeFiles/UNIT1303.dir/ft_litoa.c.i
 
 CMakeFiles/UNIT1303.dir/ft_litoa.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/ft_litoa.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_litoa.c -o CMakeFiles/UNIT1303.dir/ft_litoa.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_litoa.c -o CMakeFiles/UNIT1303.dir/ft_litoa.c.s
 
 CMakeFiles/UNIT1303.dir/ft_litoa.c.o.requires:
 
@@ -1979,16 +1979,16 @@ CMakeFiles/UNIT1303.dir/ft_litoa.c.o.provides.build: CMakeFiles/UNIT1303.dir/ft_
 
 CMakeFiles/UNIT1303.dir/ft_modfunc.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/ft_modfunc.c.o: ../ft_modfunc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/UNIT1303.dir/ft_modfunc.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/ft_modfunc.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_modfunc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/UNIT1303.dir/ft_modfunc.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/ft_modfunc.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_modfunc.c
 
 CMakeFiles/UNIT1303.dir/ft_modfunc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/ft_modfunc.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_modfunc.c > CMakeFiles/UNIT1303.dir/ft_modfunc.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_modfunc.c > CMakeFiles/UNIT1303.dir/ft_modfunc.c.i
 
 CMakeFiles/UNIT1303.dir/ft_modfunc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/ft_modfunc.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_modfunc.c -o CMakeFiles/UNIT1303.dir/ft_modfunc.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_modfunc.c -o CMakeFiles/UNIT1303.dir/ft_modfunc.c.s
 
 CMakeFiles/UNIT1303.dir/ft_modfunc.c.o.requires:
 
@@ -2003,16 +2003,16 @@ CMakeFiles/UNIT1303.dir/ft_modfunc.c.o.provides.build: CMakeFiles/UNIT1303.dir/f
 
 CMakeFiles/UNIT1303.dir/ft_parce.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/ft_parce.c.o: ../ft_parce.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/UNIT1303.dir/ft_parce.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/ft_parce.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_parce.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/UNIT1303.dir/ft_parce.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/ft_parce.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_parce.c
 
 CMakeFiles/UNIT1303.dir/ft_parce.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/ft_parce.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_parce.c > CMakeFiles/UNIT1303.dir/ft_parce.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_parce.c > CMakeFiles/UNIT1303.dir/ft_parce.c.i
 
 CMakeFiles/UNIT1303.dir/ft_parce.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/ft_parce.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_parce.c -o CMakeFiles/UNIT1303.dir/ft_parce.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_parce.c -o CMakeFiles/UNIT1303.dir/ft_parce.c.s
 
 CMakeFiles/UNIT1303.dir/ft_parce.c.o.requires:
 
@@ -2027,16 +2027,16 @@ CMakeFiles/UNIT1303.dir/ft_parce.c.o.provides.build: CMakeFiles/UNIT1303.dir/ft_
 
 CMakeFiles/UNIT1303.dir/ft_powl.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/ft_powl.c.o: ../ft_powl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/UNIT1303.dir/ft_powl.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/ft_powl.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_powl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/UNIT1303.dir/ft_powl.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/ft_powl.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_powl.c
 
 CMakeFiles/UNIT1303.dir/ft_powl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/ft_powl.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_powl.c > CMakeFiles/UNIT1303.dir/ft_powl.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_powl.c > CMakeFiles/UNIT1303.dir/ft_powl.c.i
 
 CMakeFiles/UNIT1303.dir/ft_powl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/ft_powl.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_powl.c -o CMakeFiles/UNIT1303.dir/ft_powl.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_powl.c -o CMakeFiles/UNIT1303.dir/ft_powl.c.s
 
 CMakeFiles/UNIT1303.dir/ft_powl.c.o.requires:
 
@@ -2051,16 +2051,16 @@ CMakeFiles/UNIT1303.dir/ft_powl.c.o.provides.build: CMakeFiles/UNIT1303.dir/ft_p
 
 CMakeFiles/UNIT1303.dir/ft_printf.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/ft_printf.c.o: ../ft_printf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/UNIT1303.dir/ft_printf.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/ft_printf.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_printf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/UNIT1303.dir/ft_printf.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/ft_printf.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_printf.c
 
 CMakeFiles/UNIT1303.dir/ft_printf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/ft_printf.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_printf.c > CMakeFiles/UNIT1303.dir/ft_printf.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_printf.c > CMakeFiles/UNIT1303.dir/ft_printf.c.i
 
 CMakeFiles/UNIT1303.dir/ft_printf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/ft_printf.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_printf.c -o CMakeFiles/UNIT1303.dir/ft_printf.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_printf.c -o CMakeFiles/UNIT1303.dir/ft_printf.c.s
 
 CMakeFiles/UNIT1303.dir/ft_printf.c.o.requires:
 
@@ -2075,16 +2075,16 @@ CMakeFiles/UNIT1303.dir/ft_printf.c.o.provides.build: CMakeFiles/UNIT1303.dir/ft
 
 CMakeFiles/UNIT1303.dir/ft_ubase.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/ft_ubase.c.o: ../ft_ubase.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/UNIT1303.dir/ft_ubase.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/ft_ubase.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_ubase.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/UNIT1303.dir/ft_ubase.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/ft_ubase.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_ubase.c
 
 CMakeFiles/UNIT1303.dir/ft_ubase.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/ft_ubase.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_ubase.c > CMakeFiles/UNIT1303.dir/ft_ubase.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_ubase.c > CMakeFiles/UNIT1303.dir/ft_ubase.c.i
 
 CMakeFiles/UNIT1303.dir/ft_ubase.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/ft_ubase.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_ubase.c -o CMakeFiles/UNIT1303.dir/ft_ubase.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_ubase.c -o CMakeFiles/UNIT1303.dir/ft_ubase.c.s
 
 CMakeFiles/UNIT1303.dir/ft_ubase.c.o.requires:
 
@@ -2099,16 +2099,16 @@ CMakeFiles/UNIT1303.dir/ft_ubase.c.o.provides.build: CMakeFiles/UNIT1303.dir/ft_
 
 CMakeFiles/UNIT1303.dir/ft_ulitoa.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/ft_ulitoa.c.o: ../ft_ulitoa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/UNIT1303.dir/ft_ulitoa.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/ft_ulitoa.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_ulitoa.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/UNIT1303.dir/ft_ulitoa.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/ft_ulitoa.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_ulitoa.c
 
 CMakeFiles/UNIT1303.dir/ft_ulitoa.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/ft_ulitoa.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_ulitoa.c > CMakeFiles/UNIT1303.dir/ft_ulitoa.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_ulitoa.c > CMakeFiles/UNIT1303.dir/ft_ulitoa.c.i
 
 CMakeFiles/UNIT1303.dir/ft_ulitoa.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/ft_ulitoa.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_ulitoa.c -o CMakeFiles/UNIT1303.dir/ft_ulitoa.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_ulitoa.c -o CMakeFiles/UNIT1303.dir/ft_ulitoa.c.s
 
 CMakeFiles/UNIT1303.dir/ft_ulitoa.c.o.requires:
 
@@ -2123,16 +2123,16 @@ CMakeFiles/UNIT1303.dir/ft_ulitoa.c.o.provides.build: CMakeFiles/UNIT1303.dir/ft
 
 CMakeFiles/UNIT1303.dir/ft_unicode.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/ft_unicode.c.o: ../ft_unicode.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/UNIT1303.dir/ft_unicode.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/ft_unicode.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_unicode.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/UNIT1303.dir/ft_unicode.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/ft_unicode.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_unicode.c
 
 CMakeFiles/UNIT1303.dir/ft_unicode.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/ft_unicode.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_unicode.c > CMakeFiles/UNIT1303.dir/ft_unicode.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_unicode.c > CMakeFiles/UNIT1303.dir/ft_unicode.c.i
 
 CMakeFiles/UNIT1303.dir/ft_unicode.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/ft_unicode.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_unicode.c -o CMakeFiles/UNIT1303.dir/ft_unicode.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_unicode.c -o CMakeFiles/UNIT1303.dir/ft_unicode.c.s
 
 CMakeFiles/UNIT1303.dir/ft_unicode.c.o.requires:
 
@@ -2147,16 +2147,16 @@ CMakeFiles/UNIT1303.dir/ft_unicode.c.o.provides.build: CMakeFiles/UNIT1303.dir/f
 
 CMakeFiles/UNIT1303.dir/ft_validflag.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/ft_validflag.c.o: ../ft_validflag.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/UNIT1303.dir/ft_validflag.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/ft_validflag.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_validflag.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/UNIT1303.dir/ft_validflag.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/ft_validflag.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_validflag.c
 
 CMakeFiles/UNIT1303.dir/ft_validflag.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/ft_validflag.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_validflag.c > CMakeFiles/UNIT1303.dir/ft_validflag.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_validflag.c > CMakeFiles/UNIT1303.dir/ft_validflag.c.i
 
 CMakeFiles/UNIT1303.dir/ft_validflag.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/ft_validflag.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_validflag.c -o CMakeFiles/UNIT1303.dir/ft_validflag.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_validflag.c -o CMakeFiles/UNIT1303.dir/ft_validflag.c.s
 
 CMakeFiles/UNIT1303.dir/ft_validflag.c.o.requires:
 
@@ -2169,18 +2169,66 @@ CMakeFiles/UNIT1303.dir/ft_validflag.c.o.provides: CMakeFiles/UNIT1303.dir/ft_va
 CMakeFiles/UNIT1303.dir/ft_validflag.c.o.provides.build: CMakeFiles/UNIT1303.dir/ft_validflag.c.o
 
 
+CMakeFiles/UNIT1303.dir/ft_strndupfree.c.o: CMakeFiles/UNIT1303.dir/flags.make
+CMakeFiles/UNIT1303.dir/ft_strndupfree.c.o: ../ft_strndupfree.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/UNIT1303.dir/ft_strndupfree.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/ft_strndupfree.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_strndupfree.c
+
+CMakeFiles/UNIT1303.dir/ft_strndupfree.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/ft_strndupfree.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_strndupfree.c > CMakeFiles/UNIT1303.dir/ft_strndupfree.c.i
+
+CMakeFiles/UNIT1303.dir/ft_strndupfree.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/ft_strndupfree.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_strndupfree.c -o CMakeFiles/UNIT1303.dir/ft_strndupfree.c.s
+
+CMakeFiles/UNIT1303.dir/ft_strndupfree.c.o.requires:
+
+.PHONY : CMakeFiles/UNIT1303.dir/ft_strndupfree.c.o.requires
+
+CMakeFiles/UNIT1303.dir/ft_strndupfree.c.o.provides: CMakeFiles/UNIT1303.dir/ft_strndupfree.c.o.requires
+	$(MAKE) -f CMakeFiles/UNIT1303.dir/build.make CMakeFiles/UNIT1303.dir/ft_strndupfree.c.o.provides.build
+.PHONY : CMakeFiles/UNIT1303.dir/ft_strndupfree.c.o.provides
+
+CMakeFiles/UNIT1303.dir/ft_strndupfree.c.o.provides.build: CMakeFiles/UNIT1303.dir/ft_strndupfree.c.o
+
+
+CMakeFiles/UNIT1303.dir/ft_strdupfree.c.o: CMakeFiles/UNIT1303.dir/flags.make
+CMakeFiles/UNIT1303.dir/ft_strdupfree.c.o: ../ft_strdupfree.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/UNIT1303.dir/ft_strdupfree.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/ft_strdupfree.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_strdupfree.c
+
+CMakeFiles/UNIT1303.dir/ft_strdupfree.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/ft_strdupfree.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_strdupfree.c > CMakeFiles/UNIT1303.dir/ft_strdupfree.c.i
+
+CMakeFiles/UNIT1303.dir/ft_strdupfree.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/ft_strdupfree.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_strdupfree.c -o CMakeFiles/UNIT1303.dir/ft_strdupfree.c.s
+
+CMakeFiles/UNIT1303.dir/ft_strdupfree.c.o.requires:
+
+.PHONY : CMakeFiles/UNIT1303.dir/ft_strdupfree.c.o.requires
+
+CMakeFiles/UNIT1303.dir/ft_strdupfree.c.o.provides: CMakeFiles/UNIT1303.dir/ft_strdupfree.c.o.requires
+	$(MAKE) -f CMakeFiles/UNIT1303.dir/build.make CMakeFiles/UNIT1303.dir/ft_strdupfree.c.o.provides.build
+.PHONY : CMakeFiles/UNIT1303.dir/ft_strdupfree.c.o.provides
+
+CMakeFiles/UNIT1303.dir/ft_strdupfree.c.o.provides.build: CMakeFiles/UNIT1303.dir/ft_strdupfree.c.o
+
+
 CMakeFiles/UNIT1303.dir/main_2.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/main_2.c.o: ../main_2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/UNIT1303.dir/main_2.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/main_2.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/main_2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/UNIT1303.dir/main_2.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/main_2.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/main_2.c
 
 CMakeFiles/UNIT1303.dir/main_2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/main_2.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/main_2.c > CMakeFiles/UNIT1303.dir/main_2.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/main_2.c > CMakeFiles/UNIT1303.dir/main_2.c.i
 
 CMakeFiles/UNIT1303.dir/main_2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/main_2.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/main_2.c -o CMakeFiles/UNIT1303.dir/main_2.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/main_2.c -o CMakeFiles/UNIT1303.dir/main_2.c.s
 
 CMakeFiles/UNIT1303.dir/main_2.c.o.requires:
 
@@ -2195,16 +2243,16 @@ CMakeFiles/UNIT1303.dir/main_2.c.o.provides.build: CMakeFiles/UNIT1303.dir/main_
 
 CMakeFiles/UNIT1303.dir/ft_chartostr.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/ft_chartostr.c.o: ../ft_chartostr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/UNIT1303.dir/ft_chartostr.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/ft_chartostr.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_chartostr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/UNIT1303.dir/ft_chartostr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/ft_chartostr.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_chartostr.c
 
 CMakeFiles/UNIT1303.dir/ft_chartostr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/ft_chartostr.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_chartostr.c > CMakeFiles/UNIT1303.dir/ft_chartostr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_chartostr.c > CMakeFiles/UNIT1303.dir/ft_chartostr.c.i
 
 CMakeFiles/UNIT1303.dir/ft_chartostr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/ft_chartostr.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_chartostr.c -o CMakeFiles/UNIT1303.dir/ft_chartostr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_chartostr.c -o CMakeFiles/UNIT1303.dir/ft_chartostr.c.s
 
 CMakeFiles/UNIT1303.dir/ft_chartostr.c.o.requires:
 
@@ -2219,16 +2267,16 @@ CMakeFiles/UNIT1303.dir/ft_chartostr.c.o.provides.build: CMakeFiles/UNIT1303.dir
 
 CMakeFiles/UNIT1303.dir/ft_strjoinfree.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/ft_strjoinfree.c.o: ../ft_strjoinfree.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/UNIT1303.dir/ft_strjoinfree.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/ft_strjoinfree.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_strjoinfree.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/UNIT1303.dir/ft_strjoinfree.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/ft_strjoinfree.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_strjoinfree.c
 
 CMakeFiles/UNIT1303.dir/ft_strjoinfree.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/ft_strjoinfree.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_strjoinfree.c > CMakeFiles/UNIT1303.dir/ft_strjoinfree.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_strjoinfree.c > CMakeFiles/UNIT1303.dir/ft_strjoinfree.c.i
 
 CMakeFiles/UNIT1303.dir/ft_strjoinfree.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/ft_strjoinfree.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_strjoinfree.c -o CMakeFiles/UNIT1303.dir/ft_strjoinfree.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_strjoinfree.c -o CMakeFiles/UNIT1303.dir/ft_strjoinfree.c.s
 
 CMakeFiles/UNIT1303.dir/ft_strjoinfree.c.o.requires:
 
@@ -2243,16 +2291,16 @@ CMakeFiles/UNIT1303.dir/ft_strjoinfree.c.o.provides.build: CMakeFiles/UNIT1303.d
 
 CMakeFiles/UNIT1303.dir/ft_addustring.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/ft_addustring.c.o: ../ft_addustring.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/UNIT1303.dir/ft_addustring.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/ft_addustring.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_addustring.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/UNIT1303.dir/ft_addustring.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/ft_addustring.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_addustring.c
 
 CMakeFiles/UNIT1303.dir/ft_addustring.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/ft_addustring.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_addustring.c > CMakeFiles/UNIT1303.dir/ft_addustring.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_addustring.c > CMakeFiles/UNIT1303.dir/ft_addustring.c.i
 
 CMakeFiles/UNIT1303.dir/ft_addustring.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/ft_addustring.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_addustring.c -o CMakeFiles/UNIT1303.dir/ft_addustring.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_addustring.c -o CMakeFiles/UNIT1303.dir/ft_addustring.c.s
 
 CMakeFiles/UNIT1303.dir/ft_addustring.c.o.requires:
 
@@ -2267,16 +2315,16 @@ CMakeFiles/UNIT1303.dir/ft_addustring.c.o.provides.build: CMakeFiles/UNIT1303.di
 
 CMakeFiles/UNIT1303.dir/ft_fieldflags_additional.c.o: CMakeFiles/UNIT1303.dir/flags.make
 CMakeFiles/UNIT1303.dir/ft_fieldflags_additional.c.o: ../ft_fieldflags_additional.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/UNIT1303.dir/ft_fieldflags_additional.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/ft_fieldflags_additional.c.o   -c /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_fieldflags_additional.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/UNIT1303.dir/ft_fieldflags_additional.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UNIT1303.dir/ft_fieldflags_additional.c.o   -c /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_fieldflags_additional.c
 
 CMakeFiles/UNIT1303.dir/ft_fieldflags_additional.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UNIT1303.dir/ft_fieldflags_additional.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_fieldflags_additional.c > CMakeFiles/UNIT1303.dir/ft_fieldflags_additional.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_fieldflags_additional.c > CMakeFiles/UNIT1303.dir/ft_fieldflags_additional.c.i
 
 CMakeFiles/UNIT1303.dir/ft_fieldflags_additional.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UNIT1303.dir/ft_fieldflags_additional.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Desktop/GoHome08]/UNIT1303/ft_fieldflags_additional.c -o CMakeFiles/UNIT1303.dir/ft_fieldflags_additional.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_fieldflags_additional.c -o CMakeFiles/UNIT1303.dir/ft_fieldflags_additional.c.s
 
 CMakeFiles/UNIT1303.dir/ft_fieldflags_additional.c.o.requires:
 
@@ -2379,6 +2427,8 @@ UNIT1303_OBJECTS = \
 "CMakeFiles/UNIT1303.dir/ft_ulitoa.c.o" \
 "CMakeFiles/UNIT1303.dir/ft_unicode.c.o" \
 "CMakeFiles/UNIT1303.dir/ft_validflag.c.o" \
+"CMakeFiles/UNIT1303.dir/ft_strndupfree.c.o" \
+"CMakeFiles/UNIT1303.dir/ft_strdupfree.c.o" \
 "CMakeFiles/UNIT1303.dir/main_2.c.o" \
 "CMakeFiles/UNIT1303.dir/ft_chartostr.c.o" \
 "CMakeFiles/UNIT1303.dir/ft_strjoinfree.c.o" \
@@ -2476,6 +2526,8 @@ UNIT1303: CMakeFiles/UNIT1303.dir/ft_ubase.c.o
 UNIT1303: CMakeFiles/UNIT1303.dir/ft_ulitoa.c.o
 UNIT1303: CMakeFiles/UNIT1303.dir/ft_unicode.c.o
 UNIT1303: CMakeFiles/UNIT1303.dir/ft_validflag.c.o
+UNIT1303: CMakeFiles/UNIT1303.dir/ft_strndupfree.c.o
+UNIT1303: CMakeFiles/UNIT1303.dir/ft_strdupfree.c.o
 UNIT1303: CMakeFiles/UNIT1303.dir/main_2.c.o
 UNIT1303: CMakeFiles/UNIT1303.dir/ft_chartostr.c.o
 UNIT1303: CMakeFiles/UNIT1303.dir/ft_strjoinfree.c.o
@@ -2483,7 +2535,7 @@ UNIT1303: CMakeFiles/UNIT1303.dir/ft_addustring.c.o
 UNIT1303: CMakeFiles/UNIT1303.dir/ft_fieldflags_additional.c.o
 UNIT1303: CMakeFiles/UNIT1303.dir/build.make
 UNIT1303: CMakeFiles/UNIT1303.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Linking C executable UNIT1303"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Linking C executable UNIT1303"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/UNIT1303.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -2579,6 +2631,8 @@ CMakeFiles/UNIT1303.dir/requires: CMakeFiles/UNIT1303.dir/ft_ubase.c.o.requires
 CMakeFiles/UNIT1303.dir/requires: CMakeFiles/UNIT1303.dir/ft_ulitoa.c.o.requires
 CMakeFiles/UNIT1303.dir/requires: CMakeFiles/UNIT1303.dir/ft_unicode.c.o.requires
 CMakeFiles/UNIT1303.dir/requires: CMakeFiles/UNIT1303.dir/ft_validflag.c.o.requires
+CMakeFiles/UNIT1303.dir/requires: CMakeFiles/UNIT1303.dir/ft_strndupfree.c.o.requires
+CMakeFiles/UNIT1303.dir/requires: CMakeFiles/UNIT1303.dir/ft_strdupfree.c.o.requires
 CMakeFiles/UNIT1303.dir/requires: CMakeFiles/UNIT1303.dir/main_2.c.o.requires
 CMakeFiles/UNIT1303.dir/requires: CMakeFiles/UNIT1303.dir/ft_chartostr.c.o.requires
 CMakeFiles/UNIT1303.dir/requires: CMakeFiles/UNIT1303.dir/ft_strjoinfree.c.o.requires
@@ -2592,6 +2646,6 @@ CMakeFiles/UNIT1303.dir/clean:
 .PHONY : CMakeFiles/UNIT1303.dir/clean
 
 CMakeFiles/UNIT1303.dir/depend:
-	cd /Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Maria/Desktop/GoHome08]/UNIT1303 /Users/Maria/Desktop/GoHome08]/UNIT1303 /Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug /Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug /Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles/UNIT1303.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles/UNIT1303.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/UNIT1303.dir/depend
 

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/Maria/Desktop/GoHome08]/UNIT1303
+# Install script for directory: /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

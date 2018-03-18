@@ -14,8 +14,8 @@
 
 uintmax_t	ft_powl(long num, long deg)
 {
-	long i;
-	uintmax_t res;
+	long		i;
+	uintmax_t	res;
 
 	i = 0;
 	res = 1;

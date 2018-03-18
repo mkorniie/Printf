@@ -87,6 +87,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/UNIT1303.dir/ft_ulitoa.c.o"
   "CMakeFiles/UNIT1303.dir/ft_unicode.c.o"
   "CMakeFiles/UNIT1303.dir/ft_validflag.c.o"
+  "CMakeFiles/UNIT1303.dir/ft_strndupfree.c.o"
+  "CMakeFiles/UNIT1303.dir/ft_strdupfree.c.o"
   "CMakeFiles/UNIT1303.dir/main_2.c.o"
   "CMakeFiles/UNIT1303.dir/ft_chartostr.c.o"
   "CMakeFiles/UNIT1303.dir/ft_strjoinfree.c.o"

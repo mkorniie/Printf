@@ -27,16 +27,16 @@ char	*ft_presicion(char *res, int pres, char x)
 		if (x == 'p')
 			res = ft_strdup(res + 2);
 		if (x == 'p' && pres == 2)
-			return (ft_strdup("0x"));
+			return (ft_strdupfreearg("0x", res));
 		if (pres == 0 && res[0] == '0')
-			return(ft_strdup(""));
+			return(ft_strdupfreearg("", res));
 		if (pres > len)
 		{
-			temp = (sign == 1? res + 1 : res);
+			temp = (sign == 1? ft_strdup(res + 1) : ft_strdup(res));
 			while((--pres - len + 1) > 0)
-				temp = ft_strjoin("0", temp);
+				temp = ft_strjoinfree("0", temp, 2);
 			if (sign == 1)
-				res = ft_strjoin(ft_chartostr(res[0]), temp);
+				res = ft_strjoinfree(ft_chartostr(res[0]), temp, 2);
 			else
 				res = temp;
 		}
@@ -103,22 +103,25 @@ char	**ft_fieldflags(char **res, char **flags)
 
 	i = -1;
 	while (++i < N_OF_F)
-		if (flags[i] == NULL)
-			res[i] = NULL;
-		else
-		{
-			len = ft_strlen(flags[i]);
-			flg = ft_findflag(flags[i]);
-			wp = ft_widthPres(flags[i], flg[0]);
-			wp[2] = ft_changewidth(flg, res[i], flags[i][len - 1]);
-			x = -1;
-			res[i] = ft_presicion(res[i], wp[1], flags[i][len - 1]);
-			while (++x < 5)
-				if (flg[x] != -1)
-					res[i] = ft_flags[x](res[i], wp, flags[i][len - 1]);
-			res[i] = ft_Fwidth(res[i], wp[0], flg);
-		}
-//	free(flg);
-//    free(wp);
+    {
+        if (flags[i] == NULL)
+            res[i] = NULL;
+        else {
+            len = ft_strlen(flags[i]);
+            flg = ft_findflag(flags[i]);
+            wp = ft_widthPres(flags[i], flg[0]);
+            wp[2] = ft_changewidth(flg, res[i], flags[i][len - 1]);
+            x = -1;
+            res[i] = ft_presicion(res[i], wp[1], flags[i][len - 1]);
+            while (++x < 5)
+                if (flg[x] != -1)
+                    res[i] = ft_flags[x](res[i], wp, flags[i][len - 1]);
+            res[i] = ft_Fwidth(res[i], wp[0], flg);
+//            free(flg);
+//            flg = NULL;
+//            free(wp);
+//            wp = NULL;
+        }
+    }
 	return (res);
 }

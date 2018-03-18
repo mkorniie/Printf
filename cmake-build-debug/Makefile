@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Maria/Desktop/GoHome08]/UNIT1303
+CMAKE_SOURCE_DIR = /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles /Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Maria/Desktop/GoHome08]/UNIT1303/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -744,6 +744,33 @@ ft_printf.c.s:
 	$(MAKE) -f CMakeFiles/UNIT1303.dir/build.make CMakeFiles/UNIT1303.dir/ft_printf.c.s
 .PHONY : ft_printf.c.s
 
+ft_strdupfree.o: ft_strdupfree.c.o
+
+.PHONY : ft_strdupfree.o
+
+# target to build an object file
+ft_strdupfree.c.o:
+	$(MAKE) -f CMakeFiles/UNIT1303.dir/build.make CMakeFiles/UNIT1303.dir/ft_strdupfree.c.o
+.PHONY : ft_strdupfree.c.o
+
+ft_strdupfree.i: ft_strdupfree.c.i
+
+.PHONY : ft_strdupfree.i
+
+# target to preprocess a source file
+ft_strdupfree.c.i:
+	$(MAKE) -f CMakeFiles/UNIT1303.dir/build.make CMakeFiles/UNIT1303.dir/ft_strdupfree.c.i
+.PHONY : ft_strdupfree.c.i
+
+ft_strdupfree.s: ft_strdupfree.c.s
+
+.PHONY : ft_strdupfree.s
+
+# target to generate assembly for a file
+ft_strdupfree.c.s:
+	$(MAKE) -f CMakeFiles/UNIT1303.dir/build.make CMakeFiles/UNIT1303.dir/ft_strdupfree.c.s
+.PHONY : ft_strdupfree.c.s
+
 ft_strjoinfree.o: ft_strjoinfree.c.o
 
 .PHONY : ft_strjoinfree.o
@@ -770,6 +797,33 @@ ft_strjoinfree.s: ft_strjoinfree.c.s
 ft_strjoinfree.c.s:
 	$(MAKE) -f CMakeFiles/UNIT1303.dir/build.make CMakeFiles/UNIT1303.dir/ft_strjoinfree.c.s
 .PHONY : ft_strjoinfree.c.s
+
+ft_strndupfree.o: ft_strndupfree.c.o
+
+.PHONY : ft_strndupfree.o
+
+# target to build an object file
+ft_strndupfree.c.o:
+	$(MAKE) -f CMakeFiles/UNIT1303.dir/build.make CMakeFiles/UNIT1303.dir/ft_strndupfree.c.o
+.PHONY : ft_strndupfree.c.o
+
+ft_strndupfree.i: ft_strndupfree.c.i
+
+.PHONY : ft_strndupfree.i
+
+# target to preprocess a source file
+ft_strndupfree.c.i:
+	$(MAKE) -f CMakeFiles/UNIT1303.dir/build.make CMakeFiles/UNIT1303.dir/ft_strndupfree.c.i
+.PHONY : ft_strndupfree.c.i
+
+ft_strndupfree.s: ft_strndupfree.c.s
+
+.PHONY : ft_strndupfree.s
+
+# target to generate assembly for a file
+ft_strndupfree.c.s:
+	$(MAKE) -f CMakeFiles/UNIT1303.dir/build.make CMakeFiles/UNIT1303.dir/ft_strndupfree.c.s
+.PHONY : ft_strndupfree.c.s
 
 ft_ubase.o: ft_ubase.c.o
 
@@ -2712,9 +2766,15 @@ help:
 	@echo "... ft_printf.o"
 	@echo "... ft_printf.i"
 	@echo "... ft_printf.s"
+	@echo "... ft_strdupfree.o"
+	@echo "... ft_strdupfree.i"
+	@echo "... ft_strdupfree.s"
 	@echo "... ft_strjoinfree.o"
 	@echo "... ft_strjoinfree.i"
 	@echo "... ft_strjoinfree.s"
+	@echo "... ft_strndupfree.o"
+	@echo "... ft_strndupfree.i"
+	@echo "... ft_strndupfree.s"
 	@echo "... ft_ubase.o"
 	@echo "... ft_ubase.i"
 	@echo "... ft_ubase.s"

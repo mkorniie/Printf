@@ -12,8 +12,9 @@
 
 #include "header.h"
 
-static void	ft_lset(char *sign, int *z, long *n)
+static void	ft_lset(char *sign, int *z, long *n, int *i)
 {
+	*i = 1;
 	*sign = ((*n) < 0 ? 1 : 0);
 	*z = ((*sign) == 0 ? -1 : 0);
 	*n = (*n > 0 ? *n : (*n) * (-1));
@@ -27,18 +28,16 @@ char		*ft_litoa(intmax_t n)
 	int		len;
 	int		z;
 
-	i = 1;
 	if ((unsigned long)n == -9223372036854775808UL)
 		return (ft_strdup("-9223372036854775808"));
-	ft_lset(&sign, &z, &n);
+	ft_lset(&sign, &z, &n, &i);
 	while ((n / ft_powl(10, i)) > (n > 1000 ? 100 : 0))
 		i++;
-	i = (n > 1000 ? i + 2 : i); 
+	i = (n > 1000 ? i + 2 : i);
 	str = (char *)malloc(sizeof(char) * (sign + i + 1));
 	if (str == NULL)
 		return (NULL);
 	ft_memset(str, 0, i + sign + 1);
-	// printf("STR is : |%s|, len is %d\n", str, i);
 	if (sign == 1)
 		str[0] = '-';
 	len = i + sign;
@@ -49,13 +48,3 @@ char		*ft_litoa(intmax_t n)
 	}
 	return (str);
 }
-
-// int main(void)
-// {
-// 	long i;
-
-// 	i = -100;
-// 	while(i <= 100)
-// 		printf("%s\n", ft_litoa(i++));
-// 	return (0);
-// }

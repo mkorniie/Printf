@@ -10,17 +10,16 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-
 #include "header.h"
 
-static	int	ft_n_of_f(const char * restrict s, char *c)
+int		ft_n_of_f(const char *restrict s, char *c)
 {
-	char *temp;
-	int n_of_flags;
+	char	*temp;
+	int		n_of_flags;
 
 	n_of_flags = 0;
 	temp = (char *)s;
-	while((temp = ft_strstr(temp, c)) != NULL)
+	while ((temp = ft_strstr(temp, c)) != NULL)
 	{
 		n_of_flags++;
 		temp = temp + 1;
@@ -28,15 +27,15 @@ static	int	ft_n_of_f(const char * restrict s, char *c)
 	return (n_of_flags);
 }
 
-char *ft_writeflag(const char * restrict s, int lim, char *c)
+char	*ft_writeflag(const char *restrict s, int lim, char *c)
 {
-	char *flag;
-	char *temp;
-	int i;
+	char	*flag;
+	char	*temp;
+	int		i;
 
 	i = -1;
 	temp = (char *)s;
-	while(++i < lim)
+	while (++i < lim)
 	{
 		temp = ft_strstr(temp, c);
 		temp = temp + 1;
@@ -46,10 +45,10 @@ char *ft_writeflag(const char * restrict s, int lim, char *c)
 	return (flag);
 }
 
-char **ft_flag_array(const char * restrict s, char *c, int *flag)
+char	**ft_flag_array(const char *restrict s, char *c, int *flag)
 {
 	int		i;
-	char 	**arr;
+	char	**arr;
 	size_t	last_char;
 
 	N_OF_F = ft_n_of_f(s, c);
@@ -62,7 +61,7 @@ char **ft_flag_array(const char * restrict s, char *c, int *flag)
 		return (NULL);
 	arr[N_OF_F] = NULL;
 	i = -1;
-	while(++i < N_OF_F)
+	while (++i < N_OF_F)
 	{
 		arr[i] = ft_writeflag(s, i, c);
 		if (arr[i] != NULL)
@@ -75,7 +74,7 @@ char **ft_flag_array(const char * restrict s, char *c, int *flag)
 	return (arr);
 }
 
-int	ft_parce(const char * restrict s, char *c, char ***flags)
+int		ft_parce(const char *restrict s, char *c, char ***flags)
 {
 	int flag;
 
@@ -88,5 +87,5 @@ int	ft_parce(const char * restrict s, char *c, char ***flags)
 			return (-3);
 		return (-1);
 	}
-	return(0);
+	return (0);
 }
