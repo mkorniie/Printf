@@ -69,7 +69,7 @@ int		ft_out(const char *restrict format, char **flags, char **print)
 					return (-1);
 				else
 				{
-				if (ft_strstr(flags[count], "^") != NULL)
+					if (ft_strstr(flags[count], "^") != NULL)
 						i--;
 					if ((ft_strstr(flags[count], "c!") != NULL) || (ft_strstr(flags[count], "C!") != NULL))
 					{
@@ -117,9 +117,12 @@ int		ft_printf(const char *restrict format, ...)
 		return (ft_strlen(format));
 	}
 	print = ft_convert(ap, flags);
-	// while(1);
 	if (ERROR == 1)
+	{
+		ft_freestrarr(flags);
+		ft_freestrarr(print);
 		return (-1);
+	}
 	printlen = ft_out(format, flags, print);
 	va_end(ap);
 	ft_freestrarr(flags);

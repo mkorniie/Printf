@@ -29,7 +29,12 @@ char	*ft_strjoinfree(char const *s1, char const *s2, int s_to_delete)
 		free(s1);
 	else if (s_to_delete == 2)
 		free(s2);
+	else if (s_to_delete == 3)
+	{
+		free(s1);
+		free(s2);
+	}
 	else
-		ft_putstr("ft_strjoinfree: invalid s_to_delete. Options: 1, 2\n");
+		ft_putstr("ft_strjoinfree: invalid s_to_delete. Options: 1, 2, 3\n");
 	return (str);
 }

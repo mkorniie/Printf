@@ -54,7 +54,8 @@ char    *ft_findconv(va_list ap, char **flag)
     while (convs[++z])
         if (convs[z][0] == (*flag)[strlen - 1])
         {
-            res = ft_extractor(ap, z, *flag);
+            if ((res = ft_extractor(ap, z, *flag)) == NULL)
+				break;
             if (ft_strchr("Cc", (*flag)[strlen - 1]) != NULL)
                 if (ft_strcmp(res, "zero") == 0)
                 {
@@ -73,8 +74,6 @@ char	**ft_get(va_list ap, char **flags, char **arr)
 
 	i = -1;
 	while (++i < N_OF_F)
-	{
-		// printf("arr[i] is %s\n", arr[i]);
 		if (flags[i] == NULL /*|| arr[i] == NULL*/)
 			arr[i] = NULL;
 		else
@@ -87,7 +86,6 @@ char	**ft_get(va_list ap, char **flags, char **arr)
 			else
                 arr[i] = ft_findconv(ap, &(flags[i]));
 		}
-	}
 	return (arr);
 }
 
@@ -101,6 +99,5 @@ char	**ft_convert(va_list ap, char **flags)
 	CURR = 0;
 	res = ft_get(ap, flags, res);
 	res = ft_fieldflags(res, flags);
-	// while(1);
 	return (res);
 }

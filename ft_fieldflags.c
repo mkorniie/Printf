@@ -100,27 +100,20 @@ char	**ft_fieldflags(char **res, char **flags)
     wp = NULL;
 	while (++i < N_OF_F)
     {
-        if (flags[i] == NULL)
+        if (flags[i] == NULL || res[i] == NULL)
             res[i] = NULL;
         else
         {
             len = ft_strlen(flags[i]);
-			// while(1);
             flg = ft_findflag(flags[i]);
-			// while(1);
-            /*HERE!*/wp = ft_widthPres(flags[i], flg[0]);
-			// while(1);
+            wp = ft_widthPres(flags[i], flg[0]);
             wp[2] = ft_changewidth(flg, res[i], flags[i][len - 1]);
-			// while(1);
             x = -1;
             res[i] = ft_presicion(res[i], wp[1], flags[i][len - 1]);
-			// while(1);
             while (++x < 5)
                 if (flg[x] != -1)
                     res[i] = ft_flags[x](res[i], wp, flags[i][len - 1]);
-			// while(1);
             res[i] = ft_Fwidth(res[i], wp[0], flg);
-			// while(1);
 			free(flg);
             free(wp);
         }

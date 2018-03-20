@@ -46,7 +46,7 @@ char	*ft_sccnv(va_list ap)
 		return (NULL);
 	i = 0;
 	while (temp[++i] != '\0')
-		res = ft_strjoinfree(res, ft_unicode(temp[i], 1), 1);
+		res = ft_strjoinfree(res, ft_unicode(temp[i], 1), 3);
 	return (res);
 }
 
