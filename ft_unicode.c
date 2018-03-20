@@ -69,20 +69,21 @@ void	ft_addunicode(int active)
 
 void	ft_mask(int active, char **res, unsigned int src)
 {
+//    setlocale();
 	if (active <= 7)
 		(*res)[0] = (char)src;
-	else if (active <= 11 && MB_CUR_MAX >= 2)
+	else if (active <= 11 /*&& MB_CUR_MAX >= 2*/)
 	{
 		(*res)[0] = (6 << 5) + (src >> 6);
 		(*res)[1] = (2 << 6) + ((src << 26) >> 26);
 	}
-	else if (active <= 16 && MB_CUR_MAX >= 3)
+	else if (active <= 16 /*&& MB_CUR_MAX >= 3*/)
 	{
 		(*res)[0] = (14 << 4) + (src >> 12);
 		(*res)[1] = (2 << 6) + (((src >> 6) << 26) >> 26);
 		(*res)[2] = (2 << 6) + ((src << 26) >> 26);
 	}
-	else if (active > 16 && MB_CUR_MAX >= 4)
+	else if (active > 16 /*&& MB_CUR_MAX >= 4*/)
 	{
 		(*res)[0] = (30 << 3) + (src >> 18);
 		(*res)[1] = (2 << 6) + (((src >> 12) << 26) >> 26);
