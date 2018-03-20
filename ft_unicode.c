@@ -92,11 +92,13 @@ void	ft_mask(int active, char **res, unsigned int src)
 	}
 	else
 	{
-		// (*res)[0] = (char)src;
-		// (*res)[1] = '\0';
-		ERROR = 1;
-		free(*res);
-		(*res) = NULL;
+        free(*res);
+        (*res) = (char*)malloc(sizeof(char) * (2));
+		 (*res)[0] = (char)src;
+		 (*res)[1] = '\0';
+//		ERROR = 1;
+//		free(*res);
+//		(*res) = NULL;
 	}
 }
 
