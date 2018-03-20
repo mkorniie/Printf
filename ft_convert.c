@@ -83,6 +83,8 @@ char	**ft_get(va_list ap, char **flags, char **arr)
 				arr[i] = ft_strdup("%");
 			else if (flags[i][strlen - 1] == '^')
                 arr[i] = ft_strndup(flags[i] + strlen - 2, 1);
+            else if (ft_strstr(flags[i], "ld") != NULL)
+                arr[i] = ft_strdup(flags[i]);
 			else
                 arr[i] = ft_findconv(ap, &(flags[i]));
 		}
