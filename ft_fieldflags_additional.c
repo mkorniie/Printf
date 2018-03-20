@@ -48,7 +48,7 @@ int ft_changewidth(int *flg, char	*res, char x)
 int *ft_setwp(void) {
 	int *wp;
 
-	wp = (int *) malloc(sizeof(int) * 3);
+	wp = (int *)malloc(sizeof(int) * 3);
 	wp[0] = -1;
 	wp[1] = -1;
 	wp[2] = 0;
@@ -67,9 +67,13 @@ int	*ft_widthPres(char *flag, int zeroflag)
 	wp = ft_setwp();
 	if ((temp = ft_strstr(flag, ".")) != NULL)
 		if (ft_isdigit(temp[1]))
+		{
 			wp[1] = ft_atoi(temp + 1);
+			// while(1);
+		}
 		else if (!(ft_isdigit(temp[1])))
 			wp[1] = 0;
+	// while(1);
 	while (flag[++i] != '.' && flag[i] != '\0')
 		if (ft_isdigit(flag[i]))
 		{
@@ -78,6 +82,7 @@ int	*ft_widthPres(char *flag, int zeroflag)
 			else
 				wp[0] = (ft_atoi(flag + i) > wp[0] ? ft_atoi(flag + i) : wp[0]);
 		}
+	// while(1);
 	if (flag[last_char] == 'p')
 		wp[1] += 2;
 	return (wp);

@@ -117,6 +117,7 @@ int		ft_printf(const char *restrict format, ...)
 		return (ft_strlen(format));
 	}
 	print = ft_convert(ap, flags);
+	// while(1);
 	if (ERROR == 1)
 		return (-1);
 	printlen = ft_out(format, flags, print);

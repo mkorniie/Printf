@@ -91,6 +91,8 @@ void	ft_mask(int active, char **res, unsigned int src)
 	}
 	else
 	{
+		// (*res)[0] = (char)src;
+		// (*res)[1] = '\0';
 		ERROR = 1;
 		free(*res);
 		(*res) = NULL;
@@ -106,7 +108,7 @@ char	*ft_unicode(unsigned int src, int flag)
 	res = (char*)malloc(sizeof(char) * (ft_find_n_by_active(active) + 1));
 	res[ft_find_n_by_active(active)] = '\0';
 	ft_mask(active, &res, src);
-	if (flag == 1)
+	if (flag == 1 && (ERROR == 0))
 		ft_addunicode(active);
 	return (res);
 }

@@ -73,7 +73,9 @@ char	**ft_get(va_list ap, char **flags, char **arr)
 
 	i = -1;
 	while (++i < N_OF_F)
-		if (flags[i] == NULL)
+	{
+		// printf("arr[i] is %s\n", arr[i]);
+		if (flags[i] == NULL /*|| arr[i] == NULL*/)
 			arr[i] = NULL;
 		else
 		{
@@ -85,17 +87,20 @@ char	**ft_get(va_list ap, char **flags, char **arr)
 			else
                 arr[i] = ft_findconv(ap, &(flags[i]));
 		}
+	}
 	return (arr);
 }
 
 char	**ft_convert(va_list ap, char **flags)
 {
 	char	**res;
+
 	if (!(res = (char**)malloc(sizeof(char*) * (N_OF_F + 1))))
 		return (NULL);
 	res[N_OF_F] = NULL;
 	CURR = 0;
 	res = ft_get(ap, flags, res);
 	res = ft_fieldflags(res, flags);
+	// while(1);
 	return (res);
 }
