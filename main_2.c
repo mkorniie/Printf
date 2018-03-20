@@ -10,7 +10,8 @@ int main(void)
 	int size1;
 	int size2;
 
-    ft_printf("%b\n", 1);
+    ft_printf("%ld\n", 1);
+//    ft_printf("%b\n", 1);
 //    ft_printf("\n");
 //    ft_printf("%%\n");
 //    ft_printf("%d\n", 42);

@@ -106,6 +106,8 @@ int		ft_printf(const char *restrict format, ...)
 	int		printlen;
 	int		err;
 
+    ft_putstr(format);
+    return (ft_strlen(format));
 	if (format == NULL)
 		return (0);
 	va_start(ap, format);
