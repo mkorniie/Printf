@@ -10,7 +10,14 @@ int main(void)
 	int size1;
 	int size2;
 
-    ft_printf("Kashim a %D histoires à raconter\n", 1001);
+    long d;
+
+    d = -1000;
+    while (d <= 10000)
+    {
+        ft_printf("Kashim a %D histoires à raconter\n", d);
+        d++;
+    }
 //    ft_printf("%ld\n", 1);
 //    ft_printf("%b\n", 1);
 //    ft_printf("\n");

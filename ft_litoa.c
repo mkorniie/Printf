@@ -31,9 +31,9 @@ char		*ft_litoa(intmax_t n)
 	if ((unsigned long)n == -9223372036854775808UL)
 		return (ft_strdup("-9223372036854775808"));
 	ft_lset(&sign, &z, &n, &i);
-	while ((n / ft_powl(10, i)) > (n > 1000 ? 100 : 0))
+	while ((n / ft_powl(10, i)) > (n > 999 ? 99 : 0))
 		i++;
-	i = (n > 1000 ? i + 2 : i);
+	i = (n > 999 ? i + 2 : i);
 	str = (char *)malloc(sizeof(char) * (sign + i + 1));
 	if (str == NULL)
 		return (NULL);
