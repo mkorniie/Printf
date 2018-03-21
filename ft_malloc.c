@@ -1,23 +1,31 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_chartostr.c                                     :+:      :+:    :+:   */
+/*   ft_malloc.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mkorniie <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/03/20 19:38:02 by mkorniie          #+#    #+#             */
-/*   Updated: 2018/03/20 19:38:05 by mkorniie         ###   ########.fr       */
+/*   Created: 2018/03/21 16:09:10 by mkorniie          #+#    #+#             */
+/*   Updated: 2018/03/21 16:10:52 by mkorniie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "header.h"
 
-char	*ft_chartostr(char c)
+int		*ft_mallocintpzero(int len)
+{
+	int *res;
+
+	res = (int *)malloc(sizeof(int) * len);
+	res[len - 1] = 0;
+	return (res);
+}
+
+char	*ft_malloccharpzero(int len)
 {
 	char *res;
 
-	res = (char*)malloc(sizeof(char) * 2);
-	res[0] = c;
-	res[1] = '\0';
+	res = (char *)malloc(sizeof(char) * len);
+	res[len - 1] = 0;
 	return (res);
 }

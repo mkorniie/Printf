@@ -137,7 +137,7 @@
 		<Unit filename="/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_litoa.c">
 			<Option target="UNIT1303"/>
 		</Unit>
-		<Unit filename="/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_memdelzero.c">
+		<Unit filename="/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_malloc.c">
 			<Option target="UNIT1303"/>
 		</Unit>
 		<Unit filename="/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_modfunc.c">
@@ -147,6 +147,9 @@
 			<Option target="UNIT1303"/>
 		</Unit>
 		<Unit filename="/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_powl.c">
+			<Option target="UNIT1303"/>
+		</Unit>
+		<Unit filename="/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_presicion.c">
 			<Option target="UNIT1303"/>
 		</Unit>
 		<Unit filename="/Users/mkorniie/Documents/Algor/0_ft_printf/new_repo/ft_printf.c">

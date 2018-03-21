@@ -51,17 +51,17 @@ char	**ft_flag_array(const char *restrict s, char *c, int *flag)
 	char	**arr;
 	size_t	last_char;
 
-	N_OF_F = ft_n_of_f(s, c);
-	if (N_OF_F == 0)
+	g_n_of_f = ft_n_of_f(s, c);
+	if (g_n_of_f == 0)
 	{
 		*flag = 0;
 		return (NULL);
 	}
-	if ((arr = (char**)malloc(sizeof(char*) * (N_OF_F + 1))) == NULL)
+	if ((arr = (char**)malloc(sizeof(char*) * (g_n_of_f + 1))) == NULL)
 		return (NULL);
-	arr[N_OF_F] = NULL;
+	arr[g_n_of_f] = NULL;
 	i = -1;
-	while (++i < N_OF_F)
+	while (++i < g_n_of_f)
 	{
 		arr[i] = ft_writeflag(s, i, c);
 		if (arr[i] != NULL)

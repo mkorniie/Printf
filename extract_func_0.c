@@ -36,13 +36,13 @@ char	*ft_sccnv(va_list ap)
 
 	if ((temp = va_arg(ap, wchar_t*)) == NULL)
 		return (ft_strdup("(null)"));
-	if (CURR != 0)
-		CURR++;
+	if (g_curr != 0)
+		g_curr++;
 	ft_addustring();
 	if (ft_strlen(temp) == 0)
 		return (ft_strdup(""));
 	res = ft_unicode(temp[0], 1);
-	if (ERROR == 1)
+	if (g_error == 1)
 		return (NULL);
 	i = 0;
 	while (temp[++i] != '\0')

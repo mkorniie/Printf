@@ -49,27 +49,26 @@ void	ft_addunicode(int active)
 
 	len = 0;
 	i = 0;
-	temp = UNISTRINGS[CURR];
-	if (UNISTRINGS[CURR] != NULL)
-		while (UNISTRINGS[CURR][i])
+	temp = g_unistrings[g_curr];
+	if (g_unistrings[g_curr] != NULL)
+		while (g_unistrings[g_curr][i])
 			i++;
 	len += i;
-	UNISTRINGS[CURR] = (int*)malloc(sizeof(int) * (len + 2));
-	UNISTRINGS[CURR][len + 1] = 0;
+	g_unistrings[g_curr] = (int*)malloc(sizeof(int) * (len + 2));
+	g_unistrings[g_curr][len + 1] = 0;
 	i = 0;
 	if (temp != NULL)
 		while (temp[i])
 		{
-			UNISTRINGS[CURR][i] = temp[i];
+			g_unistrings[g_curr][i] = temp[i];
 			i++;
 		}
-	UNISTRINGS[CURR][i] = ft_find_n_by_active(active);
+	g_unistrings[g_curr][i] = ft_find_n_by_active(active);
 	free(temp);
 }
 
 void	ft_mask(int active, char **res, unsigned int src)
 {
-//    setlocale();
 	if (active <= 7)
 		(*res)[0] = (char)src;
 	else if (active <= 11 && MB_CUR_MAX >= 2)
@@ -92,10 +91,8 @@ void	ft_mask(int active, char **res, unsigned int src)
 	}
 	else
 	{
-        free(*res);
-        (*res) = (char*)malloc(sizeof(char) * (2));
-		 (*res)[0] = (char)src;
-		 (*res)[1] = '\0';
+		(*res)[0] = (char)src;
+		(*res)[1] = '\0';
 	}
 }
 
@@ -108,7 +105,7 @@ char	*ft_unicode(unsigned int src, int flag)
 	res = (char*)malloc(sizeof(char) * (ft_find_n_by_active(active) + 1));
 	res[ft_find_n_by_active(active)] = '\0';
 	ft_mask(active, &res, src);
-	if (flag == 1 && (ERROR == 0))
+	if (flag == 1 && (g_error == 0))
 		ft_addunicode(active);
 	return (res);
 }

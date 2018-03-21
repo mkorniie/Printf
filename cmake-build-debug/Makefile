@@ -636,32 +636,32 @@ ft_litoa.c.s:
 	$(MAKE) -f CMakeFiles/UNIT1303.dir/build.make CMakeFiles/UNIT1303.dir/ft_litoa.c.s
 .PHONY : ft_litoa.c.s
 
-ft_memdelzero.o: ft_memdelzero.c.o
+ft_malloc.o: ft_malloc.c.o
 
-.PHONY : ft_memdelzero.o
+.PHONY : ft_malloc.o
 
 # target to build an object file
-ft_memdelzero.c.o:
-	$(MAKE) -f CMakeFiles/UNIT1303.dir/build.make CMakeFiles/UNIT1303.dir/ft_memdelzero.c.o
-.PHONY : ft_memdelzero.c.o
+ft_malloc.c.o:
+	$(MAKE) -f CMakeFiles/UNIT1303.dir/build.make CMakeFiles/UNIT1303.dir/ft_malloc.c.o
+.PHONY : ft_malloc.c.o
 
-ft_memdelzero.i: ft_memdelzero.c.i
+ft_malloc.i: ft_malloc.c.i
 
-.PHONY : ft_memdelzero.i
+.PHONY : ft_malloc.i
 
 # target to preprocess a source file
-ft_memdelzero.c.i:
-	$(MAKE) -f CMakeFiles/UNIT1303.dir/build.make CMakeFiles/UNIT1303.dir/ft_memdelzero.c.i
-.PHONY : ft_memdelzero.c.i
+ft_malloc.c.i:
+	$(MAKE) -f CMakeFiles/UNIT1303.dir/build.make CMakeFiles/UNIT1303.dir/ft_malloc.c.i
+.PHONY : ft_malloc.c.i
 
-ft_memdelzero.s: ft_memdelzero.c.s
+ft_malloc.s: ft_malloc.c.s
 
-.PHONY : ft_memdelzero.s
+.PHONY : ft_malloc.s
 
 # target to generate assembly for a file
-ft_memdelzero.c.s:
-	$(MAKE) -f CMakeFiles/UNIT1303.dir/build.make CMakeFiles/UNIT1303.dir/ft_memdelzero.c.s
-.PHONY : ft_memdelzero.c.s
+ft_malloc.c.s:
+	$(MAKE) -f CMakeFiles/UNIT1303.dir/build.make CMakeFiles/UNIT1303.dir/ft_malloc.c.s
+.PHONY : ft_malloc.c.s
 
 ft_modfunc.o: ft_modfunc.c.o
 
@@ -743,6 +743,33 @@ ft_powl.s: ft_powl.c.s
 ft_powl.c.s:
 	$(MAKE) -f CMakeFiles/UNIT1303.dir/build.make CMakeFiles/UNIT1303.dir/ft_powl.c.s
 .PHONY : ft_powl.c.s
+
+ft_presicion.o: ft_presicion.c.o
+
+.PHONY : ft_presicion.o
+
+# target to build an object file
+ft_presicion.c.o:
+	$(MAKE) -f CMakeFiles/UNIT1303.dir/build.make CMakeFiles/UNIT1303.dir/ft_presicion.c.o
+.PHONY : ft_presicion.c.o
+
+ft_presicion.i: ft_presicion.c.i
+
+.PHONY : ft_presicion.i
+
+# target to preprocess a source file
+ft_presicion.c.i:
+	$(MAKE) -f CMakeFiles/UNIT1303.dir/build.make CMakeFiles/UNIT1303.dir/ft_presicion.c.i
+.PHONY : ft_presicion.c.i
+
+ft_presicion.s: ft_presicion.c.s
+
+.PHONY : ft_presicion.s
+
+# target to generate assembly for a file
+ft_presicion.c.s:
+	$(MAKE) -f CMakeFiles/UNIT1303.dir/build.make CMakeFiles/UNIT1303.dir/ft_presicion.c.s
+.PHONY : ft_presicion.c.s
 
 ft_printf.o: ft_printf.c.o
 
@@ -2781,9 +2808,9 @@ help:
 	@echo "... ft_litoa.o"
 	@echo "... ft_litoa.i"
 	@echo "... ft_litoa.s"
-	@echo "... ft_memdelzero.o"
-	@echo "... ft_memdelzero.i"
-	@echo "... ft_memdelzero.s"
+	@echo "... ft_malloc.o"
+	@echo "... ft_malloc.i"
+	@echo "... ft_malloc.s"
 	@echo "... ft_modfunc.o"
 	@echo "... ft_modfunc.i"
 	@echo "... ft_modfunc.s"
@@ -2793,6 +2820,9 @@ help:
 	@echo "... ft_powl.o"
 	@echo "... ft_powl.i"
 	@echo "... ft_powl.s"
+	@echo "... ft_presicion.o"
+	@echo "... ft_presicion.i"
+	@echo "... ft_presicion.s"
 	@echo "... ft_printf.o"
 	@echo "... ft_printf.i"
 	@echo "... ft_printf.s"

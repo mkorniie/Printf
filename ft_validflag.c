@@ -48,7 +48,7 @@ char	*ft_invalidconv(int i, char *temp)
 	{
 		res = ft_strndup(temp, i + 1);
 		zeroflag = ft_isflag(res, '0');
-		wp = ft_widthPres(res, zeroflag);
+		wp = ft_widthpres(res, zeroflag);
 		if (wp[0] > 1)
 		{
 			res = ft_strjoinfree(res, "^", 1);

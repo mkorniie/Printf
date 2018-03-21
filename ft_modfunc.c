@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_modfunc.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mkorniie <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2018/03/21 19:08:35 by mkorniie          #+#    #+#             */
+/*   Updated: 2018/03/21 19:08:38 by mkorniie         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "header.h"
 
 int	ft_modifpart1(int mod, int cvs)
@@ -27,6 +39,17 @@ int	ft_modifpart1(int mod, int cvs)
 	return (-1);
 }
 
+int	ft_modfive(int cvs)
+{
+	if (cvs == 3 || cvs == 5)
+		return (39);
+	if (cvs == 6 || cvs == 8)
+		return (cvs == 6 ? 40 : 41);
+	if (cvs == 10 || cvs == 11)
+		return (cvs == 10 ? 42 : 43);
+	return (-1);
+}
+
 int	ft_modifpart2(int mod, int cvs)
 {
 	if (mod == 2)
@@ -52,19 +75,11 @@ int	ft_modifpart2(int mod, int cvs)
 		return (-1);
 	}
 	if (mod == 5)
-	{
-		if (cvs == 3 || cvs == 5)
-			return (39);
-		if (cvs == 6 || cvs == 8)
-			return (cvs == 6 ? 40 : 41);
-		if (cvs == 10 || cvs == 11)
-			return (cvs == 10 ? 42 : 43);
-		return (-1);
-	}
+		return (ft_modfive(cvs));
 	return (-1);
 }
 
-int	ft_isMod(char *flag)
+int	ft_ismod(char *flag)
 {
 	size_t len;
 
