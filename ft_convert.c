@@ -75,7 +75,10 @@ char	**ft_get(va_list ap, char **flags, char **arr)
 	i = -1;
 	while (++i < N_OF_F)
 		if (flags[i] == NULL /*|| arr[i] == NULL*/)
-			arr[i] = NULL;
+        {
+            arr[i] = NULL;
+            ft_putstr(" NULL ");
+        }
 		else
 		{
 			strlen = ft_strlen(flags[i]);
@@ -85,6 +88,9 @@ char	**ft_get(va_list ap, char **flags, char **arr)
                 arr[i] = ft_strndup(flags[i] + strlen - 2, 1);
 			else
                 arr[i] = ft_findconv(ap, &(flags[i]));
+            ft_putstr(" arr[i] is : [");
+            ft_putstr(arr[i]);
+            ft_putstr("] ");
 		}
 	return (arr);
 }
@@ -98,6 +104,6 @@ char	**ft_convert(va_list ap, char **flags)
 	res[N_OF_F] = NULL;
 	CURR = 0;
 	res = ft_get(ap, flags, res);
-	res = ft_fieldflags(res, flags);
+	//res = ft_fieldflags(res, flags);
 	return (res);
 }
