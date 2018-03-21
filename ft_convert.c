@@ -88,9 +88,6 @@ char	**ft_get(va_list ap, char **flags, char **arr)
                 arr[i] = ft_strndup(flags[i] + strlen - 2, 1);
 			else
                 arr[i] = ft_findconv(ap, &(flags[i]));
-            ft_putstr(" arr[i] is : [");
-            ft_putstr(arr[i]);
-            ft_putstr("] ");
 		}
 	return (arr);
 }

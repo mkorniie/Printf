@@ -78,5 +78,11 @@ char	*ft_dccnv(va_list ap)
 
 	temp = va_arg(ap, long);
 	res = ft_litoa(temp);
+	ft_putstr(" arr[i] is : [");
+	ft_putnbr(temp);
+	ft_putstr("] ");
+	ft_putstr(" arr[i] after  ft_litoa is : [");
+	ft_putstr(res);
+	ft_putstr("] ");
 	return (res);
 }
